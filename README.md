@@ -20,7 +20,7 @@ Now clone the forked repository to your machine:
 - Using HTTPS
 ```sh
 git clone "https://GitHub.com/<your-username>/Road-to-OSS.git"
-```sh
+```
 - Using SSH
 ```sh
 git clone "git@GitHub.com:<your-username>/Road-to-OSS.git"
