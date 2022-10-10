@@ -58,7 +58,7 @@ git switch -c add-shaheen-hyder
 
 - Edit the `info.json` file in the project directory to include your information.
 
-```json
+```sh
 [
 ......
   {
@@ -70,14 +70,14 @@ git switch -c add-shaheen-hyder
     "place": "New York", # Your place -> No longer than 30 characters
     "current_pos": "Web developer", # Your current position (student/freelancer/working etc.) -> No longer than 58 characters
     "image": "johndoe.png", # Name of your portrait image added in the /images directory
-    "bio": "Hi, I'm John! I'm a web developer with in-depth experience in UI/UX design. My expertise lies within front-end web apps, and the main languages in my tech stack are JavaScript, React, and of course HTML/CSS" # A short bio of you -> No longer than 500 characters 
+    "bio": "Hi, I'm John! I'm a web developer with in-depth experience in UI/UX design." # A short bio of you -> No longer than 500 characters 
   }
 ]
 ```
 
 - Add a portrait image of you with your name and add it to the `images/` directory. If you don't want to add an image use `null` in the json file
 
-```json
+```sh
 {
   ...
   "image": null
