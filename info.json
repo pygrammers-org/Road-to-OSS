@@ -1,0 +1,10 @@
+[
+  {
+    "name": "John Doe",
+    "email": "johndoe@gmail.com",
+    "place": "New York",
+    "current_pos": "Web developer",
+    "image": "johndoe.png",
+    "bio": "Hi, I'm John! I'm a web developer with in-depth experience in UI/UX design. My expertise lies within front-end web apps, and the main languages in my tech stack are JavaScript, React, and of course HTML/CSS"
+  }
+]
