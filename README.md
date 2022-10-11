@@ -66,6 +66,7 @@ git switch -c add-shaheen-hyder
   },
   {
     "name": "John Doe", # Your name -> No longer than 30 characters
+    "gh_username": "johndoe" # Your GitHub username
     "email": "johndoe@gmail.com", # Your email (Used to send you a digital badge) -> No longer than 30 characters
     "place": "New York", # Your place -> No longer than 30 characters
     "current_pos": "Web developer", # Your current position (student/freelancer/working etc.) -> No longer than 58 characters
