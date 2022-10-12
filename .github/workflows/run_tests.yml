@@ -7,56 +7,55 @@ defaults:
     shell: bash
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
-    - name: Git checkout
-      uses: actions/checkout@v2
-      with:
-        path: './'
-
-    - name: Parse ino=fo.json
     steps:
-      run: cat info.json | jq
+      - name: Git checkout
+        uses: actions/checkout@v2
+        with:
+          path: './'
 
-    - name: Evaluate info.json
-    steps:
-      run: |
-        userInfo=$(cat info.json | jq '.[-1]') 
-        echo $userInfo | jq '.name, .gh_username, .email, .place, .current_pos, .bio' -e || { 
-          echo 'All fields not present in info.json!';
-          exit 1; 
+      - name: Parse ino=fo.json
+        run: cat info.json | jq
+
+      - name: Evaluate info.json
+        run: |
+          userInfo=$(cat info.json | jq '.[-1]') 
+          echo $userInfo | jq '.name, .gh_username, .email, .place, .current_pos, .bio' -e || { 
+            echo 'All fields not present in info.json!';
+            exit 1; 
+          }
+
+          # Check length of all fields
+          echo $userInfo | jq '.name | length <= 30' -e || {
+            echo 'name length exceeds!';
+            exit 1;
+        }
+          echo $userInfo | jq '.email | length <= 30' -e || {
+            echo 'email length exceeds!';
+            exit 1;
+        }
+          echo $userInfo | jq '.place | length <= 30' -e || {
+            echo 'place length exceeds!';
+            exit 1;
+        }
+          echo $userInfo | jq '.current_pos | length <= 58' -e || {
+            echo 'current_pos length exceeds!';
+            exit 1;
+        }
+          echo $userInfo | jq '.bio | length <= 150' -e || {
+            echo 'bio length exceeds!';
+            exit 1;
         }
 
-        # Check length of all fields
-        echo $userInfo | jq '.name | length <= 30' -e || {
-          echo 'name length exceeds!';
-          exit 1;
-      }
-        echo $userInfo | jq '.email | length <= 30' -e || {
-          echo 'email length exceeds!';
-          exit 1;
-      }
-        echo $userInfo | jq '.place | length <= 30' -e || {
-          echo 'place length exceeds!';
-          exit 1;
-      }
-        echo $userInfo | jq '.current_pos | length <= 58' -e || {
-          echo 'current_pos length exceeds!';
-          exit 1;
-      }
-        echo $userInfo | jq '.bio | length <= 150' -e || {
-          echo 'bio length exceeds!';
-          exit 1;
-      }
-
-      # Check whether image is present
-      userImage=$(echo $userInfo | jq '.image')
-      if [[ ! userImage = 'null' ]]; then
-        if [ -f "./images/$userImage"]; then
-          echo "image verified!"
-        else
-          echo "image file not found"
-          exit 1
+        # Check whether image is present
+        userImage=$(echo $userInfo | jq '.image')
+        if [[ ! userImage = 'null' ]]; then
+          if [ -f "./images/$userImage"]; then
+            echo "image verified!"
+          else
+            echo "image file not found"
+            exit 1
+          fi
         fi
-      fi
 
