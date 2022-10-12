@@ -15,6 +15,9 @@ jobs:
         with:
           path: './'
 
+      - name: Install jq
+        run: sudo apt install jq
+
       - name: Parse info.json
         run: jq -e '' info.json
 
