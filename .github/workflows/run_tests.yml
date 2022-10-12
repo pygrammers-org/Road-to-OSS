@@ -38,7 +38,7 @@ jobs:
           jq '.bio | length <= 150' -e userinfo.json
 
         # Check whether image is present
-        userImage=$(jq '.image' userinfo.json)
+        userImage=`jq '.image' userinfo.json`
         if [[ ! userImage = 'null' ]]; then
           if [ -f "./images/$userImage"]; then
             echo "image verified!"
