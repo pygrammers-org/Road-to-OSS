@@ -16,7 +16,8 @@ jobs:
           path: './'
 
       - name: Parse ino=fo.json
-        run: cat info.json | jq
+        run: |
+          cat info.json | jq;
 
       - name: Evaluate info.json
         run: |
