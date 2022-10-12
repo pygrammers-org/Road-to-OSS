@@ -17,40 +17,40 @@ jobs:
 
       - name: Parse info.json
         run: |
-          jq < <(cat info.json)
+          jq -e < info.json
 
       - name: Evaluate info.json
         run: |
-          userInfo=$(jq '.[-1]' < <(cat info.json) ) 
-          jq '.name, .gh_username, .email, .place, .current_pos, .bio' -e < <(echo $userInfo) || { 
+          jq '.[-1]' < info.json > userinfo.json 
+          jq '.name, .gh_username, .email, .place, .current_pos, .bio' -e < userinfo.json || { 
             echo 'All fields not present in info.json!';
             exit 1; 
           }
 
           # Check length of all fields
-          jq '.name | length <= 30' -e < <(echo $userInfo) || {
+          jq '.name | length <= 30' -e < userinfo.json || {
             echo 'name length exceeds!';
             exit 1;
         }
-          jq '.email | length <= 30' -e < <(echo $userInfo) || {
+          jq '.email | length <= 30' -e < userinfo.json || {
             echo 'email length exceeds!';
             exit 1;
         }
-          jq '.place | length <= 30' -e < <(echo $userInfo) || {
+          jq '.place | length <= 30' -e < userinfo.json || {
             echo 'place length exceeds!';
             exit 1;
         }
-          jq '.current_pos | length <= 58' -e < <(echo $userInfo) || {
+          jq '.current_pos | length <= 58' -e < userinfo.json || {
             echo 'current_pos length exceeds!';
             exit 1;
         }
-          jq '.bio | length <= 150' -e < <(echo $userInfo) || {
+          jq '.bio | length <= 150' -e < userinfo.json || {
             echo 'bio length exceeds!';
             exit 1;
         }
 
         # Check whether image is present
-        userImage=$(jq '.image' < <(echo $userInfo))
+        userImage=$(jq '.image' < userinfo.json
         if [[ ! userImage = 'null' ]]; then
           if [ -f "./images/$userImage"]; then
             echo "image verified!"
@@ -59,4 +59,8 @@ jobs:
             exit 1
           fi
         fi
+
+      - name: Cleanup
+        run: |
+          rm userinfo.json
 
