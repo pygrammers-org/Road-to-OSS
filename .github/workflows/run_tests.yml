@@ -24,32 +24,18 @@ jobs:
       - name: Evaluate info.json
         run: |
           jq '.[-1]' info.json > userinfo.json 
-          jq '.name, .gh_username, .email, .place, .current_pos, .bio' -e userinfo.json || { 
-            echo 'All fields not present in info.json!';
-            exit 1; 
-          }
+          jq '.name, .gh_username, .email, .place, .current_pos, .bio' -e userinfo.json
 
           # Check length of all fields
-          jq '.name | length <= 30' -e userinfo.json || {
-            echo 'name length exceeds!';
-            exit 1;
-        }
-          jq '.email | length <= 30' -e userinfo.json || {
-            echo 'email length exceeds!';
-            exit 1;
-        }
-          jq '.place | length <= 30' -e userinfo.json || {
-            echo 'place length exceeds!';
-            exit 1;
-        }
-          jq '.current_pos | length <= 58' -e userinfo.json || {
-            echo 'current_pos length exceeds!';
-            exit 1;
-        }
-          jq '.bio | length <= 150' -e userinfo.json || {
-            echo 'bio length exceeds!';
-            exit 1;
-        }
+          jq '.name | length <= 30' -e userinfo.json
+
+          jq '.email | length <= 30' -e userinfo.json
+
+          jq '.place | length <= 30' -e userinfo.json
+
+          jq '.current_pos | length <= 58' -e userinfo.json
+
+          jq '.bio | length <= 150' -e userinfo.json
 
         # Check whether image is present
         userImage=$(jq '.image' userinfo.json)
