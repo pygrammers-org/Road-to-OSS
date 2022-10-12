@@ -17,40 +17,40 @@ jobs:
 
       - name: Parse info.json
         run: |
-          cat info.json|jq;
+          jq < <(cat info.json)
 
       - name: Evaluate info.json
         run: |
-          userInfo=$(cat info.json | jq '.[-1]') 
-          echo $userInfo | jq '.name, .gh_username, .email, .place, .current_pos, .bio' -e || { 
+          userInfo=$(jq '.[-1]' < <(cat info.json) ) 
+          jq '.name, .gh_username, .email, .place, .current_pos, .bio' -e < <(echo $userInfo) || { 
             echo 'All fields not present in info.json!';
             exit 1; 
           }
 
           # Check length of all fields
-          echo $userInfo | jq '.name | length <= 30' -e || {
+          jq '.name | length <= 30' -e < <(echo $userInfo) || {
             echo 'name length exceeds!';
             exit 1;
         }
-          echo $userInfo | jq '.email | length <= 30' -e || {
+          jq '.email | length <= 30' -e < <(echo $userInfo) || {
             echo 'email length exceeds!';
             exit 1;
         }
-          echo $userInfo | jq '.place | length <= 30' -e || {
+          jq '.place | length <= 30' -e < <(echo $userInfo) || {
             echo 'place length exceeds!';
             exit 1;
         }
-          echo $userInfo | jq '.current_pos | length <= 58' -e || {
+          jq '.current_pos | length <= 58' -e < <(echo $userInfo) || {
             echo 'current_pos length exceeds!';
             exit 1;
         }
-          echo $userInfo | jq '.bio | length <= 150' -e || {
+          jq '.bio | length <= 150' -e < <(echo $userInfo) || {
             echo 'bio length exceeds!';
             exit 1;
         }
 
         # Check whether image is present
-        userImage=$(echo $userInfo | jq '.image')
+        userImage=$(jq '.image' < <(echo $userInfo))
         if [[ ! userImage = 'null' ]]; then
           if [ -f "./images/$userImage"]; then
             echo "image verified!"
