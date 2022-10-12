@@ -15,9 +15,6 @@ jobs:
         with:
           path: './'
 
-      - name: Install jq
-        run: sudo apt install jq
-
       - name: Parse info.json
         run: jq -e '' info.json
 
@@ -40,7 +37,7 @@ jobs:
           # Check whether image is present
           jq '.image' userinfo.json > userimage 
           if grep -q "null" ./userimage ; then
-            if [ -f "./images/$userImage"]; then
+            if [ -f "./images/$(cat userImage)"]; then
               echo "image verified!"
             else
               echo "image file not found"
