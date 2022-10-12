@@ -39,7 +39,14 @@ jobs:
 
           # Check whether image is present
           jq '.image' userinfo.json > userimage 
-          if grep -q "null" ./userimage;then if [ -f "./images/$userImage"];then;echo "image verified!";else;echo "image file not found";exit 1;fi;fi;
+          if grep -q "null" ./userimage ; then
+            if [ -f "./images/$userImage"]; then
+              echo "image verified!"
+            else
+              echo "image file not found"
+              exit 1
+            fi
+          fi
 
       - name: Cleanup
         run: |
