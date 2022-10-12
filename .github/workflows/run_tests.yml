@@ -51,4 +51,5 @@ jobs:
       - name: Cleanup
         run: |
           rm userinfo.json
+          rm userimage
 
