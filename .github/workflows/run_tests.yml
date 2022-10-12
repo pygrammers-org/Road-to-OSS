@@ -16,8 +16,7 @@ jobs:
           path: './'
 
       - name: Parse info.json
-        run: |
-          jq -e '' info.json
+        run: jq -e '' info.json
 
       - name: Evaluate info.json
         run: |
