@@ -48,11 +48,18 @@ function addDownloadEventListener() {
       let card = this.parentElement.cloneNode(true)
       card.children.item(6).remove();
 
-      let element = document.createElement("div");
-      element.className = "parent-card"
-      element.appendChild(card)
-      temp.appendChild(element)
-      html2canvas(element).then(function (canvas) {
+      let footer = document.createElement("div");
+      footer.className = "footer";
+      let p = document.createElement("p");
+      p.textContent = "pygrammers.org/Road-To-OSS"
+      footer.appendChild(p);
+
+      let cardWrapper = document.createElement("div");
+      cardWrapper.className = "parent-card"
+      cardWrapper.appendChild(card)
+      cardWrapper.appendChild(footer)
+      temp.appendChild(cardWrapper)
+      html2canvas(cardWrapper).then(function (canvas) {
         var anchorTag = document.createElement("a");
         document.body.appendChild(anchorTag);
         anchorTag.download = "profile.png";
@@ -60,7 +67,7 @@ function addDownloadEventListener() {
         anchorTag.target = '_blank';
         anchorTag.click();
       });
-      element.remove()
+      cardWrapper.remove()
 
     }));
 }
