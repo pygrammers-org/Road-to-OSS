@@ -21,12 +21,10 @@ jobs:
       - name: Evaluate info.json
         run: |
           jq '.[-1]' info.json > userinfo.json 
-          jq '.name, .gh_username, .email, .place, .current_pos, .bio' -e userinfo.json
+          jq '.name, .gh_username, .place, .current_pos, .bio' -e userinfo.json
 
           # Check length of all fields
           jq '.name | length <= 30' -e userinfo.json
-
-          jq '.email | length <= 30' -e userinfo.json
 
           jq '.place | length <= 30' -e userinfo.json
 
