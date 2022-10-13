@@ -1,6 +1,9 @@
 # Road-to-OSS
 
-@TODO: add an aim section.
+Learn some basic workflow of git and GitHub in a few steps. Afterward, let's start contributing to several open-source projects.
+And be a part of hackctober fest also. 
+
+To know about hacktoberfest [cleck here](https://hacktoberfest.com/)
 
 ## Requirements
 
@@ -67,7 +70,6 @@ git switch -c add-shaheen-hyder
   {
     "name": "John Doe", # Your name -> No longer than 30 characters
     "gh_username": "johndoe" # Your GitHub username
-    "email": "johndoe@gmail.com", # Your email (Used to send you a digital badge) -> No longer than 30 characters
     "place": "New York", # Your place -> No longer than 30 characters
     "current_pos": "Web developer", # Your current position (student/freelancer/working etc.) -> No longer than 58 characters
     "image": "johndoe.png", # Name of your portrait image added in the /images directory
@@ -120,7 +122,9 @@ For example:
 git push -u origin add-shaheen-hyder
 ```
 
-@TODO: add note on the errors that might happen on git push(authentication errors).
+> If you enabled two-factor authentication in your GitHub account you won't be able to push via HTTPS using your accounts password. Instead you need to generate a personal access token. This can be done in the application settings of your GitHub account. Using this token as your password should allow you to push to your remote repository via HTTPS. Use your username as usual.
+
+[Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ## Step 5 - Submit your changes for review
 
@@ -128,6 +132,23 @@ If you go to your repository page on GitHub you will see a `compare & pull reque
 And submit the pull request.
 Soon the reviewer will merge the branch into `main`.
 
+## Step 6 - View and share contributors badge
+
+Once the PR is merged you can view your details [here](http://pygrammers.org/Road-to-OSS/).
+You can download your profile and share it on social media.
+
+Don't forget to tag Pygrammers :)
+
 ## What after that?
 
-@TODO: add a footer section if necessary, with a congratz and detials of hacktoberfest beginner repos.
+Start contributing!
+
+- Check out repos with hacktoberfest topic:
+  - [GitHub](https://github.com/topics/hacktoberfest)
+  - [GitLab](https://gitlab.com/explore/projects/topics/hacktoberfest)
+- Explore Projects with issues:
+  - [Up-For-Grabs.net](https://up-for-grabs.net/#/)
+  - [GoodFirstIssue.dev](https://goodfirstissue.dev/)
+- Explore Hacktoberfest projects:
+  - [Hacktoberfest-Projects](https://hacktoberfest-projects.vercel.app/)
+
