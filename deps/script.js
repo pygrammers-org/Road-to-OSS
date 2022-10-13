@@ -72,6 +72,7 @@ function addDownloadEventListener() {
       cardWrapper.appendChild(card)
       cardWrapper.appendChild(footer)
       temp.appendChild(cardWrapper)
+
       html2canvas(cardWrapper).then(function (canvas) {
         var anchorTag = document.createElement("a");
         document.body.appendChild(anchorTag);
@@ -80,7 +81,7 @@ function addDownloadEventListener() {
         anchorTag.target = '_blank';
         anchorTag.click();
       });
-      cardWrapper.remove()
 
+      cardWrapper.remove()
     }));
 }

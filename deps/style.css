@@ -6,7 +6,6 @@
 .content {
     background: linear-gradient(to left top, #295270, #524175);
     background-attachment: fixed;
-    /*edit*/
 }
 
 .hide {
@@ -14,9 +13,9 @@
 }
 
 .main-logos {
-  display: flex;
-  align-items: flex-start;
-  justify-content: space-between;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
 .road-to-oss {
@@ -246,14 +245,12 @@ button i {
 }
 
 @media(max-width:1500px) {
-
     input {
         width: 100%;
     }
 }
 
 @media(max-width:750px) {
-
     input {
         width: 100%;
     }
