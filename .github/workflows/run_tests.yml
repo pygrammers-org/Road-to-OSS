@@ -45,10 +45,10 @@ jobs:
 
           size=$(du -k "./images/$(cat ./userimage | cut -d \" -f2)" | cut -f1)
           if [ "$size" -lt "200" ]; then
+            echo "image size verified!"
+          else
             echo "image size greater than 200!"
             exit 1
-          else
-            echo "image size verified!"
           fi
 
       - name: Cleanup
