@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Silkscreen&display=swap" rel="stylesheet">
+
+  <!--stylesheet-->
+  <link rel="stylesheet" href="style.css" class="stylesheet">
+
+  <!--font awesome-->
+  <script src="https://kit.fontawesome.com/576638e44b.js" crossorigin="anonymous"></script>
+
+  <!--html2canvas-->
+  <script src="html2canvas.min.js" type="text/javascript"></script>
+
+  <!--script file-->
+  <script src="script.js" defer></script>
+  <title>Contributors!</title>
+</head>
+<body>
+
+  <div class="pylogo">
+    <img src="pylogo.png" width="200">
+  </div>
+  <h1 class="contri">CONTRIBUTORS</h1>
+  <div class="search-wrapper">
+    <label for="search"></label>
+    <input type="search" placeholder="  Search your profile" id="search" user-search>
+  </div>
+  <div class="heading">
+    <button class="road-to-oss">ROAD-TO-OSS</button>
+  </div>
+  <div class="gallery" user-cards-container></div>
+  
+  <template user-template>
+    <div id="profile-card"class="card">
+      <img class="profile-img" src="img1.jpg" user-image>
+      <h1 user-name></h1>
+      <i class="fa-brands fa-github">
+        <span user-username></span>
+      </i>
+      <h2 class="current_pos" user-position></h2>
+      <h3 user-place></h3>
+      <p user-bio></p>
+      <button class="email">
+        <h4 user-email></h4>
+      </button>
+      <button id="download" class="profile-download">Download Profile</button>
+      </div>
+    </div>
+  </template>
+  <script>
+    document.getElementById("#download").addEventListener("click", function() {
+      html2canvas(document.getElementById("profile-card")).then(function (canvas) {
+        var anchorTag = document.createElement("a");
+        document.body.appendChild(anchorTag);
+        anchorTag.download = "profile.png";
+        anchorTag.href = canvas.toDataURL();
+        anchorTag.target = '_blank';
+        anchorTag.click();
+      });
+    });
+  </script>
+</body>
+</html>  
