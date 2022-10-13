@@ -13,8 +13,10 @@
     display: none;
 }
 
-.pylogo {
-    text-align: left;
+.main-logos {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
 }
 
 .road-to-oss {
