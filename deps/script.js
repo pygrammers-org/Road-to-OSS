@@ -26,7 +26,7 @@ fetch("../info.json")
       const place = card.querySelector("[user-place]")
       const position = card.querySelector("[user-position]")
       const bio = card.querySelector("[user-bio]")
-      image.src = "../images/" + user.image
+      image.src = "images/" + user.image
       name.textContent = user.name
       username.textContent = user.gh_username
       email.textContent = user.email
