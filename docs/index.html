@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,8 @@
 
   <!--fonts-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Nunito&family=Silkscreen&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Silkscreen&display=swap" rel="stylesheet">
 
   <!--stylesheet-->
   <link rel="stylesheet" href="style.css" class="stylesheet">
@@ -21,25 +22,26 @@
 
   <!--script file-->
   <script src="script.js" defer></script>
-  <title>Contributors!</title>
+  <title>ROAD-TO-OSS</title>
 </head>
+
 <body>
 
   <div class="pylogo">
-    <img src="pylogo.png" width="200">
+    <img src="py-l.png" width="150">
   </div>
-  <h1 class="contri">CONTRIBUTORS</h1>
+  <h1 class="road-to-oss">ROAD-TO-OSS</h1>
   <div class="search-wrapper">
     <label for="search"></label>
     <input type="search" placeholder="  Search your profile" id="search" user-search>
   </div>
   <div class="heading">
-    <button class="road-to-oss">ROAD-TO-OSS</button>
+    <button class="contri">CONTRIBUTORS</button>
   </div>
   <div class="gallery" user-cards-container></div>
-  
+
   <template user-template>
-    <div id="profile-card"class="card">
+    <div id="profile-card" class="card">
       <img class="profile-img" src="img1.jpg" user-image>
       <h1 user-name></h1>
       <i class="fa-brands fa-github">
@@ -51,21 +53,10 @@
       <button class="email">
         <h4 user-email></h4>
       </button>
-      <button id="download" class="profile-download">Download Profile</button>
-      </div>
+      <button class="profile-download">Download Profile</button>
+    </div>
     </div>
   </template>
-  <script>
-    document.getElementById("#download").addEventListener("click", function() {
-      html2canvas(document.getElementById("profile-card")).then(function (canvas) {
-        var anchorTag = document.createElement("a");
-        document.body.appendChild(anchorTag);
-        anchorTag.download = "profile.png";
-        anchorTag.href = canvas.toDataURL();
-        anchorTag.target = '_blank';
-        anchorTag.click();
-      });
-    });
-  </script>
 </body>
-</html>  
+
+</html>

@@ -1,99 +1,101 @@
-*{
-    margin:0;
+* {
+    margin: 0;
     font-family: 'Nunito', sans-serif;
 }
 
-body{
+body {
     margin: 40px;
-    background:linear-gradient(to left top, #295270, #524175);
-    background-attachment: fixed; /*edit*/
+    background: linear-gradient(to left top, #295270, #524175);
+    background-attachment: fixed;
+    /*edit*/
 }
 
 
-.pylogo{
-    text-align: center;
-
+.pylogo {
+    text-align: left;
 }
 
-.contri{
+.road-to-oss {
     color: white;
     font-family: 'Silkscreen', cursive;
     font-size: 10ch;
+    padding-top: 0;
 }
-.heading{
+
+.heading {
     text-align: center;
 }
 
-.road-to-oss{
-    color:#524175;
+.contri {
+    color: #524175;
     font-size: 30px;
-    font-weight:700;
+    font-weight: 700;
     width: 250px;
     padding: 8px;
-    border:0;
-    margin:8px;
+    border: 0;
+    margin: 8px;
     border-radius: 40px;
-    background-color:white;
+    background-color: white;
 }
 
-.search-wrapper{
-    text-align:center;
+.search-wrapper {
+    text-align: center;
     margin: 40px;
 }
 
-.search-wrapper label{
+.search-wrapper label {
     color: white;
 }
 
-input{
+input {
     font-size: 20px;
     padding: 10px;
     width: 40%;
     border-radius: 20px;
-    border: none; 
+    border: none;
 }
 
 .hide {
-  display: none;
+    display: none;
 }
 
-.gallery{
+.gallery {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    margin:0;
+    margin: 0;
 }
 
-.card{
-    width:20%;
-    margin:15px;
+.card {
+    width: 20%;
+    margin: 15px;
     box-sizing: border-box;
     float: left;
-    text-align:center;
+    text-align: center;
     border-radius: 20px;
     cursor: pointer;
     box-shadow: 0 14px 28px rgba(30, 1, 54, 0.25);
     background-color: white;
 }
 
-.content{
+.content {
     padding: 30px;
 }
 
-.username{
+.username {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
 }
 
-.card:hover{
-    transform:translate(0px,-8px);
+.card:hover {
+    transform: translate(0px, -8px);
     transition: transform 0.25s;
 }
 
-.profile-img{
-    width:100%;
+.profile-img {
+    width: 100%;
     height: auto;
     text-align: center;
     margin: 0 auto;
@@ -101,102 +103,107 @@ input{
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
-.name{
-    padding:8px;
+
+.name {
+    padding: 8px;
 }
 
-h1{
+h1 {
     text-align: center;
-    margin:auto;
+    margin: auto;
     padding-top: 20px;
 }
 
-h2{
+h2 {
     padding-top: 8px;
 }
-.current_pos{
+
+.current_pos {
     color: #524175;
 }
 
-h3{
+h3 {
     text-align: center;
-    padding:0 8px;
-    margin:auto;
+    padding: 0 8px;
+    margin: auto;
 }
 
-h4{
+h4 {
     font-weight: 100;
     text-align: center;
-    padding:0 8px;
-    margin:auto;
+    padding: 0 8px;
+    margin: auto;
 }
 
-p{
+p {
     padding: 18px;
 }
 
 
-.email{
+.email {
     text-align: center;
     font-size: 13px;
     color: white;
     width: 50%;
     padding: 8px;
-    border:0;
-    outline:none;
-    cursor:pointer;
+    border: 0;
+    outline: none;
+    cursor: pointer;
     margin: 10px;
     border-radius: 20px;
-    background-color:#524175;
+    background-color: #524175;
 }
 
-.profile-download{
+.profile-download {
     text-align: center;
     font-size: 15px;
     color: white;
     width: 60%;
     padding: 15px;
-    border:0;
-    outline:none;
-    cursor:pointer;
+    border: 0;
+    outline: none;
+    cursor: pointer;
     margin: 10px;
     border-radius: 40px;
-    background-color:black;
+    background-color: black;
 }
 
-.email:hover{
+.email:hover {
     font-weight: 800;
     color: black;
-    border:2px solid black;
-    background-color:white; 
-}
-.profile-download:hover{
-    font-weight: 800;
-    color: black;
-    border:2px solid black;
-    background-color:white; 
+    border: 2px solid black;
+    background-color: white;
 }
 
-button i{
+.profile-download:hover {
+    font-weight: 800;
+    color: black;
+    border: 2px solid black;
+    background-color: white;
+}
+
+button i {
     size: 30px;
     color: black;
 }
 
-@media(max-width:1500px){
-    .card{
-        width:45%;
-    }
-    input{
-    width: 100%;
-    }
-}
-@media(max-width:750px){
-    .card{
-        width:100%;
+@media(max-width:1500px) {
+    .card {
+        width: 45%;
     }
 
-    input{
-    width: 100%;
+    input {
+        width: 100%;
+    }
+}
+
+@media(max-width:750px) {
+    .card {
+        width: 100%;
+    }
+
+    input {
+        width: 100%;
     }
 
 }

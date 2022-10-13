@@ -14,7 +14,7 @@ searchInput.addEventListener("input", e => {
   })
 })
 
-fetch("./profile.json")
+fetch("../info.json")
   .then(res => res.json())
   .then(data => {
     users = data.map(user => {
@@ -26,7 +26,7 @@ fetch("./profile.json")
       const place = card.querySelector("[user-place]")
       const position = card.querySelector("[user-position]")
       const bio = card.querySelector("[user-bio]")
-      image.textContent = user.image
+      image.src = "../images/" + user.image
       name.textContent = user.name
       username.textContent = user.gh_username
       email.textContent = user.email
@@ -35,14 +35,29 @@ fetch("./profile.json")
       bio.textContent = user.bio
       userCardContainer.append(card)
       return {
-        image:user.image,
+        image: user.image,
         name: user.name,
         username: user.gh_username,
         email: user.email,
         place: user.place,
         position: user.current_pos,
-        bio:user.bio,
+        bio: user.bio,
         element: card
       }
     })
+    addDownloadEventListener()
   })
+
+function addDownloadEventListener() {
+  document.querySelectorAll('.profile-download')
+    .forEach(el => el.addEventListener("click", function () {
+      html2canvas(this.parentElement).then(function (canvas) {
+        var anchorTag = document.createElement("a");
+        document.body.appendChild(anchorTag);
+        anchorTag.download = "profile.png";
+        anchorTag.href = canvas.toDataURL();
+        anchorTag.target = '_blank';
+        anchorTag.click();
+      });
+    }));
+}
