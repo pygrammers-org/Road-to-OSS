@@ -3,7 +3,7 @@
 Learn some basic workflow of git and GitHub in a few steps. Afterward, let's start contributing to several open-source projects.
 And be a part of hackctober fest also. 
 
-To know about hacktoberfest [cleck here](https://hacktoberfest.com/)
+To know about hacktoberfest [click here](https://hacktoberfest.com/)
 
 ## Requirements
 
