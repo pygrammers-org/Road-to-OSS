@@ -55,7 +55,7 @@ function addDownloadEventListener() {
       pLogo.src = "deps/py-l.png"
       let hfLogo = document.createElement("img");
       hfLogo.className = "hfLogo"
-      hfLogo.src = "deps/hf-l.svg"
+      hfLogo.src = "deps/hf-l.png"
 
       logos.appendChild(pLogo)
       logos.appendChild(hfLogo)
