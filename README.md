@@ -1,6 +1,9 @@
 # Road-to-OSS
 
 Learn some basic workflow of git and GitHub in a few steps. Afterward, let's start contributing to several open-source projects.
+And be a part of hackctober fest also. 
+
+To know about hacktoberfest [cleck here](https://hacktoberfest.com/)
 
 ## Requirements
 
@@ -128,6 +131,13 @@ git push -u origin add-shaheen-hyder
 If you go to your repository page on GitHub you will see a `compare & pull request` button. Click that button.
 And submit the pull request.
 Soon the reviewer will merge the branch into `main`.
+
+## Step 6 - View and share contributors badge
+
+Once the PR is merged you can view your details [here](http://pygrammers.org/Road-to-OSS/).
+You can download your profile and share it on social media.
+
+Don't forget to tag Pygrammers :)
 
 ## What after that?
 
