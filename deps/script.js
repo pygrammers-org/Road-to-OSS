@@ -8,8 +8,7 @@ let users = []
 searchInput.addEventListener("input", e => {
   const value = e.target.value.toLowerCase()
   users.forEach(user => {
-    const isVisible =
-      user.name.toLowerCase().includes(value)
+    let isVisible = user.name.toLowerCase().includes(value)
     user.element.classList.toggle("hide", !isVisible)
   })
 })
@@ -27,7 +26,7 @@ fetch("info.json")
       const position = card.querySelector("[user-position]")
       const bio = card.querySelector("[user-bio]")
       let isImageAvailable = user.image == null || user.image == "null" || user.image == ""
-      image.src = isImageAvailable ?'images/johndoe.png':"images/" + user.image
+      image.src = isImageAvailable ? 'images/johndoe.png' : "images/" + user.image
       name.textContent = user.name
       userUrl.href = "https://github.com/" + user.gh_username
       username.textContent = user.gh_username
@@ -48,7 +47,7 @@ function addDownloadEventListener() {
     .forEach(el => el.addEventListener("click", function () {
       let card = this.parentElement.cloneNode(true)
       card.children.item(6).remove();
-      
+
       let element = document.createElement("div");
       element.className = "parent-card"
       element.appendChild(card)

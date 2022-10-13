@@ -10,6 +10,9 @@ body {
     /*edit*/
 }
 
+.hide {
+    display: none;
+}
 
 .pylogo {
     text-align: left;
@@ -47,7 +50,7 @@ body {
     color: white;
 }
 
-.inherit-color{
+.inherit-color {
     color: #e5e2e4;
 }
 
@@ -66,7 +69,7 @@ input {
     margin: 0;
 }
 
-.parent-card{
+.parent-card {
     width: 330px;
     padding: 20px;
     background: linear-gradient(to left top, #295270, #524175);
