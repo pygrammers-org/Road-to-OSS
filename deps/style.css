@@ -70,13 +70,17 @@ input {
 
 .parent-card {
     width: 330px;
-    padding: 20px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 2px;
     background: linear-gradient(to left top, #295270, #524175);
 }
 
 .card {
     width: 300px;
     margin: 15px;
+    margin-top: 0px;
     box-sizing: border-box;
     text-align: center;
     border-radius: 20px;
@@ -226,6 +230,23 @@ p {
 button i {
     size: 30px;
     color: black;
+}
+
+.logos {
+  margin-top: 10px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pLogo {
+  height: 30px;
+  margin-bottom: 15px;
+}
+
+.hfLogo {
+  height: 40px;
 }
 
 @media(max-width:1500px) {

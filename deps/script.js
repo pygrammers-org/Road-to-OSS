@@ -48,6 +48,18 @@ function addDownloadEventListener() {
       let card = this.parentElement.cloneNode(true)
       card.children.item(6).remove();
 
+      let logos = document.createElement("div");
+      logos.className = "logos"
+      let pLogo = document.createElement("img");
+      pLogo.className = "pLogo"
+      pLogo.src = "deps/py-l.png"
+      let hfLogo = document.createElement("img");
+      hfLogo.className = "hfLogo"
+      hfLogo.src = "deps/hf-l.svg"
+
+      logos.appendChild(pLogo)
+      logos.appendChild(hfLogo)
+
       let footer = document.createElement("div");
       footer.className = "footer";
       let p = document.createElement("p");
@@ -56,6 +68,7 @@ function addDownloadEventListener() {
 
       let cardWrapper = document.createElement("div");
       cardWrapper.className = "parent-card"
+      cardWrapper.appendChild(logos)
       cardWrapper.appendChild(card)
       cardWrapper.appendChild(footer)
       temp.appendChild(cardWrapper)
