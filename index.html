@@ -36,7 +36,7 @@
     <div id="profile-card" class="card">
       <img class="profile-img" src="img1.jpg" user-image>
       <h1 user-name></h1>
-      <a user-url class="inherit-color">
+      <a user-url class="inherit-color" target = "_blank">
         <i class="fa-brands fa-github">
           <span user-username></span>
         </i>
@@ -44,13 +44,11 @@
       <h2 class="current_pos" user-position></h2>
       <h3 user-place></h3>
       <p user-bio></p>
-      <button class="email">
-        <h4 user-email></h4>
-      </button>
-      <button class="profile-download">Download Profile</button>
-    </div>
+      <button id="profile-download" class="profile-download">Download Profile</button>
     </div>
   </template>
+  
+  <div id="temp"></div>
 
   <!--font awesome-->
   <script src="https://kit.fontawesome.com/576638e44b.js" crossorigin="anonymous"></script>

@@ -2,7 +2,6 @@
   {
     "name": "John Doe",
     "gh_username": "johndoe",
-    "email": "johndoe@gmail.com",
     "place": "New York",
     "current_pos": "Web developer",
     "image": "johndoe.png",

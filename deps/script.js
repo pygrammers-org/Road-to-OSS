@@ -8,8 +8,7 @@ searchInput.addEventListener("input", e => {
   const value = e.target.value.toLowerCase()
   users.forEach(user => {
     const isVisible =
-      user.name.toLowerCase().includes(value) ||
-      user.email.toLowerCase().includes(value)
+      user.name.toLowerCase().includes(value)
     user.element.classList.toggle("hide", !isVisible)
   })
 })
@@ -23,7 +22,6 @@ fetch("info.json")
       const name = card.querySelector("[user-name]")
       const username = card.querySelector("[user-username]")
       const userUrl = card.querySelector("[user-url]")
-      const email = card.querySelector("[user-email]")
       const place = card.querySelector("[user-place]")
       const position = card.querySelector("[user-position]")
       const bio = card.querySelector("[user-bio]")
@@ -31,19 +29,12 @@ fetch("info.json")
       name.textContent = user.name
       userUrl.href = "https://github.com/" + user.gh_username
       username.textContent = user.gh_username
-      email.textContent = user.email
       place.textContent = user.place
       position.textContent = user.current_pos
       bio.textContent = user.bio
       userCardContainer.append(card)
       return {
-        image: user.image,
         name: user.name,
-        username: user.gh_username,
-        email: user.email,
-        place: user.place,
-        position: user.current_pos,
-        bio: user.bio,
         element: card
       }
     })
@@ -53,7 +44,13 @@ fetch("info.json")
 function addDownloadEventListener() {
   document.querySelectorAll('.profile-download')
     .forEach(el => el.addEventListener("click", function () {
-      html2canvas(this.parentElement).then(function (canvas) {
+      let card = this.parentElement.cloneNode(true)
+      card.children.item(6).remove();
+      let element = document.createElement("div");
+      element.className = "parent-card"
+      element.appendChild(card)
+      document.getElementById("temp").appendChild(element)
+      html2canvas(element).then(function (canvas) {
         var anchorTag = document.createElement("a");
         document.body.appendChild(anchorTag);
         anchorTag.download = "profile.png";
@@ -61,5 +58,7 @@ function addDownloadEventListener() {
         anchorTag.target = '_blank';
         anchorTag.click();
       });
+      element.remove()
+
     }));
 }
