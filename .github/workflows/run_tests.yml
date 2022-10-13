@@ -43,6 +43,14 @@ jobs:
             fi
           fi
 
+          size=$(du -k "/.images/$(cat ./userimage)" | cu -f1)
+          if [ "$size" -lt "200" ]; ten
+            echo "image size greater than 200!"
+            exit 1
+          else
+            echo "image size verified!"
+          fi
+
       - name: Cleanup
         run: |
           rm userinfo.json
