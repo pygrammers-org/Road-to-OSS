@@ -1,6 +1,6 @@
 # Road-to-OSS
 
-@TODO: add an aim section.
+Learn some basic workflow of git and GitHub in a few steps. Afterward, let's start contributing to several open-source projects.
 
 ## Requirements
 
@@ -120,7 +120,9 @@ For example:
 git push -u origin add-shaheen-hyder
 ```
 
-@TODO: add note on the errors that might happen on git push(authentication errors).
+> If you enabled two-factor authentication in your GitHub account you won't be able to push via HTTPS using your accounts password. Instead you need to generate a personal access token. This can be done in the application settings of your GitHub account. Using this token as your password should allow you to push to your remote repository via HTTPS. Use your username as usual.
+
+[Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
 ## Step 5 - Submit your changes for review
 
@@ -130,4 +132,14 @@ Soon the reviewer will merge the branch into `main`.
 
 ## What after that?
 
-@TODO: add a footer section if necessary, with a congratz and detials of hacktoberfest beginner repos.
+Start contributing!
+
+- Check out repos with hacktoberfest topic:
+  - [GitHub](https://github.com/topics/hacktoberfest)
+  - [GitLab](https://gitlab.com/explore/projects/topics/hacktoberfest)
+- Explore Projects with issues:
+  - [Up-For-Grabs.net](https://up-for-grabs.net/#/)
+  - [GoodFirstIssue.dev](https://goodfirstissue.dev/)
+- Explore Hacktoberfest projects:
+  - [Hacktoberfest-Projects](https://hacktoberfest-projects.vercel.app/)
+
