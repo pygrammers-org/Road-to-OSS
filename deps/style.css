@@ -47,6 +47,10 @@ body {
     color: white;
 }
 
+.inherit-color{
+    color: inherit;
+}
+
 input {
     font-size: 20px;
     padding: 10px;

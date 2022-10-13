@@ -22,12 +22,14 @@ fetch("info.json")
       const image = card.querySelector("[user-image]")
       const name = card.querySelector("[user-name]")
       const username = card.querySelector("[user-username]")
+      const userUrl = card.querySelector("[user-url]")
       const email = card.querySelector("[user-email]")
       const place = card.querySelector("[user-place]")
       const position = card.querySelector("[user-position]")
       const bio = card.querySelector("[user-bio]")
       image.src = "images/" + user.image
       name.textContent = user.name
+      userUrl.href = "https://github.com/" + user.gh_username
       username.textContent = user.gh_username
       email.textContent = user.email
       place.textContent = user.place
