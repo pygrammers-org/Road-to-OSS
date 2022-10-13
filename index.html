@@ -1,62 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito&family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
 
-  <!--fonts-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Silkscreen&display=swap" rel="stylesheet">
+    <!--stylesheet-->
+    <link rel="stylesheet" href="deps/style.css" class="stylesheet" />
 
-  <!--stylesheet-->
-  <link rel="stylesheet" href="deps/style.css" class="stylesheet">
+    <title>ROAD-TO-OSS</title>
+  </head>
 
-  <title>ROAD-TO-OSS</title>
-</head>
-
-<body>
-
-  <div class="pylogo">
-    <img src="deps/py-l.png" width="150">
-  </div>
-  <h1 class="road-to-oss">ROAD-TO-OSS</h1>
-  <div class="search-wrapper">
-    <label for="search"></label>
-    <input type="search" placeholder="  Search your profile" id="search" user-search>
-  </div>
-  <div class="heading">
-    <button class="contri">CONTRIBUTORS</button>
-  </div>
-  <div class="gallery" user-cards-container></div>
-
-  <template user-template>
-    <div id="profile-card" class="card">
-      <img class="profile-img" src="img1.jpg" user-image>
-      <h1 user-name></h1>
-      <a user-url class="inherit-color" target = "_blank">
-        <i class="fa-brands fa-github">
-          <span user-username></span>
-        </i>
-      </a>
-      <h2 class="current_pos" user-position></h2>
-      <h3 user-place></h3>
-      <p user-bio></p>
-      <button class="profile-download">Download Profile</button>
+  <body>
+    <div class="banner">
+      <span>
+        Check out how to do your first contribution and add your profile:
+        <a
+          href="https://github.com/pygrammers-org/Road-To-OSS"
+          target="_blank"
+          rel="noreferrer"
+          >Road-To-OSS</a
+        >
+      </span>
     </div>
-  </template>
-  
-  <div id="temp"></div>
+    <div class="content">
+      <div class="pylogo">
+        <img src="deps/py-l.png" width="150" />
+      </div>
+      <h1 class="road-to-oss">ROAD-TO-OSS</h1>
+      <div class="search-wrapper">
+        <label for="search"></label>
+        <input
+          type="search"
+          placeholder="  Search your profile"
+          id="search"
+          user-search
+        />
+      </div>
+      <div class="heading">
+        <button class="contri">CONTRIBUTORS</button>
+      </div>
+      <div class="gallery" user-cards-container></div>
 
-  <!--font awesome-->
-  <script src="https://kit.fontawesome.com/576638e44b.js" crossorigin="anonymous"></script>
-  <!--html2canvas-->
-  <script src="deps/html2canvas.min.js" type="text/javascript"></script>
-  <!--script file-->
-  <script src="deps/script.js" defer></script>
+      <template user-template>
+        <div id="profile-card" class="card">
+          <img class="profile-img" src="img1.jpg" user-image />
+          <h1 user-name></h1>
+          <a user-url class="inherit-color" target="_blank">
+            <i class="fa-brands fa-github">
+              <span user-username></span>
+            </i>
+          </a>
+          <h2 class="current_pos" user-position></h2>
+          <h3 user-place></h3>
+          <p user-bio></p>
+          <button id="profile-download" class="profile-download">
+            Download Profile
+          </button>
+        </div>
+      </template>
 
-</body>
+      <div id="temp"></div>
+    </div>
 
+    <!--font awesome-->
+    <script
+      src="https://kit.fontawesome.com/576638e44b.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--html2canvas-->
+    <script src="deps/html2canvas.min.js" type="text/javascript"></script>
+    <!--script file-->
+    <script src="deps/script.js" defer></script>
+  </body>
 </html>
