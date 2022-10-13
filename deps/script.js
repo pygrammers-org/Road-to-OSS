@@ -1,6 +1,7 @@
 const userCardTemplate = document.querySelector("[user-template]")
 const userCardContainer = document.querySelector("[user-cards-container]")
 const searchInput = document.querySelector("[user-search]")
+const temp = document.getElementById("temp")
 
 let users = []
 
@@ -25,7 +26,8 @@ fetch("info.json")
       const place = card.querySelector("[user-place]")
       const position = card.querySelector("[user-position]")
       const bio = card.querySelector("[user-bio]")
-      image.src = "images/" + user.image
+      let isImageAvailable = user.image == null || user.image == "null" || user.image == ""
+      image.src = isImageAvailable ?'images/johndoe.png':"images/" + user.image
       name.textContent = user.name
       userUrl.href = "https://github.com/" + user.gh_username
       username.textContent = user.gh_username
@@ -46,10 +48,11 @@ function addDownloadEventListener() {
     .forEach(el => el.addEventListener("click", function () {
       let card = this.parentElement.cloneNode(true)
       card.children.item(6).remove();
+      
       let element = document.createElement("div");
       element.className = "parent-card"
       element.appendChild(card)
-      document.getElementById("temp").appendChild(element)
+      temp.appendChild(element)
       html2canvas(element).then(function (canvas) {
         var anchorTag = document.createElement("a");
         document.body.appendChild(anchorTag);
