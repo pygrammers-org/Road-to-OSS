@@ -1,10 +1,10 @@
 [
   {
-    "name": "John Doe",
-    "gh_username": "johndoe",
-    "place": "New York",
-    "current_pos": "Web developer",
-    "image": "johndoe.png",
-    "bio": "Hi, I'm John! I'm a web developer with in-depth experience in UI/UX design."
+    "name": "Shaheen Hyder",
+    "gh_username": "shaheenhyderk",
+    "place": "Malappuram",
+    "current_pos": "Full stack developer",
+    "image": "shaheen.jpg",
+    "bio": "Likes solving problems and building systems"
   }
 ]
