@@ -6,5 +6,13 @@
     "current_pos": "Full stack developer",
     "image": "shaheen.jpg",
     "bio": "Likes solving problems and building systems"
+  },
+  {
+    "name": "Shamila P",
+    "gh_username": "Shamila-p",
+    "place": "Malappuram",
+    "current_pos": "Web Developer",
+    "image": null,
+    "bio": "Problem Solver"
   }
 ]
