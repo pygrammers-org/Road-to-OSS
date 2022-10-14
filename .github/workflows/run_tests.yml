@@ -35,7 +35,7 @@ jobs:
           # Check whether image is present
           jq '.image' userinfo.json > userimage 
           if grep -q "null" ./userimage ; then
-            if [ -f "./images/$(cat ./userimage | cut -d \" -f2)"]; then
+            if [ -f "./images/$(cat ./userimage | cut -d \" -f2)" ]; then
               echo "image verified!"
             else
               echo "image file not found"
