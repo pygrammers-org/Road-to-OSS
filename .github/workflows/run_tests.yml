@@ -30,7 +30,7 @@ jobs:
           jq '.name, .gh_username, .place, .current_pos, .bio' -e userinfo.json
 
           # Check length of all fields
-          jq '.name | length <= 30' -e userinfo.json
+          jq '.name | length <= 30' -e userinfo.json || {echo "test"}
 
           jq '.place | length <= 30' -e userinfo.json
 
