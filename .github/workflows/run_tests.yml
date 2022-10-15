@@ -9,15 +9,9 @@ defaults:
   run:
     shell: bash
 
-permissions:
-  contents: read
-  issues: write
-  pull-requests: write
-
 jobs:
   build:
     runs-on: ubuntu-latest
-    permissions: write-all
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
@@ -25,7 +19,6 @@ jobs:
           path: './'
 
       - name: Parse info.json
-        env:
         run: |
           jq -e '.' info.json || {
             echo "Syntax Error in info.json"
@@ -33,7 +26,6 @@ jobs:
           }
 
       - name: Evaluate info.json
-        env:
         run: |
           jq '.[-1]' info.json > userinfo.json 
           jq '.name, .gh_username, .place, .current_pos, .bio' -e userinfo.json || {
