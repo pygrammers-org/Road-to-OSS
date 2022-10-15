@@ -3,7 +3,7 @@
     font-family: 'Nunito', sans-serif;
 }
 
-.content {
+body {
     background: linear-gradient(to left top, #295270, #524175);
     background-attachment: fixed;
 }
