@@ -102,5 +102,13 @@
     "current_pos": "Full stack Developer",
     "image": "ahsanzakir.jpg",
     "bio": "Developing and Designing Web Apps"
+  },
+  {
+    "name": "Nisamudheen c",
+    "gh_username": "nisamozr",
+    "place": "Malappuram",
+    "current_pos": "web3 Developer",
+    "image": "nisam.png",
+    "bio": "Interested in  AR , VR  and web3"
   }
 ]
