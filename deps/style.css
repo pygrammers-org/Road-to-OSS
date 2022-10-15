@@ -78,7 +78,6 @@ input {
 .card {
     width: 300px;
     margin: 15px;
-    margin-top: 0px;
     box-sizing: border-box;
     text-align: center;
     border-radius: 20px;
