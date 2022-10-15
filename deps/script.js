@@ -5,12 +5,15 @@ const temp = document.getElementById("temp")
 
 let users = []
 
-searchInput.addEventListener("input", e => {
-  const value = e.target.value.toLowerCase()
+function search(value) {
   users.forEach(user => {
-    let isVisible = user.name.toLowerCase().includes(value)
+    let isVisible = user.name.toLowerCase().includes(value.toLowerCase())
     user.element.classList.toggle("hide", !isVisible)
   })
+}
+
+searchInput.addEventListener("input", e => {
+  search(e.target.value)
 })
 
 fetch("info.json")
@@ -40,6 +43,7 @@ fetch("info.json")
       }
     })
     addDownloadEventListener()
+    loadSearchFromUrl()
   })
 
 function addDownloadEventListener() {
@@ -84,4 +88,14 @@ function addDownloadEventListener() {
 
       cardWrapper.remove()
     }));
+}
+
+function loadSearchFromUrl() {
+  // Fetch query string from url
+  const params = new Proxy(new URLSearchParams(window.location.search), {
+    get: (searchParams, prop) => searchParams.get(prop),
+  });
+  let value = params.search;
+  searchInput.value = value;
+  search(value);
 }
