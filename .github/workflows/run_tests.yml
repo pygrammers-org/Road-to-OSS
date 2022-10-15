@@ -25,18 +25,62 @@ jobs:
         run: jq -e '' info.json
 
       - name: Evaluate info.json
+        env:
+          URL: ${{ github.event.pull_request.comments_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FAIL_MSG: "Hey contributor!\n\nUnfortunately your PR failed to meet our requirements. Check our [README.md](https://github.com/pygrammers-org/Road-To-OSS/blob/main/README.md) to know more about how to add your info to the info.json properly\n\n**Issue:**"
         run: |
           jq '.[-1]' info.json > userinfo.json 
-          jq '.name, .gh_username, .place, .current_pos, .bio' -e userinfo.json
+          jq '.name, .gh_username, .place, .current_pos, .bio' -e userinfo.json || {
+            curl \
+            -X POST \
+            $URL \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            --data '{ "body": '"$FAIL_MSG All filds are not present!" }'';
+            exit 1
+          }
 
           # Check length of all fields
-          jq '.name | length <= 30' -e userinfo.json || {echo "test"}
+          jq '.name | length <= 30' -e userinfo.json || {
+            curl \
+            -X POST \
+            $URL \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            --data '{ "body": '"$FAIL_MSG `name` length should be less than 30!" }'';
+            exit 1
+          }
 
-          jq '.place | length <= 30' -e userinfo.json
+          jq '.place | length <= 30' -e userinfo.json || {
+            curl \
+            -X POST \
+            $URL \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            --data '{ "body": '"$FAIL_MSG `place` length should be less than 30!" }'';
+            exit 1
+          }
 
-          jq '.current_pos | length <= 58' -e userinfo.json
+          jq '.current_pos | length <= 58' -e userinfo.json || {
+            curl \
+            -X POST \
+            $URL \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            --data '{ "body": '"$FAIL_MSG `current_pos` length should be less than 58!" }'';
+            exit 1
+          }
 
-          jq '.bio | length <= 150' -e userinfo.json
+          jq '.bio | length <= 150' -e userinfo.json || {
+            curl \
+            -X POST \
+            $URL \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            --data '{ "body": '"$FAIL_MSG `bio` length should be less than 30!" }'';
+            exit 1
+          }
 
           # Check whether image is present
           jq '.image' userinfo.json > userimage 
@@ -50,10 +94,22 @@ jobs:
                 echo "image size verified!"
               else
                 echo "image size greater than 200!"
+                curl \
+                -X POST \
+                $URL \
+                -H "Content-Type: application/json" \
+                -H "Authorization: token $GITHUB_TOKEN" \
+                --data '{ "body": '"$FAIL_MSG Image size is greater than 200KB!" }''
                 exit 1
               fi
             else
               echo "image file not found"
+              curl \
+                -X POST \
+                $URL \
+                -H "Content-Type: application/json" \
+                -H "Authorization: token $GITHUB_TOKEN" \
+                --data '{ "body": '"$FAIL_MSG Image file  not found" }''
               exit 1
             fi
           fi
