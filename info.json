@@ -86,5 +86,13 @@
     "current_pos": "Full stack Developer",
     "image": "ajmal.jpg",
     "bio": "Hi I'm ajmal, currently working in angular and .net technologies. Excited to collaborate and learn"
+  },
+  {
+    "name": "Nisamudheen c",
+    "gh_username": "nisamozr",
+    "place": "Malappuram",
+    "current_pos": "web3 Developer",
+    "image": "nisam.png",
+    "bio": "Interested in   AR , VR  and web3 "
   }
 ]
