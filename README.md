@@ -9,7 +9,9 @@ To know about hacktoberfest [click here](https://hacktoberfest.com/)
 
 - [A GitHub Account](https://GitHub.com)
 - [Git installed in your system](https://docs.GitHub.com/en/get-started/quickstart/set-up-git)
-- [Hacktoberfest Account](https://hacktoberfest.com)(optional)
+- [Hacktoberfest Account](https://hacktoberfest.com)
+
+**Note:** If you want to be a part of hackctoberfest [complete registration and authorization](https://hacktoberfest.com/register/) before your pull request.
 
 ---
 
