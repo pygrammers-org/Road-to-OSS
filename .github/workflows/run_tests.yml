@@ -17,6 +17,7 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions: read-all|write-all
     steps:
       - name: Git checkout
         uses: actions/checkout@v2
@@ -42,7 +43,7 @@ jobs:
         run: |
           jq '.[-1]' info.json > userinfo.json 
           jq '.name, .gh_username, .place, .current_pos, .bio' -e userinfo.json || {
-            curl -X POST $URL -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG All filds are not present!\" }"
+            curl -X POST $URL -H "Accept: application/vnd.github+json" -H "Authorization: Bearer $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG All fields are not present!\" }"
             exit 1
           }
 
