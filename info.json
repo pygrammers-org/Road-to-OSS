@@ -72,6 +72,14 @@
     "bio": "Interested in innovations"
   },
   {
+    "name": "MIDLAJ C",
+    "gh_username": "midlajc",
+    "place": "Wayanad",
+    "current_pos": "Full Stack Developer",
+    "image": "midlajc.jpg",
+    "bio": "Hi, I’m a Node.js developer based in Wayanad, Kerala. loves problem solving and curious to learn more"
+  },
+  {
     "name": "Abhinav M Hari",
     "gh_username": "IamAbhinav03",
     "place": "Cherpulassery",
@@ -86,6 +94,14 @@
     "current_pos": "Full stack Developer",
     "image": "ajmal.jpg",
     "bio": "Hi I'm ajmal, currently working in angular and .net technologies. Excited to collaborate and learn"
+  },
+  {
+    "name": "Ahsan Zakir",
+    "gh_username": "AhsanZak",
+    "place": "Chennai",
+    "current_pos": "Full stack Developer",
+    "image": "ahsanzakir.jpg",
+    "bio": "Developing and Designing Web Apps"
   },
   {
     "name": "Nisamudheen c",
