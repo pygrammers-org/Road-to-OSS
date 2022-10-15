@@ -24,7 +24,20 @@ jobs:
           path: './'
 
       - name: Parse info.json
-        run: jq -e '' info.json
+        env:
+          URL: ${{ github.event.pull_request.comments_url }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FAIL_MSG: "Hey contributor!\n\nUnfortunately your PR failed to meet our requirements. Check our [README.md](https://github.com/pygrammers-org/Road-To-OSS/blob/main/README.md) to know more about how to add your info to the info.json properly\n\n**Issue:**"
+        run: |
+          jq -e '.' info.json || {
+            curl \
+            -X POST \
+            $URL \
+            -H "Content-Type: application/json" \
+            -H "Authorization: token $GITHUB_TOKEN" \
+            --data "{ \"body\": \"$FAIL_MSG Syntax Error in info.json!\" }"
+            exit 1
+          }
 
       - name: Evaluate info.json
         env:
@@ -50,7 +63,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": \"$FAIL_MSG `name` length should be less than 30!\" }"
+            --data "{ \"body\": \"$FAIL_MSG \`name\` length should be less than 30!\" }"
             exit 1
           }
 
@@ -60,7 +73,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": "$FAIL_MSG `place` length should be less than 30!\" }"
+            --data "{ \"body\": \"$FAIL_MSG \`place\` length should be less than 30!\" }"
             exit 1
           }
 
@@ -70,7 +83,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": \"$FAIL_MSG `current_pos` length should be less than 58!\" }"
+            --data "{ \"body\": \"$FAIL_MSG \`current_pos\` length should be less than 58!\" }"
             exit 1
           }
 
@@ -80,7 +93,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": \"$FAIL_MSG `bio` length should be less than 30!\" }"
+            --data "{ \"body\": \"$FAIL_MSG \`bio\` length should be less than 30!\" }"
             exit 1
           }
 
@@ -101,7 +114,7 @@ jobs:
                 $URL \
                 -H "Content-Type: application/json" \
                 -H "Authorization: token $GITHUB_TOKEN" \
-                --data { \"body\": \"$FAIL_MSG Image size is greater than 200KB!\" }
+                --data "{ \"body\": \"$FAIL_MSG Image size is greater than 200KB!\" }"
                 exit 1
               fi
             else
