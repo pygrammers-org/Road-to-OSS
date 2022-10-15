@@ -22,5 +22,13 @@
     "current_pos": "Web Developer",
     "image": null,
     "bio": "Often involves himself in Competitive Programming and loves freebies"
+  },
+  {
+    "name": "Ajay Daniel Trevor",
+    "gh_username": "ajayda24",
+    "place": "Malappuram",
+    "current_pos": "MERN Stack Web Developer",
+    "image": "ajaydaniel.png",
+    "bio": "Loves to create amazing and innovative web applications."
   }
 ]
