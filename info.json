@@ -70,5 +70,13 @@
     "current_pos": "Developer",
     "image": "bestin.jpeg",
     "bio": "Interested in innovations"
+  },
+  {
+    "name": "Ajmal Bin Nizam",
+    "gh_username": "ajmalbinnizam",
+    "place": "Kollam",
+    "current_pos": "Full stack Developer",
+    "image": "ajmal.jpg",
+    "bio": "Hi I'm ajmal, currently working in angular and .net technologies. Excited to collaborate and learn"
   }
 ]
