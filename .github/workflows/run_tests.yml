@@ -12,6 +12,11 @@ defaults:
   run:
     shell: bash
 
+permissions:
+  contents: read
+  issues: write
+  pull_requests: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
