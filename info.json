@@ -62,5 +62,13 @@
     "current_pos": "Software Engineer",
     "image": "ameer_amr.jpeg",
     "bio": "Self-taught Software Engineer who always willing to learn new concepts."
+  },
+  {
+    "name": "Bestin K Benny",
+    "gh_username": "bestin015",
+    "place": "Adoor",
+    "current_pos": "Developer",
+    "image": "bestin.jpeg",
+    "bio": "Interested in innovations"
   }
 ]
