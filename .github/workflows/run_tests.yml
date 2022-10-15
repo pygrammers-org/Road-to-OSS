@@ -45,19 +45,19 @@ jobs:
           else
             if [ -f "./images/$(cat ./userimage | cut -d \" -f2)" ]; then
               echo "image verified!"
+              size=$(du -k "./images/$(cat ./userimage | cut -d \" -f2)" | cut -f1)
+              if [ "$size" -lt "200" ]; then
+                echo "image size verified!"
+              else
+                echo "image size greater than 200!"
+                exit 1
+              fi
             else
               echo "image file not found"
               exit 1
             fi
           fi
 
-          size=$(du -k "./images/$(cat ./userimage | cut -d \" -f2)" | cut -f1)
-          if [ "$size" -lt "200" ]; then
-            echo "image size verified!"
-          else
-            echo "image size greater than 200!"
-            exit 1
-          fi
 
       - name: Cleanup
         run: |
