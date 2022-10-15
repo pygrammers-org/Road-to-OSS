@@ -16,11 +16,11 @@
     "bio": "Security researcher who loves to play CTFs and explore tech"
   },
   {
-    "name": "Ansh Sahu", 
-    "gh_username": "Anshsahu0802" ,
-    "place": "Jabalpur", 
-    "current_pos": "Front-end developer", 
-    "image": null, 
+    "name": "Ansh Sahu",
+    "gh_username": "Anshsahu0802",
+    "place": "Jabalpur",
+    "current_pos": "Front-end developer",
+    "image": null,
     "bio": "Hi, I'm Ansh! I'm a front end web developer with some basic knowledge."
   },
   {
@@ -70,5 +70,13 @@
     "current_pos": "Developer",
     "image": "bestin.jpeg",
     "bio": "Interested in innovations"
+  },
+  {
+    "name": "Abhinav M Hari",
+    "gh_username": "IamAbhinav03",
+    "place": "Cherpulassery",
+    "current_pos": "Student",
+    "image": "abhinav.jpeg",
+    "bio": "A hobbiyist working on AI and Quantum Computing"
   }
 ]
