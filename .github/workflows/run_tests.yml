@@ -12,7 +12,7 @@ defaults:
 permissions:
   contents: read
   issues: write
-  pull_requests: write
+  pull-requests: write
 
 jobs:
   build:
