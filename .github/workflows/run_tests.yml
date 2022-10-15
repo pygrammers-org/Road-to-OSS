@@ -30,12 +30,7 @@ jobs:
           FAIL_MSG: "Hey contributor!\n\nUnfortunately your PR failed to meet our requirements. Check our [README.md](https://github.com/pygrammers-org/Road-To-OSS/blob/main/README.md) to know more about how to add your info to the info.json properly\n\n**Issue:**"
         run: |
           jq -e '.' info.json || {
-            curl \
-            -X POST \
-            $URL \
-            -H "Content-Type: application/json" \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": \"$FAIL_MSG Syntax Error in info.json!\" }"
+            curl -X POST $URL -H "Content-Type: application/json" -H "Authorization: token $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG Syntax Error in info.json!\" }"
             exit 1
           }
 
@@ -47,53 +42,28 @@ jobs:
         run: |
           jq '.[-1]' info.json > userinfo.json 
           jq '.name, .gh_username, .place, .current_pos, .bio' -e userinfo.json || {
-            curl \
-            -X POST \
-            $URL \
-            -H "Content-Type: application/json" \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": \"$FAIL_MSG All filds are not present!\" }"
+            curl -X POST $URL -H "Content-Type: application/json" -H "Authorization: token $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG All filds are not present!\" }"
             exit 1
           }
 
           # Check length of all fields
           jq '.name | length <= 30' -e userinfo.json || {
-            curl \
-            -X POST \
-            $URL \
-            -H "Content-Type: application/json" \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": \"$FAIL_MSG \`name\` length should be less than 30!\" }"
+            curl -X POST $URL -H "Content-Type: application/json" -H "Authorization: token $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG \`name\` length should be less than 30!\" }"
             exit 1
           }
 
           jq '.place | length <= 30' -e userinfo.json || {
-            curl \
-            -X POST \
-            $URL \
-            -H "Content-Type: application/json" \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": \"$FAIL_MSG \`place\` length should be less than 30!\" }"
+            curl -X POST $URL -H "Content-Type: application/json" -H "Authorization: token $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG \`place\` length should be less than 30!\" }"
             exit 1
           }
 
           jq '.current_pos | length <= 58' -e userinfo.json || {
-            curl \
-            -X POST \
-            $URL \
-            -H "Content-Type: application/json" \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": \"$FAIL_MSG \`current_pos\` length should be less than 58!\" }"
+            curl -X POST $URL -H "Content-Type: application/json" -H "Authorization: token $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG \`current_pos\` length should be less than 58!\" }"
             exit 1
           }
 
           jq '.bio | length <= 150' -e userinfo.json || {
-            curl \
-            -X POST \
-            $URL \
-            -H "Content-Type: application/json" \
-            -H "Authorization: token $GITHUB_TOKEN" \
-            --data "{ \"body\": \"$FAIL_MSG \`bio\` length should be less than 30!\" }"
+            curl -X POST $URL -H "Content-Type: application/json" -H "Authorization: token $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG \`bio\` length should be less than 30!\" }"
             exit 1
           }
 
@@ -109,22 +79,12 @@ jobs:
                 echo "image size verified!"
               else
                 echo "image size greater than 200!"
-                curl \
-                -X POST \
-                $URL \
-                -H "Content-Type: application/json" \
-                -H "Authorization: token $GITHUB_TOKEN" \
-                --data "{ \"body\": \"$FAIL_MSG Image size is greater than 200KB!\" }"
+                curl -X POST $URL -H "Content-Type: application/json" -H "Authorization: token $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG Image size is greater than 200KB!\" }"
                 exit 1
               fi
             else
               echo "image file not found"
-              curl \
-                -X POST \
-                $URL \
-                -H "Content-Type: application/json" \
-                -H "Authorization: token $GITHUB_TOKEN" \
-                --data "{ \"body\": \"$FAIL_MSG Image file  not found\" }"
+              curl -X POST $URL -H "Content-Type: application/json" -H "Authorization: token $GITHUB_TOKEN"  --data "{ \"body\": \"$FAIL_MSG Image file  not found\" }"
               exit 1
             fi
           fi
