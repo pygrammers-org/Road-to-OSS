@@ -54,5 +54,13 @@
     "current_pos": "MERN Stack Web Developer",
     "image": "ajaydaniel.png",
     "bio": "Loves to create amazing and innovative web applications."
+  },
+  {
+    "name": "Bestin K Benny",
+    "gh_username": "bestin015",
+    "place": "Adoor",
+    "current_pos": "Developer",
+    "image": "bestin.jpeg",
+    "bio": "Interested in innovations"
   }
 ]
