@@ -40,11 +40,20 @@
     "bio": "Often involves himself in Competitive Programming and loves freebies"
   },
   {
+    "name": "Ajay Daniel Trevor",
+    "gh_username": "ajayda24",
+    "place": "Malappuram",
+    "current_pos": "MERN Stack Web Developer",
+    "image": "ajaydaniel.png",
+    "bio": "Loves to create amazing and innovative web applications."
+  },
+  {
     "name": "Hari Sankar",
     "gh_username": "h4r1337",
     "place": "Thiruvananthapuram",
     "current_pos": "BSc CS Student",
     "image": "hari-sankar.webp",
     "bio": "Security researcher who loves to play CTFs and explore tech"
+
   }
 ]
