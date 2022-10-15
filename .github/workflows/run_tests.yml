@@ -39,7 +39,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data '{ "body": '"$FAIL_MSG All filds are not present!" }'';
+            --data "{ \"body\": \"$FAIL_MSG All filds are not present!\" }"
             exit 1
           }
 
@@ -50,7 +50,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data '{ "body": '"$FAIL_MSG `name` length should be less than 30!" }'';
+            --data "{ \"body\": \"$FAIL_MSG `name` length should be less than 30!\" }"
             exit 1
           }
 
@@ -60,7 +60,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data '{ "body": '"$FAIL_MSG `place` length should be less than 30!" }'';
+            --data "{ \"body\": "$FAIL_MSG `place` length should be less than 30!\" }"
             exit 1
           }
 
@@ -70,7 +70,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data '{ "body": '"$FAIL_MSG `current_pos` length should be less than 58!" }'';
+            --data "{ \"body\": \"$FAIL_MSG `current_pos` length should be less than 58!\" }"
             exit 1
           }
 
@@ -80,7 +80,7 @@ jobs:
             $URL \
             -H "Content-Type: application/json" \
             -H "Authorization: token $GITHUB_TOKEN" \
-            --data '{ "body": '"$FAIL_MSG `bio` length should be less than 30!" }'';
+            --data "{ \"body\": \"$FAIL_MSG `bio` length should be less than 30!\" }"
             exit 1
           }
 
@@ -101,7 +101,7 @@ jobs:
                 $URL \
                 -H "Content-Type: application/json" \
                 -H "Authorization: token $GITHUB_TOKEN" \
-                --data '{ "body": '"$FAIL_MSG Image size is greater than 200KB!" }''
+                --data { \"body\": \"$FAIL_MSG Image size is greater than 200KB!\" }
                 exit 1
               fi
             else
@@ -111,7 +111,7 @@ jobs:
                 $URL \
                 -H "Content-Type: application/json" \
                 -H "Authorization: token $GITHUB_TOKEN" \
-                --data '{ "body": '"$FAIL_MSG Image file  not found" }''
+                --data "{ \"body\": \"$FAIL_MSG Image file  not found\" }"
               exit 1
             fi
           fi
