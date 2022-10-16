@@ -135,4 +135,12 @@
     "image": "shamnad.png",
     "bio": "Interested in DSA"
   }
+  {
+    "name": "Irfan Rasheed K C",
+    "gh_username": "irfanrasheedkc",
+    "place": "Malappuram",
+    "current_pos": "B Tech Computer Science Student",
+    "image": null,
+    "bio": "Interested in Python and Machine Learning"
+  }
 ]
