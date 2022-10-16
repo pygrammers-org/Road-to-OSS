@@ -174,5 +174,13 @@
     "current_pos": "B Tech Computer Science Student",
     "image": null,
     "bio": "Web developer and Tech enthusiast"
+  },
+  {
+    "name": "Adil S",
+    "gh_username": "adilsp5075",
+    "place": "Kayamkulam",
+    "current_pos": "B.Tech Computer Science Student @GECI",
+    "image": "Adil.jpeg",
+    "bio": "Intrested in full stack development & machine learning" 
   }
 ]
