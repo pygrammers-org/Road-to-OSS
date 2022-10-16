@@ -110,5 +110,13 @@
     "current_pos": "web3 Developer",
     "image": "nisam.png",
     "bio": "Interested in  AR , VR  and web3"
+  },
+  {
+    "name": "Harshed Abdulla",
+    "gh_username": "harshedabdulla",
+    "place": "Kochi",
+    "current_pos": "Web Developer",
+    "image": "harshed.jpg",
+    "bio": "I work on React,NodeJS and Express JS, interested in AR/VR/ML/Blockchain and anything which are hard to solve"
   }
 ]
