@@ -110,5 +110,13 @@
     "current_pos": "web3 Developer",
     "image": "nisam.png",
     "bio": "Interested in  AR , VR  and web3"
+  },
+  {
+    "name": "Shamnad Sherief",
+    "gh_username": "shamnad-sherief",
+    "place": "Alappuzha",
+    "current_pos": "Student",
+    "image": "shamnad.png",
+    "bio": "Interested in DSA"
   }
 ]
