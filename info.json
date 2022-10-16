@@ -36,7 +36,7 @@
     "gh_username": "Shamila-p",
     "place": "Malappuram",
     "current_pos": "Web Developer",
-    "image": null,
+    "image": "shamila.jpg",
     "bio": "Like coding and problem solving"
   },
   {
@@ -111,6 +111,38 @@
     "image": "nisam.png",
     "bio": "Interested in  AR , VR  and web3"
   },
+  {
+    "name": "Muhammed Munees",
+    "gh_username": "muneesmmm",
+    "place": "Palakkad",
+    "current_pos": "Full stack Developer",
+    "image": "munees.jpeg",
+    "bio": "Hi, I'm Muhammed Munees! I'm a Full stack developer"
+  },
+  {
+    "name": "Harshed Abdulla",
+    "gh_username": "harshedabdulla",
+    "place": "Kochi",
+    "current_pos": "Web Developer",
+    "image": "harshed.jpg",
+    "bio": "I work on React,NodeJS and Express JS, interested in AR/VR/ML/Blockchain and anything which are hard to solve"
+  },
+  {
+    "name": "Shamnad Sherief",
+    "gh_username": "shamnad-sherief",
+    "place": "Alappuzha",
+    "current_pos": "Student",
+    "image": "shamnad.png",
+    "bio": "Interested in DSA"
+  }, 
+  {
+    "name": "Irfan Rasheed K C",
+    "gh_username": "irfanrasheedkc",
+    "place": "Malappuram",
+    "current_pos": "B Tech Computer Science Student",
+    "image": null,
+    "bio": "Interested in Python and Machine Learning"
+  }, 
   {
     "name": "Rifna c",
     "gh_username": "RifnaC",
