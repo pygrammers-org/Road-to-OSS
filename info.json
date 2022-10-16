@@ -110,5 +110,13 @@
     "current_pos": "web3 Developer",
     "image": "nisam.png",
     "bio": "Interested in  AR , VR  and web3"
+  },
+  {
+    "name": "Rifna c",
+    "gh_username": "RifnaC",
+    "place": "Malappuram",
+    "current_pos": "BSC CS Student",
+    "image": "rifna.jpg",
+    "bio": "Developing and Designing Web Apps"
   }
 ]
