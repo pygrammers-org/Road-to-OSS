@@ -174,5 +174,13 @@
     "current_pos": "B Tech Computer Science Student",
     "image": null,
     "bio": "Web developer and Tech enthusiast"
-  }
+  },
+	{
+		"name": "Shaheem PP",
+		"gh_username": "shaheem-pp",
+		"place": "Kozhikode",
+		"current_pos": "Backend developer",
+		"image": "thecodeholic.jpg",
+		"bio": "Hi, I'm Shaheem! I'm a Backend Developer."
+	}
 ]
