@@ -110,5 +110,13 @@
     "current_pos": "web3 Developer",
     "image": "nisam.png",
     "bio": "Interested in  AR , VR  and web3"
+  },
+  {
+    "name": "Muhammed Munees",
+    "gh_username": "muneesmmm",
+    "place": "Palakkad",
+    "current_pos": "Full stack Developer",
+    "image": "munees.jpeg",
+    "bio": "Hi, I'm Muhammed Munees! I'm a Full stack developer"
   }
 ]
