@@ -142,5 +142,13 @@
     "current_pos": "B Tech Computer Science Student",
     "image": null,
     "bio": "Interested in Python and Machine Learning"
+  }, 
+  {
+    "name": "Rifna c",
+    "gh_username": "RifnaC",
+    "place": "Malappuram",
+    "current_pos": "BSC CS Student",
+    "image": "rifna.jpg",
+    "bio": "Interested in  Web development and Data science"
   }
 ]
