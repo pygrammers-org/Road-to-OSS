@@ -190,5 +190,13 @@
     "current_pos": "B.Tech Computer Science Student @GECI",
     "image": "Adil.jpeg",
     "bio": "Intrested in full stack development & machine learning" 
-  }
+  },
+	{
+		"name": "Shaheem PP",
+		"gh_username": "shaheem-pp",
+		"place": "Kozhikode",
+		"current_pos": "Backend developer",
+		"image": "thecodeholic.jpg",
+		"bio": "Hi, I'm Shaheem! I'm a Backend Developer."
+	}
 ]
