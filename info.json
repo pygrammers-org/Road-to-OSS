@@ -112,6 +112,22 @@
     "bio": "Interested in  AR , VR  and web3"
   },
   {
+    "name": "Muhammed Munees",
+    "gh_username": "muneesmmm",
+    "place": "Palakkad",
+    "current_pos": "Full stack Developer",
+    "image": "munees.jpeg",
+    "bio": "Hi, I'm Muhammed Munees! I'm a Full stack developer"
+  },
+  {
+    "name": "Harshed Abdulla",
+    "gh_username": "harshedabdulla",
+    "place": "Kochi",
+    "current_pos": "Web Developer",
+    "image": "harshed.jpg",
+    "bio": "I work on React,NodeJS and Express JS, interested in AR/VR/ML/Blockchain and anything which are hard to solve"
+  },
+  {
     "name": "Shamnad Sherief",
     "gh_username": "shamnad-sherief",
     "place": "Alappuzha",
