@@ -174,5 +174,13 @@
     "current_pos": "B Tech Computer Science Student",
     "image": null,
     "bio": "Web developer and Tech enthusiast"
+  },
+  {
+    "name": "Thanseefudheen",
+    "gh_username": "thanseefpp",
+    "place": "Malappuram",
+    "current_pos": "Software Engineer",
+    "image": "thanseef.jpg",
+    "bio": "Pursuing Mechine Learning and running a small company eclidse technologies."
   }
 ]
