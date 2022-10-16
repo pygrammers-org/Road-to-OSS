@@ -154,4 +154,6 @@ Start contributing!
   - [GoodFirstIssue.dev](https://goodfirstissue.dev/)
 - Explore Hacktoberfest projects:
   - [Hacktoberfest-Projects](https://hacktoberfest-projects.vercel.app/)
+  
+If this repo helped you get better at open source contributions, consider giving us a star and share the knowledge with your friends :)
 
