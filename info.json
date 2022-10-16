@@ -150,5 +150,13 @@
     "current_pos": "BSC CS Student",
     "image": "rifna.jpg",
     "bio": "Interested in  Web development and Data science"
+  },
+  {
+    "name": "Amjed saleel K",
+    "gh_username": "amjedsaleel",
+    "place": "Calicut",
+    "current_pos": "DevOps Engineer",
+    "image": "amjed.jpeg",
+    "bio": "Self-taught DevOps engineer"
   }
 ]
