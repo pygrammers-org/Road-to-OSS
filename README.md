@@ -82,6 +82,7 @@ git switch -c add-shaheen-hyder
 
 - Add a portrait image of you with your name and add it to the `images/` directory. If you don't want to add an image use `null` in the json file
 - Image size should not be greater than **200KB**
+- For the best result use a image with **1:1 ratio**
 
 ```sh
 {
