@@ -158,5 +158,13 @@
     "current_pos": "DevOps Engineer",
     "image": "amjed.jpeg",
     "bio": "Self-taught DevOps engineer"
+  },
+  {
+    "name": "Jelan Mathew James",
+    "gh_username": "jelanmathewjames",
+    "place": "Pathanamthitta",
+    "current_pos": "B Tech Computer Science Student",
+    "image": null,
+    "bio": "Web developer and Tech enthusiast"
   }
 ]
