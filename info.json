@@ -166,5 +166,13 @@
     "current_pos": "Python Django Developer",
     "image": "renjith.jpg",
     "bio": "Interested in Python and Machine Learning"
+  },
+  {
+    "name": "Jelan Mathew James",
+    "gh_username": "jelanmathewjames",
+    "place": "Pathanamthitta",
+    "current_pos": "B Tech Computer Science Student",
+    "image": null,
+    "bio": "Web developer and Tech enthusiast"
   }
 ]
