@@ -126,5 +126,13 @@
     "current_pos": "Web Developer",
     "image": "harshed.jpg",
     "bio": "I work on React,NodeJS and Express JS, interested in AR/VR/ML/Blockchain and anything which are hard to solve"
+  },
+  {
+    "name": "Shamnad Sherief",
+    "gh_username": "shamnad-sherief",
+    "place": "Alappuzha",
+    "current_pos": "Student",
+    "image": "shamnad.png",
+    "bio": "Interested in DSA"
   }
 ]
