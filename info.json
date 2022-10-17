@@ -246,5 +246,13 @@
 		"current_pos": "Full Stack Developer",
 		"image": "shabithkms.jpeg",
 		"bio": "Self-taught Full stack Developer."
+	},
+	{
+		"name": "Gopika P Pavithran",
+		"gh_username": "GopikaPPavithran",
+		"place": "Trivandrum",
+		"current_pos": "Front End Web Developer",
+		"image": null,
+		"bio": "BTech Student currently learning web development"
 	}
 ]
