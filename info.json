@@ -200,7 +200,15 @@
 		"bio": "Hi, this is Shaheem. A backend developer. :)"
 	},
 	{
-		"name": "Joseph Jaison",
+		"name": "Abdul Samad M J",
+		"gh_username": "abdulsamadmj",
+		"place": "Wayanad",
+		"current_pos": "Front End Developer",
+		"image": "abdulsamadmj.jpg",
+		"bio": "A typical tech addict. UI/UX, MERN <3"
+  },
+	{
+    "name": "Joseph Jaison",
 		"gh_username": "JOSEPH-JAISON",
 		"place": "Changanacherry",
 		"current_pos": "B.Tech Electronics and Communication Student ",
