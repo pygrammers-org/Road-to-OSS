@@ -198,5 +198,13 @@
 		"current_pos": "Backend developer",
 		"image": "thecodeholic.jpg",
 		"bio": "Hi, this is Shaheem. A backend developer. :)"
+	},
+	{
+		"name": "Mubashir Angathil",
+		"gh_username": "MubashirAngathil",
+		"place": "Wayanad",
+		"current_pos": "Full Stack Developer",
+		"image": "MubashirAngathil.jpeg",
+		"bio": "Currently,I'm expoloring Web, Mobile, and app design"
 	}
 ]
