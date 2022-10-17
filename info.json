@@ -279,6 +279,14 @@
 		"image":"janajithd.jpg",
 		"bio":"I am a self taught web developer, currently learning ReactJS"
 	},
+  {
+		"name": "Muhammed Hafis",
+		"gh_username": "hafismuhammed",
+		"place": "Thiruvanathapuram",
+		"current_pos": "Python Software Engineer",
+		"image": "hafis.jpg",
+		"bio": "I’m a self-made Python Django developer with relevant experience in this field. "
+  },
 	{
 		"name":"Govind V R",
 		"gh_username":"Govindvr",
