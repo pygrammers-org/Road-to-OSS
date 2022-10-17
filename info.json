@@ -270,5 +270,13 @@
 		"current_pos": "Front-end developer",
 		"image": null,
 		"bio": "Hi, I am Aditya, I am learning front-end web devolopment."
+  },
+  {
+		"name":"Janajith D",
+		"gh_username":"codetheft",
+		"place":"Kollam",
+		"current_pos":"Btech Computer Science Student",
+		"image":"janajithd.jpg",
+		"bio":"I am a self taught web developer, currently learning ReactJS"
 	}
 ]
