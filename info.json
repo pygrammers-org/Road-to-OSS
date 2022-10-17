@@ -278,13 +278,5 @@
 		"current_pos":"Btech Computer Science Student",
 		"image":"janajithd.jpg",
 		"bio":"I am a self taught web developer, currently learning ReactJS"
-	},
-	{
-		"name": "Abel Mathew Simon",
-		"gh_username": "abelmathew07",
-		"place": "Kollam",
-		"current_pos": "B.Tech Computer Science Student @PEC",
-		"image": "abel.jpeg",
-		"bio": "Interested in Python,Web development and Machine Learning"
 	}
 ]
