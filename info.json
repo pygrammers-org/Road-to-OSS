@@ -222,5 +222,13 @@
 		"current_pos": "B.Tech Electronics and Communication Student ",
 		"image": "Joseph.jpeg",
 		"bio": "Hi, I'm Joseph! I'm a tfp learner."
-	}
+	},
+	{
+		"name": "Fawaz k",
+		"gh_username": "Fawazk",
+		"place": "Manjeri", 
+		"current_pos": "Full Stack Developer",
+		"image": "Fawazk.jpg",
+		"bio": "One who is open to solving problems and learning new things."
+	 }
 ]
