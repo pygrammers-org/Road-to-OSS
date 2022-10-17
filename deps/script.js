@@ -7,10 +7,14 @@
   let users = []
 
   function search(value) {
+    userCardContainer.innerHTML = '';
     users.forEach(user => {
       if (value) {
-        let isVisible = user.name.toLowerCase().includes(value.toLowerCase());
-        user.element.classList.toggle("hide", !isVisible);
+        if (user.name.toLowerCase().includes(value.toLowerCase())) {
+          userCardContainer.append(user.element);
+        }
+      } else {
+        userCardContainer.append(user.element);
       }
     })
   }
