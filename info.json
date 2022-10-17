@@ -278,5 +278,13 @@
 		"current_pos":"Btech Computer Science Student",
 		"image":"janajithd.jpg",
 		"bio":"I am a self taught web developer, currently learning ReactJS"
-	}
+	},
+	{
+		"name": "Edwin Liby",
+		"gh_username": "Edwinliby",
+		"place": "Alappuzha",
+		"current_pos": "Student/Front End Web developer/UI Designer",
+		"image": "Edwin-liby.png", 
+		"bio": "I am self taught in Front-end Web development, currently learning ReactJS and Flutter for cross-platform development." 
+	  }
 ]
