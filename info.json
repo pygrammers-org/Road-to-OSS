@@ -246,5 +246,13 @@
 		"current_pos": "Full Stack Developer",
 		"image": "shabithkms.jpeg",
 		"bio": "Self-taught Full stack Developer."
+	},
+	{
+		"name": "Muhammed Ali P",
+		"gh_username": "ALIP703",
+		"place": "Wayanad",
+		"current_pos": "Mern Stack Developer",
+		"image": "ALIP703.jpeg",
+		"bio": "A passionate web developer from Kerala."
 	}
 ]
