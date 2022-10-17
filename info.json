@@ -295,4 +295,13 @@
 		"image": "Edwin-liby.png", 
 		"bio": "I am self taught in Front-end Web development, currently learning ReactJS and Flutter for cross-platform development." 
 	}
+ {
+    "name": "Ebin",
+                "gh_username": "ebinvarghese020",
+                "place": "Alappuzha",
+                "current_pos": "Student/Back End developer/UI Designer",
+                "image": null,
+                "bio": "I am self taught in back-end developer"
+        }
+
 ]
