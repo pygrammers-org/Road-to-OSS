@@ -206,6 +206,14 @@
 		"current_pos": "Front End Developer",
 		"image": "abdulsamadmj.jpg",
 		"bio": "A typical tech addict. UI/UX, MERN <3"
+	},
+	{
+		"name": "Nahyan Sharvin",
+		"gh_username": "nahyansharvin",
+		"place": "Kozhikode",
+		"current_pos": "Front End Developer",
+		"image": "nahyan_sharvin.jpg",
+		"bio": "Hy, I'm a third-year student pursuing my Undergraduate Degree in Computer Science. I'm a self-taught developer with experience in building some real-world projects. Ability to learn and implement new technologies quickly. My skills include React.js, HTML5, CSS3, JavaScript. These skills were learned by self and from communities."
   },
 	{
     "name": "Joseph Jaison",
@@ -215,6 +223,4 @@
 		"image": "Joseph.jpeg",
 		"bio": "Hi, I'm Joseph! I'm a tfp learner."
 	}
-	
-
 ]
