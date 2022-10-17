@@ -262,5 +262,13 @@
 		"current_pos": "Front End Web Developer",
 		"image": null,
 		"bio": "BTech Student currently learning web development"
+	},
+	{
+		"name": "Aditya Tiwari",
+		"gh_username": "Aditya973",
+		"place": "Jabalpur",
+		"current_pos": "Front-end developer",
+		"image": null,
+		"bio": "Hi, I am Aditya, I am learning front-end web devolopment."
 	}
 ]
