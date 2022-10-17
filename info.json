@@ -254,5 +254,13 @@
 		"current_pos": "Mern Stack Developer",
 		"image": "ALIP703.jpeg",
 		"bio": "A passionate web developer from Kerala."
+	},
+	{
+    "name": "Gopika P Pavithran",
+		"gh_username": "GopikaPPavithran",
+		"place": "Trivandrum",
+		"current_pos": "Front End Web Developer",
+		"image": null,
+		"bio": "BTech Student currently learning web development"
 	}
 ]
