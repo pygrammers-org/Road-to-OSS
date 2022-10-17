@@ -310,5 +310,13 @@
 		"current_pos": "Full Stack Engineer",
 		"image": "sharon-shaju.jpeg",
 		"bio": "Hi, I'm SHARON! I'm a Vue.js ,Nuxt.js, full stack developer currently working on webRTC P2P Metaverse."
+	},
+	{
+		"name": "Mohamed Sabith",
+		"gh_username": "sabith-nadakkavil",
+		"place": "Malappuram",
+		"current_pos": "Backend Developer",
+		"image": "null",
+		"bio": "Hi, I'm Sabith, a passionate developer from Kerala."
 	}
 ]
