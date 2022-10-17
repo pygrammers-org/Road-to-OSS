@@ -206,5 +206,15 @@
 		"current_pos": "Front End Developer",
 		"image": "abdulsamadmj.jpg",
 		"bio": "A typical tech addict. UI/UX, MERN <3"
+  },
+	{
+    "name": "Joseph Jaison",
+		"gh_username": "JOSEPH-JAISON",
+		"place": "Changanacherry",
+		"current_pos": "B.Tech Electronics and Communication Student ",
+		"image": "Joseph.jpeg",
+		"bio": "Hi, I'm Joseph! I'm a tfp learner."
 	}
+	
+
 ]
