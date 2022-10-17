@@ -286,5 +286,13 @@
 		"current_pos":"Backend Python developer",
 		"image": "govind.jpeg",
 		"bio":"Hi, I'm Govind a Btech Student interested in python development"
+	}, 
+  {
+    "name": "Edwin Liby",
+		"gh_username": "Edwinliby",
+		"place": "Alappuzha",
+		"current_pos": "Student/Front End Web developer/UI Designer",
+		"image": "Edwin-liby.png", 
+		"bio": "I am self taught in Front-end Web development, currently learning ReactJS and Flutter for cross-platform development." 
 	}
 ]
