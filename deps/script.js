@@ -7,14 +7,17 @@
   let users = []
 
   function search(value) {
+    userCardContainer.innerHTML = '';
     users.forEach(user => {
       if (value) {
-        let isVisible = user.name.toLowerCase().includes(value.toLowerCase());
-        user.element.classList.toggle("hide", !isVisible);
+        if (user.name.toLowerCase().includes(value.toLowerCase())) {
+          userCardContainer.append(user.element);
+        }
       } else {
-        user.element.classList.toggle("hide", false);
+        userCardContainer.append(user.element);
       }
     })
+    magicGrid.positionItems();
   }
 
   searchInput.addEventListener("input", e => {
@@ -97,5 +100,12 @@
     searchInput.value = value;
     search(value);
   }
+
+  let magicGrid = new MagicGrid({
+    container: ".gallery",
+    items: 1,
+    animate: true,
+  });
+  magicGrid.listen();
 
 }());
