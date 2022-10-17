@@ -296,11 +296,11 @@
 		"bio": "I am self taught in Front-end Web development, currently learning ReactJS and Flutter for cross-platform development." 
 	},
 	{
-	    "name": "Sharon Shaju",
-	    "gh_username": "codefa"
-	    "place": "Kannur",
-	    "current_pos": "Full Stack Engineer",
-	    "image": "sharon-shaju.jpeg",
-	    "bio": "Hi, I'm SHARON! I'm a Vue.js ,Nuxt.js, full stack developer currently working on webRTC P2P Metaverse."
-        }
+		"name": "Sharon Shaju",
+		"gh_username": "codefa",
+		"place": "Kannur",
+		"current_pos": "Full Stack Engineer",
+		"image": "sharon-shaju.jpeg",
+		"bio": "Hi, I'm SHARON! I'm a Vue.js ,Nuxt.js, full stack developer currently working on webRTC P2P Metaverse."
+	}
 ]
