@@ -67,6 +67,8 @@ input {
 }
 
 .gallery {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     margin: 0;
 }

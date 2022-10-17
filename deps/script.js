@@ -17,7 +17,6 @@
         userCardContainer.append(user.element);
       }
     })
-    magicGrid.positionItems();
   }
 
   searchInput.addEventListener("input", e => {
@@ -100,12 +99,5 @@
     searchInput.value = value;
     search(value);
   }
-
-  let magicGrid = new MagicGrid({
-    container: ".gallery",
-    items: 1,
-    animate: true,
-  });
-  magicGrid.listen();
 
 }());
