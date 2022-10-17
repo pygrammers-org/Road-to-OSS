@@ -75,7 +75,7 @@ git switch -c add-shaheen-hyder
     "place": "New York", # Your place -> No longer than 30 characters
     "current_pos": "Web developer", # Your current position (student/freelancer/working etc.) -> No longer than 58 characters
     "image": "johndoe.png", # Name of your portrait image added in the /images directory -> Image size not greater than 200KB
-    "bio": "Hi, I'm John! I'm a web developer with in-depth experience in UI/UX design." # A short bio of you -> No longer than 500 characters 
+    "bio": "Hi, I'm John! I'm a web developer with in-depth experience in UI/UX design." # A short bio of you -> No longer than 150 characters 
   }
 ]
 ```
