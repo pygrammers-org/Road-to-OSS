@@ -50,7 +50,7 @@ jobs:
           }
 
           jq '.bio | length <= 150' -e userinfo.json || {
-            echo "bio length should be less than 30!"
+            echo "bio length should be less than 150!"
             exit 1
           }
 

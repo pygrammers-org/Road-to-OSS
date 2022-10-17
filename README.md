@@ -79,6 +79,7 @@ git switch -c add-shaheen-hyder
   }
 ]
 ```
+**NOTE:** make sure to add your info at the end of the file, after the last user's data. Not in the middle of the file
 
 - Add a portrait image of you with your name and add it to the `images/` directory. If you don't want to add an image use `null` in the json file
 - Image size should not be greater than **200KB**
