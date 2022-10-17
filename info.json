@@ -310,5 +310,13 @@
 		"current_pos": "Full Stack Engineer",
 		"image": "sharon-shaju.jpeg",
 		"bio": "Hi, I'm SHARON! I'm a Vue.js ,Nuxt.js, full stack developer currently working on webRTC P2P Metaverse."
+	},
+	{
+		"name":"Abel Mathew Simon",
+		"gh_username":"abelmathew07",
+		"place":"Kollam",
+		"current_pos":"Btech Computer Science Student",
+		"image": null,
+		"bio":"Intrested in full stack development,python "
 	}
 ]
