@@ -278,5 +278,14 @@
 		"current_pos":"Btech Computer Science Student",
 		"image":"janajithd.jpg",
 		"bio":"I am a self taught web developer, currently learning ReactJS"
-	}
+	},
+  {
+                "name":"Ebin",
+                "gh_username":"ebinvarghese020",
+                "place":"Alappuzha",
+                "current_pos":"Btech Computer Science Student",
+                "image":null,
+                "bio":"I am a self taught back end developer, always learning new things"
+        }
+
 ]
