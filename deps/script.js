@@ -11,6 +11,8 @@
       if (value) {
         let isVisible = user.name.toLowerCase().includes(value.toLowerCase());
         user.element.classList.toggle("hide", !isVisible);
+      } else {
+        user.element.classList.toggle("hide", false);
       }
     })
   }
