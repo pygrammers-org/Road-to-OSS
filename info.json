@@ -350,5 +350,13 @@
 		"current_pos": "Student | College of Engineering Vadakara",
 		"image": "hafiscp.jpg",
 		"bio": "Tech Enthusiast"
+	},
+	{
+		"name":"Muhammed Jahsid",
+		"gh_username":"jahsid",
+		"place":"Kannur",
+		"current_pos":"MCA Student",
+		"image":"null",
+		"bio":"Self-taught MERN stack Developer"
 	}
 ]
