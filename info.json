@@ -350,5 +350,13 @@
 		"current_pos": "Student | College of Engineering Vadakara",
 		"image": "hafiscp.jpg",
 		"bio": "Tech Enthusiast"
+	},
+	{
+		"name": "Alan Biju",
+		"gh_username": "a-1an",
+		"place": "Kochi",
+		"current_pos": "BTech at MEC,Thrikkakara",
+		"image": "alanbiju.jpeg,
+		"bio": "Gooo Pythonn!!"
 	}
 ]
