@@ -44,6 +44,7 @@
       })
       addDownloadEventListener();
       loadSearchFromUrl();
+      loadNumberOfContributors()
     })
 
   function addDownloadEventListener() {
@@ -98,6 +99,10 @@
     let value = params.search;
     searchInput.value = value;
     search(value);
+  }
+
+  function loadNumberOfContributors() {
+    document.getElementById('contri').innerText = users.length + ' CONTRIBUTORS'
   }
 
 }());
