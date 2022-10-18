@@ -256,7 +256,7 @@
 		"bio": "A passionate web developer from Kerala."
 	},
 	{
-    "name": "Gopika P Pavithran",
+    		"name": "Gopika P Pavithran",
 		"gh_username": "GopikaPPavithran",
 		"place": "Trivandrum",
 		"current_pos": "Front End Web Developer",
@@ -270,8 +270,8 @@
 		"current_pos": "Front-end developer",
 		"image": null,
 		"bio": "Hi, I am Aditya, I am learning front-end web devolopment."
-  },
-  {
+  	},
+ 	{
 		"name":"Janajith D",
 		"gh_username":"codetheft",
 		"place":"Kollam",
@@ -287,16 +287,16 @@
 		"image": "govind.jpeg",
 		"bio":"Hi, I'm Govind a Btech Student interested in python development"
 	}, 
-  {
-    "name": "Edwin Liby",
+  	{
+    		"name": "Edwin Liby",
 		"gh_username": "Edwinliby",
 		"place": "Alappuzha",
 		"current_pos": "Student/Front End Web developer/UI Designer",
 		"image": "Edwin-liby.png", 
 		"bio": "I am self taught in Front-end Web development, currently learning ReactJS and Flutter for cross-platform development." 
-	}
- {
-    "name": "Ebin",
+	},
+ 	{
+    		"name": "Ebin",
                 "gh_username": "ebinvarghese020",
                 "place": "Alappuzha",
                 "current_pos": "Student/Back End developer/UI Designer",
