@@ -398,5 +398,13 @@
 		"current_pos": "2nd Year BCA Student",
 		"image": "akshaysrajan.png",
 		"bio": "Aspiring CEO of Google 😅"
+	},
+	{
+		"name": "Danwand NS",
+		"gh_username": "DanBrown47",
+		"place": "Kochi, Kerala, India",
+		"current_pos": "CTO, Pygrammers",
+		"image": "danwnad.jpg",
+		"bio": "Self Proclaimed Code Mafia, Will code for food"
 	}
 ]
