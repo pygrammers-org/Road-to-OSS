@@ -256,7 +256,7 @@
 		"bio": "A passionate web developer from Kerala."
 	},
 	{
-    "name": "Gopika P Pavithran",
+    		"name": "Gopika P Pavithran",
 		"gh_username": "GopikaPPavithran",
 		"place": "Trivandrum",
 		"current_pos": "Front End Web Developer",
@@ -271,7 +271,7 @@
 		"image": null,
 		"bio": "Hi, I am Aditya, I am learning front-end web devolopment."
   },
-  {
+ 	{
 		"name":"Janajith D",
 		"gh_username":"codetheft",
 		"place":"Kollam",
@@ -288,7 +288,7 @@
 		"bio": "I’m a self-made Python Django developer with relevant experience in this field. "
   },
 	{
-		"name":"Govind V R",
+  	"name":"Govind V R",
 		"gh_username":"Govindvr",
 		"place":"Trivandrum",
 		"current_pos":"Backend Python developer",
@@ -326,13 +326,21 @@
 		"current_pos": "Android Developer",
 		"image": "null",
 		"bio": "Hi, I'm Ajmal, a passionate developer from Kerala."
-	},
-    {
-	    "name": "Ajas Nizam",
-	    "gh_username": "ajasnizam",
-	    "place": "kollam",
-	    "current_pos": "BTech Computer Science Student",
-	    "image": "ajas.jpg",
-	    "bio": "Hi I'm ajas, currently learning JS and C language"
+  },
+	{
+    "name": "Ebin",
+    "gh_username": "ebinvarghese020",
+    "place": "Alappuzha",
+    "current_pos": "Student/Back End developer/UI Designer",
+    "image": null,
+    "bio": "I am self taught in back-end developer"
+  },
+  {
+    "name": "Ajas Nizam",
+    "gh_username": "ajasnizam",
+    "place": "kollam",
+    "current_pos": "BTech Computer Science Student",
+    "image": "ajas.jpg",
+    "bio": "Hi I'm ajas, currently learning JS and C language"
 	}
 ]
