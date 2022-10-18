@@ -326,5 +326,13 @@
 		"current_pos": "Android Developer",
 		"image": "null",
 		"bio": "Hi, I'm Ajmal, a passionate developer from Kerala."
+	},
+    {
+	    "name": "Ajas Nizam",
+	    "gh_username": "ajasnizam",
+	    "place": "kollam",
+	    "current_pos": "BTech Computer Science Student",
+	    "image": "ajas.jpg",
+	    "bio": "Hi I'm ajas, currently learning JS and C language"
 	}
 ]
