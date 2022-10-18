@@ -334,5 +334,13 @@
     "current_pos": "Student/Back End developer/UI Designer",
     "image": null,
     "bio": "I am self taught in back-end developer"
+  },
+  {
+    "name": "Ajas Nizam",
+    "gh_username": "ajasnizam",
+    "place": "kollam",
+    "current_pos": "BTech Computer Science Student",
+    "image": "ajas.jpg",
+    "bio": "Hi I'm ajas, currently learning JS and C language"
 	}
 ]
