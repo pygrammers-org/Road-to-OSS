@@ -351,20 +351,28 @@
 		"image": "hafiscp.jpg",
 		"bio": "Tech Enthusiast"
 	},
-	{
+  	{
 		"name":"Muhammed Jahsid",
 		"gh_username":"jahsid",
 		"place":"Kannur",
 		"current_pos":"MCA Student",
 		"image":null,
 		"bio":"Self-taught MERN stack Developer"
-  },
-  {
+  	},
+  	{
 		"name":"Abel Mathew Simon",
 		"gh_username":"abelmathew07",
 		"place":"Kollam",
 		"current_pos":"Btech Computer Science Student",
 		"image": "abel.jpg",
 		"bio":"Intrested in full stack development,python "
+	},
+	{
+		"name": "Vishnu S Pramod",
+		"gh_username": "V-I-S-H-N-U",
+		"place": "kollam",
+		"current_pos": "Web Developer",
+		"image": null,
+		"bio": "A Budding Developer!!"
 	}
 ]
