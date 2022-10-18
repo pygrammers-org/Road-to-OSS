@@ -351,15 +351,15 @@
 		"image": "hafiscp.jpg",
 		"bio": "Tech Enthusiast"
 	},
-  {
+  	{
 		"name":"Muhammed Jahsid",
 		"gh_username":"jahsid",
 		"place":"Kannur",
 		"current_pos":"MCA Student",
 		"image":null,
 		"bio":"Self-taught MERN stack Developer"
-  },
-  {
+  	},
+  	{
 		"name":"Abel Mathew Simon",
 		"gh_username":"abelmathew07",
 		"place":"Kollam",
@@ -374,5 +374,5 @@
 		"current_pos": "Web Developer",
 		"image": null,
 		"bio": "A Budding Developer!!"
-	},
+	}
 ]
