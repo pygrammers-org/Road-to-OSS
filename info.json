@@ -351,4 +351,13 @@
 		"image": "hafiscp.jpg",
 		"bio": "Tech Enthusiast"
 	}
+	,
+	{
+		"name": "Asker Yaseen",
+		"gh_username": "askeryaseen",
+		"place": "Ernakulam",
+		"current_pos": "Student ",
+		"image":null,
+		"bio": "Tech Enthusiast"
+	}
 ]
