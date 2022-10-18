@@ -316,7 +316,7 @@
 		"gh_username": "sabith-nadakkavil",
 		"place": "Malappuram",
 		"current_pos": "Backend Developer",
-		"image": "null",
+		"image": null,
 		"bio": "Hi, I'm Sabith, a passionate developer from Kerala."
 	},
 	{
@@ -324,7 +324,7 @@
 		"gh_username": "ajmalpk23",
 		"place": "Malappuram",
 		"current_pos": "Android Developer",
-		"image": "null",
+		"image": null,
 		"bio": "Hi, I'm Ajmal, a passionate developer from Kerala."
   	},
 	{
@@ -350,8 +350,39 @@
 		"current_pos": "Student | College of Engineering Vadakara",
 		"image": "hafiscp.jpg",
 		"bio": "Tech Enthusiast"
-	}
-	,
+
+  {
+		"name":"Muhammed Jahsid",
+		"gh_username":"jahsid",
+		"place":"Kannur",
+		"current_pos":"MCA Student",
+		"image":null,
+		"bio":"Self-taught MERN stack Developer"
+  },
+  {
+		"name":"Abel Mathew Simon",
+		"gh_username":"abelmathew07",
+		"place":"Kollam",
+		"current_pos":"Btech Computer Science Student",
+		"image": "abel.jpg",
+		"bio":"Intrested in full stack development,python "
+	},
+	{
+		"name": "Vishnu S Pramod",
+		"gh_username": "V-I-S-H-N-U",
+		"place": "kollam",
+		"current_pos": "Web Developer",
+		"image": null,
+		"bio": "A Budding Developer!!"
+	},
+  {
+		"name": "Alan Biju",
+		"gh_username": "a-1an",
+		"place": "Kochi",
+		"current_pos": "BTech at MEC,Thrikkakara",
+		"image": "alanbiju.jpg",
+		"bio": "Gooo Pythonn!!"
+  },
 	{
 		"name": "Asker Yaseen",
 		"gh_username": "askeryaseen",
