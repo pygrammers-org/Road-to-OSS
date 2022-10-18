@@ -221,7 +221,7 @@
 		"place": "Kozhikode",
 		"current_pos": "Front End Developer",
 		"image": "nahyan_sharvin.jpg",
-		"bio": "Hy, I'm a third-year student pursuing my Undergraduate Degree in Computer Science. I'm a self-taught developer with experience in building some real-world projects. Ability to learn and implement new technologies quickly. My skills include React.js, HTML5, CSS3, JavaScript. These skills were learned by self and from communities."
+		"bio": "I'm a self-taught developer with experience in building some real-world projects. Ability to learn and implement new technologies quickly."
 	},
 	{
 		"name": "Joseph Jaison",
@@ -270,7 +270,7 @@
 		"current_pos": "Front-end developer",
 		"image": null,
 		"bio": "Hi, I am Aditya, I am learning front-end web devolopment."
-  	},
+  },
  	{
 		"name":"Janajith D",
 		"gh_username":"codetheft",
@@ -279,29 +279,60 @@
 		"image":"janajithd.jpg",
 		"bio":"I am a self taught web developer, currently learning ReactJS"
 	},
+  {
+		"name": "Muhammed Hafis",
+		"gh_username": "hafismuhammed",
+		"place": "Thiruvanathapuram",
+		"current_pos": "Python Software Engineer",
+		"image": "hafis.jpg",
+		"bio": "I’m a self-made Python Django developer with relevant experience in this field. "
+  },
 	{
-		"name":"Govind V R",
+  	"name":"Govind V R",
 		"gh_username":"Govindvr",
 		"place":"Trivandrum",
 		"current_pos":"Backend Python developer",
 		"image": "govind.jpeg",
 		"bio":"Hi, I'm Govind a Btech Student interested in python development"
 	}, 
-  	{
-    		"name": "Edwin Liby",
+  {
+    "name": "Edwin Liby",
 		"gh_username": "Edwinliby",
 		"place": "Alappuzha",
 		"current_pos": "Student/Front End Web developer/UI Designer",
 		"image": "Edwin-liby.png", 
 		"bio": "I am self taught in Front-end Web development, currently learning ReactJS and Flutter for cross-platform development." 
 	},
- 	{
-    		"name": "Ebin",
-                "gh_username": "ebinvarghese020",
-                "place": "Alappuzha",
-                "current_pos": "Student/Back End developer/UI Designer",
-                "image": null,
-                "bio": "I am self taught in back-end developer"
-        }
-
+	{
+		"name": "Sharon Shaju",
+		"gh_username": "codefa",
+		"place": "Kannur",
+		"current_pos": "Full Stack Engineer",
+		"image": "sharon-shaju.jpeg",
+		"bio": "Hi, I'm SHARON! I'm a Vue.js ,Nuxt.js, full stack developer currently working on webRTC P2P Metaverse."
+	},
+	{
+		"name": "Mohamed Sabith",
+		"gh_username": "sabith-nadakkavil",
+		"place": "Malappuram",
+		"current_pos": "Backend Developer",
+		"image": "null",
+		"bio": "Hi, I'm Sabith, a passionate developer from Kerala."
+	},
+	{
+		"name": "Muhammed Ajmal Pk",
+		"gh_username": "ajmalpk23",
+		"place": "Malappuram",
+		"current_pos": "Android Developer",
+		"image": "null",
+		"bio": "Hi, I'm Ajmal, a passionate developer from Kerala."
+  },
+	{
+    "name": "Ebin",
+    "gh_username": "ebinvarghese020",
+    "place": "Alappuzha",
+    "current_pos": "Student/Back End developer/UI Designer",
+    "image": null,
+    "bio": "I am self taught in back-end developer"
+	}
 ]
