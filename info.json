@@ -342,5 +342,13 @@
     "current_pos": "BTech Computer Science Student",
     "image": "ajas.jpg",
     "bio": "Hi I'm ajas, currently learning JS and C language"
+	},
+	{
+		"name": "Hafis CP",
+		"gh_username": "hafiscp",
+		"place": "Malappuram",
+		"current_pos": "Student | College of Engineering Vadakara",
+		"image": "hafiscp.jpg",
+		"bio": "Tech Enthusiast"
 	}
 ]
