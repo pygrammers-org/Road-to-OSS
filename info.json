@@ -318,5 +318,13 @@
 		"current_pos": "Backend Developer",
 		"image": "null",
 		"bio": "Hi, I'm Sabith, a passionate developer from Kerala."
+	},
+	{
+		"name": "Muhammed Ajmal Pk",
+		"gh_username": "ajmalpk23",
+		"place": "Malappuram",
+		"current_pos": "Android Developer",
+		"image": "null",
+		"bio": "Hi, I'm Ajmal, a passionate developer from Kerala."
 	}
 ]
