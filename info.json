@@ -350,5 +350,13 @@
 		"current_pos": "Student | College of Engineering Vadakara",
 		"image": "hafiscp.jpg",
 		"bio": "Tech Enthusiast"
+	},
+    {
+		"name":"Abel Mathew Simon",
+		"gh_username":"abelmathew07",
+		"place":"Kollam",
+		"current_pos":"Btech Computer Science Student",
+		"image": "abel.jpg",
+		"bio":"Intrested in full stack development,python "
 	}
 ]
