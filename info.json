@@ -406,5 +406,13 @@
 		"current_pos": "CTO, Pygrammers",
 		"image": "danwnad.jpg",
 		"bio": "Self Proclaimed Code Mafia, Will code for food"
+	},
+{
+		"name": "Arjun AG",
+		"gh_username": "agarjun007",
+		"place": "Thiruvananthapuram, Kerala, India",
+		"current_pos": "Software Engineer",
+		"image": "arjun.jpg",
+		"bio": "Always craving to learn."
 	}
 ]
