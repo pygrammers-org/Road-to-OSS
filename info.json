@@ -446,5 +446,13 @@
 		"current_pos": "BTech Computer Science Student ",
 		"image": "Misba9.jpg",
 		"bio": "Hi, I'm Misba9! Learning something new every second, Intrested in web development."
+	},
+	{
+		"name": "Aswin George Thomas",
+		"gh_username": "aswingt65",
+		"place": "Pathanamthitta",
+		"current_pos": "Student | College of Engineering Aranmula",
+		"image": "aswingt65.jpg",
+		"bio": "Hi, I am Aswin.I am a self-taught front-end web devoloper."
 	}
 ]
