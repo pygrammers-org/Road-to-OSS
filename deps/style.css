@@ -93,6 +93,7 @@ input {
 
 .content {
     padding: 30px;
+    visibility: hidden;
 }
 
 .username {

@@ -3,6 +3,7 @@
   const userCardContainer = document.querySelector("[user-cards-container]");
   const searchInput = document.querySelector("[user-search]");
   const temp = document.getElementById("temp");
+  const contentWrapper = document.getElementById("content");
 
   let users = []
 
@@ -42,9 +43,7 @@
           element: card
         }
       })
-      addDownloadEventListener();
-      loadSearchFromUrl();
-      loadNumberOfContributors()
+      onPageLoad()
     })
 
   function addDownloadEventListener() {
@@ -101,8 +100,11 @@
     search(value);
   }
 
-  function loadNumberOfContributors() {
+  function onPageLoad() {
+    addDownloadEventListener();
+    loadSearchFromUrl();
     document.getElementById('contri').innerText = users.length + ' CONTRIBUTORS'
+    contentWrapper.style.visibility = "visible"
   }
 
 }());
