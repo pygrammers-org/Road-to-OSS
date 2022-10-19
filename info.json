@@ -487,7 +487,7 @@
 		"image": "Fu_4_10.png",
 		"bio": "Aspiring design enthusiast."
 	},
-  {
+	{
 		"name": "Govind A",
 		"gh_username": "GO V IND",
 		"place": "Kerala",
@@ -500,7 +500,7 @@
 		"gh_username": "FAHADPN",
 		"place": "Thrissur, Kerala, India",
 		"current_pos": "BTech Computer Science Student ",
-		"image": "_fahad.jpeg",
+		"image": "fahad.jpeg",
 		"bio": "An AR Developer and AI enthusiast learning and exploring new technologies"
 	}
 ]
