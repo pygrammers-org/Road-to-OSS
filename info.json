@@ -470,5 +470,13 @@
 		"current_pos": "BCA student ",
 		"image": null,
 		"bio": "Graphic Designer. IG: mr_copywritter"
-	}
+	},
+  {
+	  "name": "Sharoon Rafeek",
+	  "gh_username": "SharoonRafeek",
+	  "place": "Wayanad",
+	  "current_pos": "Web developer",
+	  "image": "Sharoon.jpg",
+	  "bio": "Hi, I'm Sharoon! I'm a web developer and a computer science student."
+  }
 ]
