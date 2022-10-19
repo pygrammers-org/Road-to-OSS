@@ -518,5 +518,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An ambitious developer."
+	},
+	{
+		"name": "Sabrina Naderer",
+		"gh_username": "sanaderer",
+		"place": "Brasil",
+		"current_pos": "Junior Python Developer",
+		"image": null,
+		"bio": "Intrested in full stack development!"
 	}
 ]
