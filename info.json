@@ -422,5 +422,13 @@
 		"current_pos": "Software Engineer",
 		"image": "arjun.jpg",
 		"bio": "Always craving to learn."
+  },
+	{
+    "name": "Sreelekshmi S",
+		"gh_username": "SreelekshmiSanthosh",
+		"place": "Alappuzha",
+		"current_pos": "Front-end developer",
+		"image": null,
+		"bio": "Hi,I'm interested in coding and problem solving" 
 	}
 ]
