@@ -422,5 +422,13 @@
 		"current_pos": "Software Engineer",
 		"image": "arjun.jpg",
 		"bio": "Always craving to learn."
+	},
+	{
+		"name": "Vishnu PM",
+		"gh_username": "VISHNU-P-M",
+		"place": "Palakkad",
+		"current_pos": "Software Engineer",
+		"image": "vishnupm.jpg",
+		"bio": "Full Stack Developer Python+React/Vue"
 	}
 ]
