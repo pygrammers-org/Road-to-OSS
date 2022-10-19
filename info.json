@@ -430,5 +430,13 @@
 		"current_pos": "Front-end developer",
 		"image": null,
 		"bio": "Hi,I'm interested in coding and problem solving" 
+	},
+	{
+		"name": "Vishnu PM",
+		"gh_username": "VISHNU-P-M",
+		"place": "Palakkad",
+		"current_pos": "Software Engineer",
+		"image": "vishnupm.jpg",
+		"bio": "Full Stack Developer Python+React/Vue"
 	}
 ]
