@@ -502,5 +502,13 @@
 		"current_pos": "BTech Computer Science Student ",
 		"image": "fahad.jpeg",
 		"bio": "An AR Developer and AI enthusiast learning and exploring new technologies"
-	}
+	},
+  {
+	  "name": "Sruthi P A",
+		"gh_username": "sruthi-pa",
+		"place": "Thrissur,Kerala",
+		"current_pos": "BTech student in computer science",
+		"image": null,
+		"bio": "Loves to code and web development"
+  }
 ]
