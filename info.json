@@ -510,5 +510,13 @@
 		"current_pos": "BTech student in computer science",
 		"image": null,
 		"bio": "Loves to code and web development"
-  }
+  },
+	{
+		"name": "Anna John",
+		"gh_username": "annamjohn",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An ambitious developer."
+	}
 ]
