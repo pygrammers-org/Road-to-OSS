@@ -446,5 +446,13 @@
 		"current_pos": "BTech Computer Science Student ",
 		"image": "Misba9.jpg",
 		"bio": "Hi, I'm Misba9! Learning something new every second, Intrested in web development."
+	},
+	{
+		"name": "Sruthi P A",
+		"gh_username": "sruthi-pa",
+		"place": "Thrissur",
+		"current_pos": "BTech Computer Science Student",
+		"image": null,
+		"bio": "Hi,I am sruthi.Loves coding and web development."
 	}
 ]
