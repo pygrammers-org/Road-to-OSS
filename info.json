@@ -478,5 +478,13 @@
 	  "current_pos": "Web developer",
 	  "image": "Sharoon.jpg",
 	  "bio": "Hi, I'm Sharoon! I'm a web developer and a computer science student."
-  }
+  },
+  {
+    "name": "Muhammed Fuwad P K",
+		"gh_username": "FuwadMuhammed",
+		"place": "Calicut",
+		"current_pos": "UI/UX Designer",
+		"image": "Fu_4_10.png",
+		"bio": "Aspiring design enthusiast."
+	}
 ]
