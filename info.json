@@ -446,5 +446,13 @@
 		"current_pos": "BTech Computer Science Student ",
 		"image": "Misba9.jpg",
 		"bio": "Hi, I'm Misba9! Learning something new every second, Intrested in web development."
+	},
+	{
+		"name": "Fahad P N",
+		"gh_username": "FAHADPN",
+		"place": "Thrissur, Kerala, India",
+		"current_pos": "BTech Computer Science Student ",
+		"image": "fahad.jpeg",
+		"bio": "An AR Developer and AI enthusiast learning and exploring new technologies"
 	}
 ]
