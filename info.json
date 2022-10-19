@@ -414,5 +414,13 @@
 		"current_pos": "3rd year,IT Student",
 		"image": null,
 		"bio": "Learning something new every second "
-	}
+	},
+  {
+    "name": "Arjun AG",
+		"gh_username": "agarjun007",
+		"place": "Thiruvananthapuram",
+		"current_pos": "Software Engineer",
+		"image": "arjun.jpg",
+		"bio": "Always craving to learn."
+  }
 ]
