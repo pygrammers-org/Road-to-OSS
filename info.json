@@ -446,5 +446,13 @@
 		"current_pos": "BTech Computer Science Student ",
 		"image": "Misba9.jpg",
 		"bio": "Hi, I'm Misba9! Learning something new every second, Intrested in web development."
+	},
+	{
+	  "name": "Sharoon Rafeek",
+	  "gh_username": "SharoonRafeek",
+	  "place": "Wayanad",
+	  "current_pos": "Web developer",
+	  "image": "Sharoon.jpg",
+	  "bio": "Hi, I'm Sharoon! I'm a web developer and a computer science student."
 	}
 ]
