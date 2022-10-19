@@ -422,5 +422,14 @@
 		"current_pos": "Software Engineer",
 		"image": "arjun.jpg",
 		"bio": "Always craving to learn."
+	},
+	
+	{
+		"name": "Ahmed Misbahuddin Farhan",
+		"gh_username": "Misba9",
+		"place": "Hydrabad, Telangana, India",
+		"current_pos": "BTech Computer Science Student ",
+		"image": "Misba9.jpg", 
+		"bio": "Hi, I'm Misba9! Learning something new every second, Intrested in web development." 
 	}
 ]
