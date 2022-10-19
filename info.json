@@ -398,5 +398,13 @@
 		"current_pos": "2nd Year BCA Student",
 		"image": "akshaysrajan.png",
 		"bio": "Aspiring CEO of Google 😅"
+	},
+	{
+	        "name": "Sreelekshmi S",
+		"gh_username": "SreelekshmiSanthosh",
+		"place": "Alappuzha",
+		"current_pos": "Front-end developer",
+		"image": null,
+		"bio": "Hi,I'm interested in coding and problem solving" 
 	}
 ]
