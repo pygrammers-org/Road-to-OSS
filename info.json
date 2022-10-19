@@ -400,7 +400,31 @@
 		"bio": "Aspiring CEO of Google 😅"
 	},
 	{
-	        "name": "Sreelekshmi S",
+		"name": "Danwand NS",
+		"gh_username": "DanBrown47",
+		"place": "Kochi, Kerala, India",
+		"current_pos": "CTO, Pygrammers",
+		"image": "danwnad.jpg",
+		"bio": "Self Proclaimed Code Mafia, Will code for food"
+	},
+	{
+		"name": "Christina Rose K.J",
+		"gh_username": "christinrouz",
+		"place": "Thrissur, Kerala, India",
+		"current_pos": "3rd year,IT Student",
+		"image": null,
+		"bio": "Learning something new every second "
+	},
+	{
+		"name": "Arjun AG",
+		"gh_username": "agarjun007",
+		"place": "Thiruvananthapuram",
+		"current_pos": "Software Engineer",
+		"image": "arjun.jpg",
+		"bio": "Always craving to learn."
+  },
+	{
+    "name": "Sreelekshmi S",
 		"gh_username": "SreelekshmiSanthosh",
 		"place": "Alappuzha",
 		"current_pos": "Front-end developer",
