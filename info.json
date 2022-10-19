@@ -526,5 +526,13 @@
 		"current_pos": "Junior Python Developer",
 		"image": null,
 		"bio": "Intrested in full stack development!"
+	},
+	{
+		"name": "Haseeb KP",
+		"gh_username": "haseeb-kp",
+		"place": "Kerala",
+		"current_pos": "Web developer",
+		"image": "haseeb.jpg",
+		"bio": "Exploring the world of development"
 	}
 ]
