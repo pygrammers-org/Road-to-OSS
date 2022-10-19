@@ -446,5 +446,13 @@
 		"current_pos": "BTech Computer Science Student ",
 		"image": "Misba9.jpg",
 		"bio": "Hi, I'm Misba9! Learning something new every second, Intrested in web development."
-	}
+	},
+	{
+		"name": "Naveen Alex",
+		"gh_username": "Naveen-005",
+		"place": "Kottayam",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An aspiring developer."
+	  }
 ]
