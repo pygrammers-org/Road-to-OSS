@@ -455,15 +455,15 @@
 		"image": "aswingt65.jpg",
 		"bio": "Hi, I am Aswin.I am a self-taught front-end web devoloper."
 	},
-  {
-    "name": "Naveen Alex",
+	{
+		"name": "Naveen Alex",
 		"gh_username": "Naveen-005",
 		"place": "Kottayam",
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An aspiring developer."
-  },
-  {
+	},
+	{
 		"name": "Danis T Das",
 		"gh_username": "DanisDas",
 		"place": "Mannar",
@@ -471,16 +471,16 @@
 		"image": null,
 		"bio": "Graphic Designer. IG: mr_copywritter"
 	},
-  {
-	  "name": "Sharoon Rafeek",
-	  "gh_username": "SharoonRafeek",
-	  "place": "Wayanad",
-	  "current_pos": "Web developer",
-	  "image": "Sharoon.jpg",
-	  "bio": "Hi, I'm Sharoon! I'm a web developer and a computer science student."
-  },
-  {
-    "name": "Muhammed Fuwad P K",
+	{
+		"name": "Sharoon Rafeek",
+		"gh_username": "SharoonRafeek",
+		"place": "Wayanad",
+		"current_pos": "Web developer",
+		"image": "Sharoon.jpg",
+		"bio": "Hi, I'm Sharoon! I'm a web developer and a computer science student."
+	},
+	{
+		"name": "Muhammed Fuwad P K",
 		"gh_username": "FuwadMuhammed",
 		"place": "Calicut",
 		"current_pos": "UI/UX Designer",
