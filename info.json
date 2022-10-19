@@ -455,15 +455,15 @@
 		"image": "aswingt65.jpg",
 		"bio": "Hi, I am Aswin.I am a self-taught front-end web devoloper."
 	},
-  {
-    "name": "Naveen Alex",
+	{
+		"name": "Naveen Alex",
 		"gh_username": "Naveen-005",
 		"place": "Kottayam",
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An aspiring developer."
-  },
-  {
+	},
+	{
 		"name": "Danis T Das",
 		"gh_username": "DanisDas",
 		"place": "Mannar",
@@ -471,20 +471,52 @@
 		"image": null,
 		"bio": "Graphic Designer. IG: mr_copywritter"
 	},
-  {
-	  "name": "Sharoon Rafeek",
-	  "gh_username": "SharoonRafeek",
-	  "place": "Wayanad",
-	  "current_pos": "Web developer",
-	  "image": "Sharoon.jpg",
-	  "bio": "Hi, I'm Sharoon! I'm a web developer and a computer science student."
-  },
-  {
-    "name": "Muhammed Fuwad",
+	{
+		"name": "Sharoon Rafeek",
+		"gh_username": "SharoonRafeek",
+		"place": "Wayanad",
+		"current_pos": "Web developer",
+		"image": "Sharoon.jpg",
+		"bio": "Hi, I'm Sharoon! I'm a web developer and a computer science student."
+	},
+	{
+		"name": "Muhammed Fuwad",
 		"gh_username": "FuwadMuhammed",
 		"place": "Calicut",
 		"current_pos": "UI/UX Designer",
 		"image": "Fu_4_10.png",
 		"bio": "Aspiring design enthusiast."
+	},
+	{
+		"name": "Govind A",
+		"gh_username": "GO V IND",
+		"place": "Kerala",
+		"current_pos": "BTech student ",
+		"image": null,
+		"bio": "Devoted Developer. IG: go__v__ind"
+	},
+	{
+		"name": "Fahad P N",
+		"gh_username": "FAHADPN",
+		"place": "Thrissur, Kerala, India",
+		"current_pos": "BTech Computer Science Student ",
+		"image": "fahad.jpeg",
+		"bio": "An AR Developer and AI enthusiast learning and exploring new technologies"
+	},
+  {
+	  "name": "Sruthi P A",
+		"gh_username": "sruthi-pa",
+		"place": "Thrissur,Kerala",
+		"current_pos": "BTech student in computer science",
+		"image": null,
+		"bio": "Loves to code and web development"
+  },
+	{
+		"name": "Anna John",
+		"gh_username": "annamjohn",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An ambitious developer."
 	}
 ]
