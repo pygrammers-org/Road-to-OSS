@@ -454,5 +454,13 @@
 		"current_pos": "Student | College of Engineering Aranmula",
 		"image": "aswingt65.jpg",
 		"bio": "Hi, I am Aswin.I am a self-taught front-end web devoloper."
-	}
+	},
+  {
+    "name": "Naveen Alex",
+		"gh_username": "Naveen-005",
+		"place": "Kottayam",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An aspiring developer."
+  }
 ]
