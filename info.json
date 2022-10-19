@@ -462,5 +462,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An aspiring developer."
-  }
+  },
+  {
+		"name": "Danis T Das",
+		"gh_username": "DanisDas",
+		"place": "Mannar",
+		"current_pos": "BCA student ",
+		"image": null,
+		"bio": "Graphic Designer. IG: mr_copywritter"
+	}
 ]
