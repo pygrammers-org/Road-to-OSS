@@ -406,5 +406,13 @@
 		"current_pos": "CTO, Pygrammers",
 		"image": "danwnad.jpg",
 		"bio": "Self Proclaimed Code Mafia, Will code for food"
+	},
+	{
+		"name": "Angel Rose T J",
+		"gh_username": "Angelrose19",
+		"place": "Thrissur",
+		"current_pos": "Program Associate, µLearn",
+		"image": "angel.jpg",
+		"bio": "IT Undergrad & a community kid"
 	}
 ]
