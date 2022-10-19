@@ -120,7 +120,7 @@ input {
     padding: 8px;
 }
 
-h1 { 
+h1 {
     text-align: center;
     margin: auto;
     padding-top: 20px;
@@ -212,7 +212,7 @@ p {
     filter: drop-shadow(0 0 0.25rem gray);
 }
 
-.banner a{
+.banner a {
     color: #5ee8fd;
 }
 
