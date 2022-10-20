@@ -550,5 +550,13 @@
 		"current_pos": "Junior Python Develepor",
 		"image": "null",
 		"bio": "Competetive Programmer"
+	},
+	{
+		"name": "Sanu Muhammed", 
+		"gh_username": "sanumuhammedc", 
+		"place": "Kozhikode", 
+		"current_pos": "Web and blockchain dev", 
+		"image": "SANU MUHAMMED C.jpg", 
+		"bio": "A full time learner who works part time." 
 	}
 ]
