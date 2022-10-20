@@ -1,13 +1,5 @@
 [
 	{
-		"name": "Arjun M S",
-		"gh_username": "arjun-ms",
-		"place": "Palakkad",
-		"current_pos": "Student",
-		"image": "arjun-ms.jpg",
-		"bio": "Curious Guy who is a python developer and ML enthusiast"
-	},
-	{
 		"name": "Shaheen Hyder",
 		"gh_username": "shaheenhyderk",
 		"place": "Malappuram",
@@ -566,5 +558,13 @@
 		"current_pos": "Web and blockchain dev", 
 		"image": "SANU MUHAMMED C.jpg", 
 		"bio": "A full time learner who works part time." 
+	},
+	{
+		"name": "Arjun M S",
+		"gh_username": "arjun-ms",
+		"place": "Palakkad",
+		"current_pos": "Student",
+		"image": "arjun-ms.jpg",
+		"bio": "Curious Guy who is a python developer and ML enthusiast"
 	}
 ]
