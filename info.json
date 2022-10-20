@@ -614,5 +614,15 @@
 		"current_pos": "Full stack developer",
 		"image": "null",
 		"bio": "Likes solving problems"
+	},
+
+	{
+		
+		"name": "Kevin Paul Babu",
+		"gh_username": "Kevinpaulbabu1820",
+		"place": "Ernakulam",
+		"current_pos": "Final year Student",
+		"image": "kevinpaulbabu.jpg",
+		"bio": "Curious to front-end development"
 	}
 ]
