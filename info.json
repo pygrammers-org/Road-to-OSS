@@ -574,5 +574,13 @@
 		"current_pos": "BTech student",
 		"image": null,
 		"bio": "Dev enthusiast"
+	},
+	{
+		"name": "Ajas Mohammed",
+		"gh_username": "AjasMohammed",
+		"place": "Kollam",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Want to Learn More"
 	}
 ]
