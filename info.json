@@ -582,5 +582,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "Want to Learn More"
+	},
+	{
+		"name": "Harikrishnan U S",
+		"gh_username": "HKRcodes",
+		"place": "Trivandrum",
+		"current_pos": "BTech student",
+		"image": null,
+		"bio": "Interested in whole universe"
 	}
 ]
