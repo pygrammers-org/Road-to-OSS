@@ -582,5 +582,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "Want to Learn More"
+	},
+	{
+		"name": "Akarsh",
+		"gh_username": "AkarshAnilkumar",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An ambitious developer"
 	}
 ]
