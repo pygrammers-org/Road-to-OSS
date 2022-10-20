@@ -542,5 +542,13 @@
 		"current_pos": "Data Scientist",
 		"image": "mubarakmayyeri.jpg",
 		"bio": "Aspiring Data Scientist, have experience in Python web developement."
+	},
+	{
+		"name": "Muhammad Ali K",
+		"gh_username": "mhdalik",
+		"place": "Kerala",
+		"current_pos": "Junior Python Develepor",
+		"image": "null",
+		"bio": "Competetive Programmer"
 	}
 ]
