@@ -614,5 +614,13 @@
 		"current_pos": "Full stack developer",
 		"image": "null",
 		"bio": "Likes solving problems"
+	},
+	{
+		"name": "Harikrishnan U S",
+		"gh_username": "HKRcodes",
+		"place": "Trivandrum",
+		"current_pos": "BTech Student",
+		"image": "null",
+		"bio": "Interested in whole universe"
 	}
 ]
