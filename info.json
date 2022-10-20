@@ -600,11 +600,19 @@
 		"bio": "An ambitious developer"
 	},
 	{
+		"name": "Nayan Prasad P K",
+		"gh_username": "nayanprasad",
+		"place": "Kasargod",
+		"current_pos": "Student",
+		"image": "nayan-prasad.png",
+		"bio": "Dev enthusiast || MERN stack developer"
+	},
+	{
 		"name": "sainudheen",
 		"gh_username": "sainudheenp",
 		"place": "Wayanad",
 		"current_pos": "Full stack developer",
 		"image": "null",
 		"bio": "Likes solving problems"
-	},
+	}
 ]
