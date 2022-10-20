@@ -582,5 +582,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "Want to Learn More"
+	},
+	{
+		"name": "Nayan Prasad P K",
+		"gh_username": "nayanprasad",
+		"place": "Kasargod",
+		"current_pos": "Student",
+		"image": "nayan-prasad.jpg",
+		"bio": "Dev enthusiast"
 	}
 ]
