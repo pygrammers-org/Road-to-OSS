@@ -614,5 +614,13 @@
 		"current_pos": "Full stack developer",
 		"image": "null",
 		"bio": "Likes solving problems"
+	},
+	{
+		"name": "Angel Rose",
+		"gh_username": "Angelrose19",
+		"place": "Thrissur",
+		"current_pos": "Program Associate, μLearn",
+		"image": "angel.jpg",
+		"bio": "IT undergrad and a community kid"
 	}
 ]
