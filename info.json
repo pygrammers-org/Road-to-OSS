@@ -584,6 +584,22 @@
 		"bio": "Want to Learn More"
 	},
 	{
+		"name": "Nevil Krishna",
+		"gh_username": "dracu-lah",
+		"place": "Thrissur",
+		"current_pos": "Computer Science,Diploma in Engineering",
+		"image": null,
+		"bio": "Likes coding and building systems"
+	},
+	{
+		"name": "Akarsh",
+		"gh_username": "AkarshAnilkumar",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An ambitious developer"
+	},
+	{
 		"name": "Nayan Prasad P K",
 		"gh_username": "nayanprasad",
 		"place": "Kasargod",
