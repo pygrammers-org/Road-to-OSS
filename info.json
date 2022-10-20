@@ -583,4 +583,12 @@
 		"image": null,
 		"bio": "Want to Learn More"
 	}
+    	{
+		"name": "Nevil Krishna",
+		"gh_username": "dracu-lah",
+		"place": "Thrissur",
+		"current_pos": "Computer Science,Diploma in Engineering",
+		"image": null,
+		"bio": "Likes coding and building systems"
+	},
 ]
