@@ -614,5 +614,13 @@
 		"current_pos": "Full stack developer",
 		"image": "null",
 		"bio": "Likes solving problems"
+	},
+	{
+		"name": "Sony K Martin",
+		"gh_username": "sonykmartin",
+		"place": "Kottayam",
+		"current_pos": "Student",
+		"image": "sony.jpeg",
+		"bio": "Exploring the world of development"
 	}
 ]
