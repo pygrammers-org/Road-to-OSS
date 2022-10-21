@@ -654,5 +654,13 @@
 		"current_pos": "Flutter and MERN Stack Web developer",
 		"image": "gladson-lalu.jpeg",
 		"bio": "Make the world a better place 🌍✨"
+	},
+	{
+		"name": "Albin Mathews Joseph",
+		"gh_username": "Almajoo",
+		"place": "Pathanamthitta",
+		"current_pos": "Student",
+		"image": "Almajoo.jpeg",
+		"bio": "An average everyday Guy"
 	}
 ]
