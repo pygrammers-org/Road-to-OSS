@@ -662,5 +662,13 @@
 		"current_pos": "Student",
 		"image": "Almajoo.jpeg",
 		"bio": "An average everyday Guy"
+	},
+    {
+		"name": "Joel joy",
+		"gh_username": "The_Average_guy",
+		"place": "Thrissur",
+		"current_pos": "BTECH Student",
+		"image": null,
+		"bio": "Modern day Techie"
 	}
 ]
