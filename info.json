@@ -614,5 +614,13 @@
 		"current_pos": "Full stack developer",
 		"image": "null",
 		"bio": "Likes solving problems"
+	},
+	{
+		"name": "Mohammed Mishal",
+		"gh_username": "mishalBasheer",
+		"place": "Kozhikode",
+		"current_pos": "MERN Stack Web Developer",
+		"image": "mishalBasheer.jpg",
+		"bio": "Enthusiastic Techie 🧑‍💻"
 	}
 ]
