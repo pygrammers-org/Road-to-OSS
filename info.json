@@ -630,5 +630,13 @@
 		"current_pos": "BTech Student",
 		"image": "null",
 		"bio": "Interested in whole universe"
+	},
+	{
+		"name": "Angel Rose",
+		"gh_username": "Angelrose19",
+		"place": "Thrissur",
+		"current_pos": "Program Associate, μLearn",
+		"image": "angel.jpeg",
+		"bio": "IT undergrad and a community kid"
 	}
 ]
