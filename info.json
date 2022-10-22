@@ -686,5 +686,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An ambitious developer."
+	},
+	{
+		"name": "Gouri K",
+		"gh_username": "Gk-02",
+		"place": "Palakkad",
+		"current_pos": "Btech Student",
+		"image": "Gouri_k.jpg",
+		"bio": "An enthusiast learner and explorer."
 	}
 ]
