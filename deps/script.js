@@ -107,4 +107,41 @@
     contentWrapper.style.visibility = "visible"
   }
 
+  let downBtn = document.getElementById("btn-down")
+  let upBtn = document.getElementById("btn-up")
+  let rootElement = document.documentElement
+
+  function scrollToBottom() {
+    var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+    rootElement.scrollTo({
+      top: scrollTotal,
+      behavior: "smooth"
+    })
+  }
+
+  function scrollToTop() {
+    rootElement.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
+
+  function handleScroll() {
+    var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+    if ((rootElement.scrollTop / scrollTotal) > 0.10) {
+      downBtn.classList.add("btn-show")
+    } else {
+      downBtn.classList.remove("btn-show")
+    }
+    if ((rootElement.scrollTop / scrollTotal) > 0.40) {
+      upBtn.classList.add("btn-show")
+    } else {
+      upBtn.classList.remove("btn-show")
+    }
+  }
+  
+  downBtn.addEventListener("click", scrollToBottom)
+  upBtn.addEventListener("click", scrollToTop)
+  document.addEventListener("scroll", handleScroll)
+
 }());
