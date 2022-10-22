@@ -678,5 +678,13 @@
 		"current_pos": "Btech Student",
 		"image": "nihal_v.jpeg",
 		"bio": "An enthusiast Developer and problem Solver"
+	},
+	{
+		"name": "Gadha lekshmi P",
+		"gh_username": "gadhalekshmip",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An ambitious developer."
 	}
 ]
