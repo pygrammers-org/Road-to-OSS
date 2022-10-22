@@ -670,5 +670,14 @@
 		"current_pos": "BTECH Student",
 		"image": null,
 		"bio": "Modern day Techie"
+	},
+	{
+		"name": "Nihal Vadakkan",
+		"gh_username": "nvadakkan20",
+		"place": "Malappuram",
+		"current_pos": "Btech Student",
+		"image": "nihal_v.jpg",
+		"bio": "Likes solving problems"
 	}
+
 ]
