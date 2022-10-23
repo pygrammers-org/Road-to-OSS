@@ -734,5 +734,13 @@
 		"current_pos": "Diploma in Computer Hardware Engineering",
 		"image":null,
 		"bio": "Open Source Lover, Intrested in coding, Upskilling in DevOps"
+	},
+	{
+		"name": "Jayakanth",
+		"gh_username": "JAYAKANTHARUN",
+		"place": "Ernakulam",
+		"current_pos": "Btech Student",
+		"image": null,
+		"bio": "coder"
 	}
 ]
