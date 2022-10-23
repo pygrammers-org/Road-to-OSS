@@ -128,14 +128,11 @@
 
   function handleScroll() {
     var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
-    if ((rootElement.scrollTop / scrollTotal) > 0.10) {
+    if ((rootElement.scrollTop / scrollTotal) > 0.01 && (rootElement.scrollTop / scrollTotal) < 0.99) {
       downBtn.classList.add("btn-show")
-    } else {
-      downBtn.classList.remove("btn-show")
-    }
-    if ((rootElement.scrollTop / scrollTotal) > 0.40) {
       upBtn.classList.add("btn-show")
     } else {
+      downBtn.classList.remove("btn-show")
       upBtn.classList.remove("btn-show")
     }
   }
