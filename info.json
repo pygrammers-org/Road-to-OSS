@@ -719,6 +719,14 @@
 		"current_pos": "Btech Student",
 		"image":"aneena.jpeg",
 		"bio": "EXPERIENCE||DEV||EXPLORE"
-
+	},
+	{
+		"name": "Kevin Joseph Hendry",
+		"gh_username": "kevin-j-h",
+		"place": "Kochi",
+		"current_pos": "Btech Student",
+		"image": "kevinj.jpg",
+		"bio": "Developer in the making"
 	}
+
 ]
