@@ -704,12 +704,28 @@
 		"bio": "Speak in code"
 	},
 	{
+		"name": "Abhiram Krishna S",
+		"gh_username": "Abhiramks2003",
+		"place": "Malappuram",
+		"current_pos": "BTech Student",
+		"image": null,
+		"bio": "A web development enthusiast"
+   },
+  {
 		"name": "Aneena Antony",
 		"gh_username": "Aneenaanu321",
 		"place": "Thrissur",
 		"current_pos": "Btech Student",
 		"image":"aneena.jpeg",
 		"bio": "EXPERIENCE||DEV||EXPLORE"
+	},
+	{
+		"name": "Kevin Joseph Hendry",
+		"gh_username": "kevin-j-h",
+		"place": "Kochi",
+		"current_pos": "Btech Student",
+		"image": "kevinj.jpg",
+		"bio": "Developer in the making"
 	},
 	{
 		"name": "Sheheer Ali",
