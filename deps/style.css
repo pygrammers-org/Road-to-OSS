@@ -1,5 +1,5 @@
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 * {
@@ -247,6 +247,42 @@ button i {
 
 .hfLogo {
     height: 30px;
+}
+
+
+.scroll-btn-group i {
+  position: fixed;
+  z-index: 99;
+  padding: 5px;
+  font-size: 40px;
+  right: 90px;
+  border-radius: 30px;
+  cursor: pointer;
+  background-size: 300%, 100%;
+  color: #170f1e;
+  background-image: linear-gradient(45deg, #FFD74D, #40DDE1, #7C7FFF, #5ee8fd);
+  filter: drop-shadow(rgba(255, 215, 77, 0.6) -2px -2px 4px) drop-shadow(rgba(124, 127, 255, 0.6) 2px 2px 4px);
+  transition: all .5s ease-in-out;
+}
+
+.scroll-btn-group i:hover {
+  background-position: 100% 0;
+  transition: all .5s ease-in-out;
+}
+
+.fa-chevron-up {
+  transform: translateY(-130px);
+  top: 30px;
+}
+
+.fa-chevron-down {
+  transform: translateY(130px);
+  bottom: 30px
+}
+
+.btn-show {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 @media(max-width:1500px) {

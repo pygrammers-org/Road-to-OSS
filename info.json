@@ -503,14 +503,14 @@
 		"image": "fahad.jpeg",
 		"bio": "An AR Developer and AI enthusiast learning and exploring new technologies"
 	},
-  {
-	  "name": "Sruthi P A",
+	{
+		"name": "Sruthi P A",
 		"gh_username": "sruthi-pa",
 		"place": "Thrissur,Kerala",
 		"current_pos": "BTech student in computer science",
 		"image": null,
 		"bio": "Loves to code and web development"
-  },
+	},
 	{
 		"name": "Anna John",
 		"gh_username": "annamjohn",
@@ -552,12 +552,12 @@
 		"bio": "Competetive Programmer"
 	},
 	{
-		"name": "Sanu Muhammed", 
-		"gh_username": "sanumuhammedc", 
-		"place": "Kozhikode", 
-		"current_pos": "Web and blockchain dev", 
-		"image": "SANU MUHAMMED C.jpg", 
-		"bio": "A full time learner who works part time." 
+		"name": "Sanu Muhammed",
+		"gh_username": "sanumuhammedc",
+		"place": "Kozhikode",
+		"current_pos": "Web and blockchain dev",
+		"image": "SANU MUHAMMED C.jpg",
+		"bio": "A full time learner who works part time."
 	},
 	{
 		"name": "Arjun M S",
@@ -624,5 +624,132 @@
 		"current_pos": "Final year Student",
 		"image": "kevinpaulbabu.jpg",
 		"bio": "Curious to front-end development"
+	{
+		"name": "Sony K Martin",
+		"gh_username": "sonykmartin",
+		"place": "Kottayam",
+		"current_pos": "Student",
+		"image": "sony.jpeg",
+		"bio": "Exploring the world of development"
+	},
+	{
+		"name": "Harikrishnan U S",
+		"gh_username": "HKRcodes",
+		"place": "Trivandrum",
+		"current_pos": "BTech Student",
+		"image": "null",
+		"bio": "Interested in whole universe"
+	},
+	{
+		"name": "Angel Rose",
+		"gh_username": "Angelrose19",
+		"place": "Thrissur",
+		"current_pos": "Program Associate, μLearn",
+		"image": "angel.jpeg",
+		"bio": "IT undergrad and a community kid"
+	},
+	{
+		"name": "Mohammed Mishal",
+		"gh_username": "mishalBasheer",
+		"place": "Kozhikode",
+		"current_pos": "MERN Stack Web Developer",
+		"image": "mishalBasheer.jpg",
+		"bio": "Enthusiastic Techie  🧑‍💻"
+	},
+	{
+		"name": "Gladson T Lalu",
+		"gh_username": "Gladson-Lalu",
+		"place": "Thiruvalla",
+		"current_pos": "Flutter and MERN Stack Web developer",
+		"image": "gladson-lalu.jpeg",
+		"bio": "Make the world a better place 🌍✨"
+	},
+	{
+		"name": "Albin Mathews Joseph",
+		"gh_username": "Almajoo",
+		"place": "Pathanamthitta",
+		"current_pos": "Student",
+		"image": "Almajoo.jpeg",
+		"bio": "An average everyday Guy"
+	},
+	{
+		"name": "Joel joy",
+		"gh_username": "The_Average_guy",
+		"place": "Thrissur",
+		"current_pos": "BTECH Student",
+		"image": null,
+		"bio": "Modern day Techie"
+	},
+	{
+		"name": "Nihal Vadakkan",
+		"gh_username": "nvadakkan20",
+		"place": "Malappuram",
+		"current_pos": "Btech Student",
+		"image": "nihal_v.jpeg",
+		"bio": "An enthusiast Developer and problem Solver"
+	},
+	{
+		"name": "Gadha lekshmi P",
+		"gh_username": "gadhalekshmip",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An ambitious developer."
+	},
+	{
+		"name": "Gouri K",
+		"gh_username": "Gk-02",
+		"place": "Palakkad",
+		"current_pos": "Btech Student",
+		"image": "Gouri_k.jpg",
+		"bio": "An enthusiast learner and explorer."
+	},
+	{
+		"name": "Ahad Anzar",
+		"gh_username": "ahadanzar",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Speak in code"
+	},
+	{
+		"name": "Abhiram Krishna S",
+		"gh_username": "Abhiramks2003",
+		"place": "Malappuram",
+		"current_pos": "BTech Student",
+		"image": null,
+		"bio": "A web development enthusiast"
+	},
+	{
+		"name": "Aneena Antony",
+		"gh_username": "Aneenaanu321",
+		"place": "Thrissur",
+		"current_pos": "Btech Student",
+		"image": "aneena.jpeg",
+		"bio": "EXPERIENCE||DEV||EXPLORE"
+	},
+	{
+		"name": "Kevin Joseph Hendry",
+		"gh_username": "kevin-j-h",
+		"place": "Kochi",
+		"current_pos": "Btech Student",
+		"image": "kevinj.jpg",
+		"bio": "Developer in the making"
+	},
+	{
+		"name": "Sheheer Ali",
+		"gh_username": "sheheeralizx",
+		"place": "Palakkad",
+		"current_pos": "Diploma in Computer Hardware Engineering",
+		"image": null,
+		"bio": "Open Source Lover, Intrested in coding, Upskilling in DevOps"
+	},
+	{
+		"name": "Jayakanth",
+		"gh_username": "JAYAKANTHARUN",
+		"place": "Ernakulam",
+		"current_pos": "Btech Student",
+		"image": null,
+		"bio": "coder"
 	}
 ]
