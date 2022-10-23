@@ -688,6 +688,22 @@
 		"bio": "An ambitious developer."
 	},
 	{
+		"name": "Gouri K",
+		"gh_username": "Gk-02",
+		"place": "Palakkad",
+		"current_pos": "Btech Student",
+		"image": "Gouri_k.jpg",
+		"bio": "An enthusiast learner and explorer."
+	}, 
+	{
+		"name": "Ahad Anzar",
+		"gh_username": "ahadanzar",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Speak in code"
+	},
+	{
 		"name": "Kevin Joseph Hendry",
 		"gh_username": "kevin-j-h",
 		"place": "Kochi",
