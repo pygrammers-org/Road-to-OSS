@@ -503,14 +503,14 @@
 		"image": "fahad.jpeg",
 		"bio": "An AR Developer and AI enthusiast learning and exploring new technologies"
 	},
-  	{
-	  	"name": "Sruthi P A",
+	{
+		"name": "Sruthi P A",
 		"gh_username": "sruthi-pa",
 		"place": "Thrissur,Kerala",
 		"current_pos": "BTech student in computer science",
 		"image": null,
 		"bio": "Loves to code and web development"
-  	},
+	},
 	{
 		"name": "Anna John",
 		"gh_username": "annamjohn",
@@ -552,12 +552,12 @@
 		"bio": "Competetive Programmer"
 	},
 	{
-		"name": "Sanu Muhammed", 
-		"gh_username": "sanumuhammedc", 
-		"place": "Kozhikode", 
-		"current_pos": "Web and blockchain dev", 
-		"image": "SANU MUHAMMED C.jpg", 
-		"bio": "A full time learner who works part time." 
+		"name": "Sanu Muhammed",
+		"gh_username": "sanumuhammedc",
+		"place": "Kozhikode",
+		"current_pos": "Web and blockchain dev",
+		"image": "SANU MUHAMMED C.jpg",
+		"bio": "A full time learner who works part time."
 	},
 	{
 		"name": "Arjun M S",
@@ -663,7 +663,7 @@
 		"image": "Almajoo.jpeg",
 		"bio": "An average everyday Guy"
 	},
-    	{
+	{
 		"name": "Joel joy",
 		"gh_username": "The_Average_guy",
 		"place": "Thrissur",
@@ -694,7 +694,7 @@
 		"current_pos": "Btech Student",
 		"image": "Gouri_k.jpg",
 		"bio": "An enthusiast learner and explorer."
-	}, 
+	},
 	{
 		"name": "Ahad Anzar",
 		"gh_username": "ahadanzar",
@@ -710,13 +710,13 @@
 		"current_pos": "BTech Student",
 		"image": null,
 		"bio": "A web development enthusiast"
-   },
-  {
+	},
+	{
 		"name": "Aneena Antony",
 		"gh_username": "Aneenaanu321",
 		"place": "Thrissur",
 		"current_pos": "Btech Student",
-		"image":"aneena.jpeg",
+		"image": "aneena.jpeg",
 		"bio": "EXPERIENCE||DEV||EXPLORE"
 	},
 	{
@@ -732,7 +732,7 @@
 		"gh_username": "sheheeralizx",
 		"place": "Palakkad",
 		"current_pos": "Diploma in Computer Hardware Engineering",
-		"image":null,
+		"image": null,
 		"bio": "Open Source Lover, Intrested in coding, Upskilling in DevOps"
 	},
 	{
