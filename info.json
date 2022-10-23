@@ -710,5 +710,13 @@
 		"current_pos": "Btech Student",
 		"image":"aneena.jpeg",
 		"bio": "EXPERIENCE||DEV||EXPLORE"
+	},
+	{
+		"name": "Jayakanth",
+		"gh_username": "JAYAKANTHARUN",
+		"place": "Ernakulam",
+		"current_pos": "Btech Student",
+		"image": null,
+		"bio": "coder"
 	}
 ]
