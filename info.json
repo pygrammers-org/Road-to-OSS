@@ -702,5 +702,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "Speak in code"
+	},
+	{
+		"name": "Aneena Antony",
+		"gh_username": "Aneenaanu321",
+		"place": "Thrissur",
+		"current_pos": "Btech Student",
+		"image":"aneena.jpeg",
+		"bio": "EXPERIENCE||DEV||EXPLORE"
 	}
 ]
