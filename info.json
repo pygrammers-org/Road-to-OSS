@@ -710,5 +710,13 @@
 		"current_pos": "Btech Student",
 		"image":"aneena.jpeg",
 		"bio": "EXPERIENCE||DEV||EXPLORE"
+	},
+	{
+		"name": "Sheheer Ali",
+		"gh_username": "sheheeralizx",
+		"place": "Palakkad",
+		"current_pos": "Diploma in Computer Hardware Engineering",
+		"image":null,
+		"bio": "Open Source Lover, Intrested in coding, Upskilling in DevOps"
 	}
 ]
