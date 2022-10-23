@@ -704,7 +704,6 @@
 		"bio": "Speak in code"
 	},
 	{
-
 		"name": "Abhiram Krishna S",
 		"gh_username": "Abhiramks2003",
 		"place": "Malappuram",
@@ -727,6 +726,13 @@
 		"current_pos": "Btech Student",
 		"image": "kevinj.jpg",
 		"bio": "Developer in the making"
+	},
+	{
+		"name": "Sheheer Ali",
+		"gh_username": "sheheeralizx",
+		"place": "Palakkad",
+		"current_pos": "Diploma in Computer Hardware Engineering",
+		"image":null,
+		"bio": "Open Source Lover, Intrested in coding, Upskilling in DevOps"
 	}
-
 ]
