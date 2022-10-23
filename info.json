@@ -702,5 +702,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "Speak in code"
+	},
+	{
+		"name": "Abhiram Krishna S",
+		"gh_username": "Abhiramks2003",
+		"place": "Malappuram",
+		"current_pos": "BTech Student",
+		"image": null,
+		"bio": "A web development enthusiast"
 	}
 ]
