@@ -744,12 +744,36 @@
 		"bio": "coder"
 	},
 	{
-	"name": "Kevin Paul Babu",
+		"name": "Basim Hilal",
+		"gh_username": "basimhilalv",
+		"place": "Malappuram",
+		"current_pos": "IT Graduate",
+		"image": null,
+		"bio": "Likes to learn new things"
+	},
+	{
+		"name": "Aazim Anish",
+		"gh_username": "AazimAnish",
+		"place": "Aluva",
+		"current_pos": "BTech Student",
+		"image": "aazim.jpg",
+		"bio": "Tech enthusiast🧑‍💻 || Security Researcher🔐"
+  },
+  {
+		"name": "Kevin Paul Babu",
 		"gh_username": "Kevinpaulbabu1820",
 		"place": "Ernakulam",
 		"current_pos": "Btech Final yr Student",
 		"image": null,
 		"bio": "Curious about full stack development" 
+	},
+	{
+		"name": "Akash Menon",
+		"gh_username": "a-paradox-box",
+		"place": "Ernakulam",
+		"current_pos": "Btech Final yr Student",
+		"image": null,
+		"bio": "Self taught systems engineer"
 	},
 	{
 		"name": "Joel Peter Joseph",
