@@ -246,5 +246,13 @@
 		"current_pos": "Full Stack Developer",
 		"image": "shabithkms.jpeg",
 		"bio": "Self-taught Full stack Developer."
+	},
+	{
+		"name": "Husna Chungath",
+		"gh_username": "husnachungath",
+		"place": "Tirur",
+		"current_pos": "Python Django Developer",
+		"image": "husna.jpeg",
+		"bio": "Learning a new programming language can be hugely fascinating and a fun experience."
 	}
 ]
