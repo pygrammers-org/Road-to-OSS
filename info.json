@@ -8,14 +8,6 @@
 		"bio": "Likes solving problems and building systems"
 	},
 	{
-		"name": "Basim Hilal",
-		"gh_username": "basimhilalv",
-		"place": "Malappuram",
-		"current_pos": "IT Graduate",
-		"image": null,
-		"bio": "Likes to learn new things"
-	},
-	{
 		"name": "Hari Sankar",
 		"gh_username": "h4r1337",
 		"place": "Thiruvananthapuram",
@@ -752,6 +744,22 @@
 		"bio": "coder"
 	},
 	{
+		"name": "Basim Hilal",
+		"gh_username": "basimhilalv",
+		"place": "Malappuram",
+		"current_pos": "IT Graduate",
+		"image": null,
+		"bio": "Likes to learn new things"
+	},
+	{
+		"name": "Aazim Anish",
+		"gh_username": "AazimAnish",
+		"place": "Aluva",
+		"current_pos": "BTech Student",
+		"image": "aazim.jpg",
+		"bio": "Tech enthusiast🧑‍💻 || Security Researcher🔐"
+  },
+  {
 		"name": "Kevin Paul Babu",
 		"gh_username": "Kevinpaulbabu1820",
 		"place": "Ernakulam",
