@@ -750,5 +750,13 @@
 		"current_pos": "Btech Final yr Student",
 		"image": null,
 		"bio": "Curious about full stack development" 
+	},
+	{
+		"name": "Joel Peter Joseph",
+		"gh_username": "joelpeterjoseph",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Philanthropist"
 	}
 ]
