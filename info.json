@@ -752,11 +752,19 @@
 		"bio": "coder"
 	},
 	{
-	"name": "Kevin Paul Babu",
+		"name": "Kevin Paul Babu",
 		"gh_username": "Kevinpaulbabu1820",
 		"place": "Ernakulam",
 		"current_pos": "Btech Final yr Student",
 		"image": null,
-		"bio": "Curious about full stack development" 
+		"bio": "Curious about full stack development"
+	},
+	{
+		"name": "Akash Menon",
+		"gh_username": "a-paradox-box",
+		"place": "Ernakulam",
+		"current_pos": "Btech Final yr Student",
+		"image": null,
+		"bio": "Self taught systems engineer"
 	}
 ]
