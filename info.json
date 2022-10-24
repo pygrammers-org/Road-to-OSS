@@ -767,8 +767,8 @@
 		"image": null,
 		"bio": "Curious about full stack development" 
 	},
-	{
-		"name": "Akash Menon",
+  {
+    "name": "Akash Menon",
 		"gh_username": "a-paradox-box",
 		"place": "Ernakulam",
 		"current_pos": "Btech Final yr Student",
@@ -782,5 +782,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "Philanthropist"
-	}
+	},
+	{
+		"name": "Husna Chungath",
+		"gh_username": "husnachungath",
+		"place": "Tirur",
+		"current_pos": "Python Django Developer",
+		"image": "husna.jpeg",
+		"bio": "Learning a new programming language can be hugely fascinating and a fun experience."
+  }
 ]
