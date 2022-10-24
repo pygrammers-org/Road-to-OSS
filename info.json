@@ -742,5 +742,13 @@
 		"current_pos": "Btech Student",
 		"image": null,
 		"bio": "coder"
+	},
+	{
+		"name": "Aazim Anish",
+		"gh_username": "AazimAnish",
+		"place": "Aluva",
+		"current_pos": "BTech Student",
+		"image": aazim.jpg,
+		"bio": "Tech enthusiast🧑‍💻 || Security Researcher🔐"
 	}
 ]
