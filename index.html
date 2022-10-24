@@ -24,13 +24,21 @@
       <a href="https://github.com/pygrammers-org/Road-To-OSS" target="_blank" rel="noreferrer">Road-To-OSS</a>
     </span>
   </div>
-  <div class="content">
+  <div class="scroll-btn-group">
+    <i title="scroll to top" class="fa-solid fa-chevron-up" id="btn-up"></i>
+    <i title="scroll to bottom" class="fa-solid fa-chevron-down" id="btn-down"></i>
+  </div>
+  <div class="content" id="content">
     <div class="main-logos">
       <div class="pylogo">
-        <img src="deps/py-l.png" width="150" />
+        <a href="https://pygrammers.org/" target="_blank">
+          <img src="deps/py-l.png" width="150" />
+        </a>
       </div>
       <div class="hflogo">
-        <img src="deps/hf-l.png" width="100" />
+        <a href="https://hacktoberfest.com/" target="_blank">
+          <img src="deps/hf-l.png" width="100" />
+        </a>
       </div>
     </div>
     <h1 class="road-to-oss">ROAD-TO-OSS</h1>
@@ -39,7 +47,7 @@
       <input type="search" placeholder="  Search your profile" id="search" user-search />
     </div>
     <div class="heading">
-      <button class="contri">CONTRIBUTORS</button>
+      <button class="contri" id="contri">CONTRIBUTORS</button>
     </div>
     <div class="gallery" user-cards-container></div>
 
@@ -64,7 +72,6 @@
     <div id="temp"></div>
   </div>
 
-  <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
   <!--font awesome-->
   <script src="https://kit.fontawesome.com/576638e44b.js" crossorigin="anonymous"></script>
   <!--html2canvas-->

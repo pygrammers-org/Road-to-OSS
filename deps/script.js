@@ -3,6 +3,7 @@
   const userCardContainer = document.querySelector("[user-cards-container]");
   const searchInput = document.querySelector("[user-search]");
   const temp = document.getElementById("temp");
+  const contentWrapper = document.getElementById("content");
 
   let users = []
 
@@ -17,7 +18,6 @@
         userCardContainer.append(user.element);
       }
     })
-    magicGrid.positionItems();
   }
 
   searchInput.addEventListener("input", e => {
@@ -43,8 +43,7 @@
           element: card
         }
       })
-      addDownloadEventListener();
-      loadSearchFromUrl();
+      onPageLoad()
     })
 
   function addDownloadEventListener() {
@@ -101,11 +100,45 @@
     search(value);
   }
 
-  let magicGrid = new MagicGrid({
-    container: ".gallery",
-    items: 1,
-    animate: true,
-  });
-  magicGrid.listen();
+  function onPageLoad() {
+    addDownloadEventListener();
+    loadSearchFromUrl();
+    document.getElementById('contri').innerText = users.length + ' CONTRIBUTORS'
+    contentWrapper.style.visibility = "visible"
+  }
+
+  let downBtn = document.getElementById("btn-down")
+  let upBtn = document.getElementById("btn-up")
+  let rootElement = document.documentElement
+
+  function scrollToBottom() {
+    var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+    rootElement.scrollTo({
+      top: scrollTotal,
+      behavior: "smooth"
+    })
+  }
+
+  function scrollToTop() {
+    rootElement.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  }
+
+  function handleScroll() {
+    var scrollTotal = rootElement.scrollHeight - rootElement.clientHeight
+    if ((rootElement.scrollTop / scrollTotal) > 0.01 && (rootElement.scrollTop / scrollTotal) < 0.99) {
+      downBtn.classList.add("btn-show")
+      upBtn.classList.add("btn-show")
+    } else {
+      downBtn.classList.remove("btn-show")
+      upBtn.classList.remove("btn-show")
+    }
+  }
+  
+  downBtn.addEventListener("click", scrollToBottom)
+  upBtn.addEventListener("click", scrollToTop)
+  document.addEventListener("scroll", handleScroll)
 
 }());

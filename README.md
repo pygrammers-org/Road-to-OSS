@@ -59,7 +59,7 @@ For example:
 git switch -c add-shaheen-hyder
 ```
 
-## Step 3 - Make changes and commit
+## Step 4 - Make changes and commit
 
 - Edit the `info.json` file in the project directory to include your information.
 
@@ -75,10 +75,11 @@ git switch -c add-shaheen-hyder
     "place": "New York", # Your place -> No longer than 30 characters
     "current_pos": "Web developer", # Your current position (student/freelancer/working etc.) -> No longer than 58 characters
     "image": "johndoe.png", # Name of your portrait image added in the /images directory -> Image size not greater than 200KB
-    "bio": "Hi, I'm John! I'm a web developer with in-depth experience in UI/UX design." # A short bio of you -> No longer than 500 characters 
+    "bio": "Hi, I'm John! I'm a web developer with in-depth experience in UI/UX design." # A short bio of you -> No longer than 150 characters 
   }
 ]
 ```
+**NOTE:** make sure to add your info at the end of the file, after the last user's data. Not in the middle of the file
 
 - Add a portrait image of you with your name and add it to the `images/` directory. If you don't want to add an image use `null` in the json file
 - Image size should not be greater than **200KB**
@@ -112,7 +113,7 @@ For example:
 git commit -m "Add Shaheen Hyder to contributors list"
 ```
 
-## Step 4 - Push the changes to GitHub
+## Step 5 - Push the changes to GitHub
 
 Push your changes to GitHub using the `git push` command:
 
@@ -130,13 +131,13 @@ git push -u origin add-shaheen-hyder
 
 [Creating a personal access token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token)
 
-## Step 5 - Submit your changes for review
+## Step 6 - Submit your changes for review
 
 If you go to your repository page on GitHub you will see a `compare & pull request` button. Click that button.
 And submit the pull request.
 Soon the reviewer will merge the branch into `main`.
 
-## Step 6 - View and share contributors badge
+## Step 7 - View and share contributors badge
 
 Once the PR is merged you can view your details [here](http://pygrammers.org/Road-to-OSS/).
 You can download your profile and share it on social media.

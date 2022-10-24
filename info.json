@@ -181,7 +181,7 @@
 		"place": "Malappuram",
 		"current_pos": "Software Engineer",
 		"image": "thanseef.jpg",
-		"bio": "Pursuing Mechine Learning and running a small company eclidse technologies."
+		"bio": "Pursuing Machine Learning and running a small company eclidse technologies"
 	},
 	{
 		"name": "Adil S",
@@ -221,7 +221,7 @@
 		"place": "Kozhikode",
 		"current_pos": "Front End Developer",
 		"image": "nahyan_sharvin.jpg",
-		"bio": "Hy, I'm a third-year student pursuing my Undergraduate Degree in Computer Science. I'm a self-taught developer with experience in building some real-world projects. Ability to learn and implement new technologies quickly. My skills include React.js, HTML5, CSS3, JavaScript. These skills were learned by self and from communities."
+		"bio": "I'm a self-taught developer with experience in building some real-world projects. Ability to learn and implement new technologies quickly."
 	},
 	{
 		"name": "Joseph Jaison",
@@ -254,5 +254,507 @@
 		"current_pos": "Python Django Developer",
 		"image": "husna.jpeg",
 		"bio": "Learning a new programming language can be hugely fascinating and a fun experience."
+		"name": "Muhammed Ali P",
+		"gh_username": "ALIP703",
+		"place": "Wayanad",
+		"current_pos": "Mern Stack Developer",
+		"image": "ALIP703.jpeg",
+		"bio": "A passionate web developer from Kerala."
+	},
+	{
+		"name": "Gopika P Pavithran",
+		"gh_username": "GopikaPPavithran",
+		"place": "Trivandrum",
+		"current_pos": "Front End Web Developer",
+		"image": null,
+		"bio": "BTech Student currently learning web development"
+	},
+	{
+		"name": "Aditya Tiwari",
+		"gh_username": "Aditya973",
+		"place": "Jabalpur",
+		"current_pos": "Front-end developer",
+		"image": null,
+		"bio": "Hi, I am Aditya, I am learning front-end web devolopment."
+	},
+	{
+		"name": "Janajith D",
+		"gh_username": "codetheft",
+		"place": "Kollam",
+		"current_pos": "Btech Computer Science Student",
+		"image": "janajithd.jpg",
+		"bio": "I am a self taught web developer, currently learning ReactJS"
+	},
+	{
+		"name": "Muhammed Hafis",
+		"gh_username": "hafismuhammed",
+		"place": "Thiruvanathapuram",
+		"current_pos": "Python Software Engineer",
+		"image": "hafis.jpg",
+		"bio": "I’m a self-made Python Django developer with relevant experience in this field. "
+	},
+	{
+		"name": "Govind V R",
+		"gh_username": "Govindvr",
+		"place": "Trivandrum",
+		"current_pos": "Backend Python developer",
+		"image": "govind.jpeg",
+		"bio": "Hi, I'm Govind a Btech Student interested in python development"
+	},
+	{
+		"name": "Edwin Liby",
+		"gh_username": "Edwinliby",
+		"place": "Alappuzha",
+		"current_pos": "Student/Front End Web developer/UI Designer",
+		"image": "Edwin-liby.png",
+		"bio": "I am self taught in Front-end Web development, currently learning ReactJS and Flutter for cross-platform development."
+	},
+	{
+		"name": "Sharon Shaju",
+		"gh_username": "codefa",
+		"place": "Kannur",
+		"current_pos": "Full Stack Engineer",
+		"image": "sharon-shaju.jpeg",
+		"bio": "Hi, I'm SHARON! I'm a Vue.js ,Nuxt.js, full stack developer currently working on webRTC P2P Metaverse."
+	},
+	{
+		"name": "Mohamed Sabith",
+		"gh_username": "sabith-nadakkavil",
+		"place": "Malappuram",
+		"current_pos": "Backend Developer",
+		"image": null,
+		"bio": "Hi, I'm Sabith, a passionate developer from Kerala."
+	},
+	{
+		"name": "Muhammed Ajmal Pk",
+		"gh_username": "ajmalpk23",
+		"place": "Malappuram",
+		"current_pos": "Android Developer",
+		"image": null,
+		"bio": "Hi, I'm Ajmal, a passionate developer from Kerala."
+	},
+	{
+		"name": "Ebin",
+		"gh_username": "ebinvarghese020",
+		"place": "Alappuzha",
+		"current_pos": "Student/Back End developer/UI Designer",
+		"image": null,
+		"bio": "I am self taught in back-end developer"
+	},
+	{
+		"name": "Ajas Nizam",
+		"gh_username": "ajasnizam",
+		"place": "kollam",
+		"current_pos": "BTech Computer Science Student",
+		"image": "ajas.jpg",
+		"bio": "Hi I'm ajas, currently learning JS and C language"
+	},
+	{
+		"name": "Hafis CP",
+		"gh_username": "hafiscp",
+		"place": "Malappuram",
+		"current_pos": "Student | College of Engineering Vadakara",
+		"image": "hafiscp.jpg",
+		"bio": "Tech Enthusiast"
+	},
+	{
+		"name": "Muhammed Jahsid",
+		"gh_username": "jahsid",
+		"place": "Kannur",
+		"current_pos": "MCA Student",
+		"image": null,
+		"bio": "Self-taught MERN stack Developer"
+	},
+	{
+		"name": "Abel Mathew Simon",
+		"gh_username": "abelmathew07",
+		"place": "Kollam",
+		"current_pos": "Btech Computer Science Student",
+		"image": "abel.jpg",
+		"bio": "Intrested in full stack development,python "
+	},
+	{
+		"name": "Vishnu S Pramod",
+		"gh_username": "V-I-S-H-N-U",
+		"place": "kollam",
+		"current_pos": "Web Developer",
+		"image": null,
+		"bio": "A Budding Developer!!"
+	},
+	{
+		"name": "Alan Biju",
+		"gh_username": "a-1an",
+		"place": "Kochi",
+		"current_pos": "BTech at MEC,Thrikkakara",
+		"image": "alanbiju.jpg",
+		"bio": "Gooo Pythonn!!"
+	},
+	{
+		"name": "Asker Yaseen",
+		"gh_username": "askeryaseen",
+		"place": "Ernakulam",
+		"current_pos": "Student ",
+		"image": null,
+		"bio": "Tech Enthusiast"
+	},
+	{
+		"name": "Akshay S Rajan",
+		"gh_username": "Akshaysrajan",
+		"place": "Chenganur",
+		"current_pos": "2nd Year BCA Student",
+		"image": "akshaysrajan.png",
+		"bio": "Aspiring CEO of Google 😅"
+	},
+	{
+		"name": "Danwand NS",
+		"gh_username": "DanBrown47",
+		"place": "Kochi, Kerala, India",
+		"current_pos": "CTO, Pygrammers",
+		"image": "danwnad.jpg",
+		"bio": "Self Proclaimed Code Mafia, Will code for food"
+	},
+	{
+		"name": "Christina Rose K.J",
+		"gh_username": "christinrouz",
+		"place": "Thrissur, Kerala, India",
+		"current_pos": "3rd year,IT Student",
+		"image": null,
+		"bio": "Learning something new every second "
+	},
+	{
+		"name": "Arjun AG",
+		"gh_username": "agarjun007",
+		"place": "Thiruvananthapuram",
+		"current_pos": "Software Engineer",
+		"image": "arjun.jpg",
+		"bio": "Always craving to learn."
+	},
+	{
+		"name": "Sreelekshmi S",
+		"gh_username": "SreelekshmiSanthosh",
+		"place": "Alappuzha",
+		"current_pos": "Front-end developer",
+		"image": null,
+		"bio": "Hi,I'm interested in coding and problem solving"
+	},
+	{
+		"name": "Vishnu PM",
+		"gh_username": "VISHNU-P-M",
+		"place": "Palakkad",
+		"current_pos": "Software Engineer",
+		"image": "vishnupm.jpg",
+		"bio": "Full Stack Developer Python+React/Vue"
+	},
+	{
+		"name": "Ahmed Misbahuddin Farhan",
+		"gh_username": "Misba9",
+		"place": "Hydrabad, Telangana, India",
+		"current_pos": "BTech Computer Science Student ",
+		"image": "Misba9.jpg",
+		"bio": "Hi, I'm Misba9! Learning something new every second, Intrested in web development."
+	},
+	{
+		"name": "Aswin George Thomas",
+		"gh_username": "aswingt65",
+		"place": "Pathanamthitta",
+		"current_pos": "Student | College of Engineering Aranmula",
+		"image": "aswingt65.jpg",
+		"bio": "Hi, I am Aswin.I am a self-taught front-end web devoloper."
+	},
+	{
+		"name": "Naveen Alex",
+		"gh_username": "Naveen-005",
+		"place": "Kottayam",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An aspiring developer."
+	},
+	{
+		"name": "Danis T Das",
+		"gh_username": "DanisDas",
+		"place": "Mannar",
+		"current_pos": "BCA student ",
+		"image": null,
+		"bio": "Graphic Designer. IG: mr_copywritter"
+	},
+	{
+		"name": "Sharoon Rafeek",
+		"gh_username": "SharoonRafeek",
+		"place": "Wayanad",
+		"current_pos": "Web developer",
+		"image": "Sharoon.jpg",
+		"bio": "Hi, I'm Sharoon! I'm a web developer and a computer science student."
+	},
+	{
+		"name": "Muhammed Fuwad",
+		"gh_username": "FuwadMuhammed",
+		"place": "Calicut",
+		"current_pos": "UI/UX Designer",
+		"image": "Fu_4_10.png",
+		"bio": "Aspiring design enthusiast."
+	},
+	{
+		"name": "Govind A",
+		"gh_username": "GO V IND",
+		"place": "Kerala",
+		"current_pos": "BTech student ",
+		"image": null,
+		"bio": "Devoted Developer. IG: go__v__ind"
+	},
+	{
+		"name": "Fahad P N",
+		"gh_username": "FAHADPN",
+		"place": "Thrissur, Kerala, India",
+		"current_pos": "BTech Computer Science Student ",
+		"image": "fahad.jpeg",
+		"bio": "An AR Developer and AI enthusiast learning and exploring new technologies"
+	},
+	{
+		"name": "Sruthi P A",
+		"gh_username": "sruthi-pa",
+		"place": "Thrissur,Kerala",
+		"current_pos": "BTech student in computer science",
+		"image": null,
+		"bio": "Loves to code and web development"
+	},
+	{
+		"name": "Anna John",
+		"gh_username": "annamjohn",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An ambitious developer."
+	},
+	{
+		"name": "Sabrina Naderer",
+		"gh_username": "sanaderer",
+		"place": "Brasil",
+		"current_pos": "Junior Python Developer",
+		"image": null,
+		"bio": "Intrested in full stack development!"
+	},
+	{
+		"name": "Haseeb KP",
+		"gh_username": "haseeb-kp",
+		"place": "Kerala",
+		"current_pos": "Web developer",
+		"image": "haseeb.jpg",
+		"bio": "Exploring the world of development"
+	},
+	{
+		"name": "Mubarak M",
+		"gh_username": "mubarakmayyeri",
+		"place": "Kerala",
+		"current_pos": "Data Scientist",
+		"image": "mubarakmayyeri.jpg",
+		"bio": "Aspiring Data Scientist, have experience in Python web developement."
+	},
+	{
+		"name": "Muhammad Ali K",
+		"gh_username": "mhdalik",
+		"place": "Kerala",
+		"current_pos": "Junior Python Develepor",
+		"image": "null",
+		"bio": "Competetive Programmer"
+	},
+	{
+		"name": "Sanu Muhammed",
+		"gh_username": "sanumuhammedc",
+		"place": "Kozhikode",
+		"current_pos": "Web and blockchain dev",
+		"image": "SANU MUHAMMED C.jpg",
+		"bio": "A full time learner who works part time."
+	},
+	{
+		"name": "Arjun M S",
+		"gh_username": "arjun-ms",
+		"place": "Palakkad",
+		"current_pos": "Student",
+		"image": "arjun-ms.jpg",
+		"bio": "Curious Guy who is a python developer and ML enthusiast"
+	},
+	{
+		"name": "Nandu Krishnan U",
+		"gh_username": "nanduk0",
+		"place": "Alappuzha",
+		"current_pos": "BTech student",
+		"image": null,
+		"bio": "Dev enthusiast"
+	},
+	{
+		"name": "Ajas Mohammed",
+		"gh_username": "AjasMohammed",
+		"place": "Kollam",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Want to Learn More"
+	},
+	{
+		"name": "Nevil Krishna",
+		"gh_username": "dracu-lah",
+		"place": "Thrissur",
+		"current_pos": "Computer Science,Diploma in Engineering",
+		"image": null,
+		"bio": "Likes coding and building systems"
+	},
+	{
+		"name": "Akarsh",
+		"gh_username": "AkarshAnilkumar",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An ambitious developer"
+	},
+	{
+		"name": "Nayan Prasad P K",
+		"gh_username": "nayanprasad",
+		"place": "Kasargod",
+		"current_pos": "Student",
+		"image": "nayan-prasad.png",
+		"bio": "Dev enthusiast || MERN stack developer"
+	},
+	{
+		"name": "sainudheen",
+		"gh_username": "sainudheenp",
+		"place": "Wayanad",
+		"current_pos": "Full stack developer",
+		"image": "null",
+		"bio": "Likes solving problems"
+	},
+	{
+		"name": "Sony K Martin",
+		"gh_username": "sonykmartin",
+		"place": "Kottayam",
+		"current_pos": "Student",
+		"image": "sony.jpeg",
+		"bio": "Exploring the world of development"
+	},
+	{
+		"name": "Harikrishnan U S",
+		"gh_username": "HKRcodes",
+		"place": "Trivandrum",
+		"current_pos": "BTech Student",
+		"image": "null",
+		"bio": "Interested in whole universe"
+	},
+	{
+		"name": "Angel Rose",
+		"gh_username": "Angelrose19",
+		"place": "Thrissur",
+		"current_pos": "Program Associate, μLearn",
+		"image": "angel.jpeg",
+		"bio": "IT undergrad and a community kid"
+	},
+	{
+		"name": "Mohammed Mishal",
+		"gh_username": "mishalBasheer",
+		"place": "Kozhikode",
+		"current_pos": "MERN Stack Web Developer",
+		"image": "mishalBasheer.jpg",
+		"bio": "Enthusiastic Techie  🧑‍💻"
+	},
+	{
+		"name": "Gladson T Lalu",
+		"gh_username": "Gladson-Lalu",
+		"place": "Thiruvalla",
+		"current_pos": "Flutter and MERN Stack Web developer",
+		"image": "gladson-lalu.jpeg",
+		"bio": "Make the world a better place 🌍✨"
+	},
+	{
+		"name": "Albin Mathews Joseph",
+		"gh_username": "Almajoo",
+		"place": "Pathanamthitta",
+		"current_pos": "Student",
+		"image": "Almajoo.jpeg",
+		"bio": "An average everyday Guy"
+	},
+	{
+		"name": "Joel joy",
+		"gh_username": "The_Average_guy",
+		"place": "Thrissur",
+		"current_pos": "BTECH Student",
+		"image": null,
+		"bio": "Modern day Techie"
+	},
+	{
+		"name": "Nihal Vadakkan",
+		"gh_username": "nvadakkan20",
+		"place": "Malappuram",
+		"current_pos": "Btech Student",
+		"image": "nihal_v.jpeg",
+		"bio": "An enthusiast Developer and problem Solver"
+	},
+	{
+		"name": "Gadha lekshmi P",
+		"gh_username": "gadhalekshmip",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An ambitious developer."
+	},
+	{
+		"name": "Gouri K",
+		"gh_username": "Gk-02",
+		"place": "Palakkad",
+		"current_pos": "Btech Student",
+		"image": "Gouri_k.jpg",
+		"bio": "An enthusiast learner and explorer."
+	},
+	{
+		"name": "Ahad Anzar",
+		"gh_username": "ahadanzar",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Speak in code"
+	},
+	{
+		"name": "Abhiram Krishna S",
+		"gh_username": "Abhiramks2003",
+		"place": "Malappuram",
+		"current_pos": "BTech Student",
+		"image": null,
+		"bio": "A web development enthusiast"
+	},
+	{
+		"name": "Aneena Antony",
+		"gh_username": "Aneenaanu321",
+		"place": "Thrissur",
+		"current_pos": "Btech Student",
+		"image": "aneena.jpeg",
+		"bio": "EXPERIENCE||DEV||EXPLORE"
+	},
+	{
+		"name": "Kevin Joseph Hendry",
+		"gh_username": "kevin-j-h",
+		"place": "Kochi",
+		"current_pos": "Btech Student",
+		"image": "kevinj.jpg",
+		"bio": "Developer in the making"
+	},
+	{
+		"name": "Sheheer Ali",
+		"gh_username": "sheheeralizx",
+		"place": "Palakkad",
+		"current_pos": "Diploma in Computer Hardware Engineering",
+		"image": null,
+		"bio": "Open Source Lover, Intrested in coding, Upskilling in DevOps"
+	},
+	{
+		"name": "Jayakanth",
+		"gh_username": "JAYAKANTHARUN",
+		"place": "Ernakulam",
+		"current_pos": "Btech Student",
+		"image": null,
+		"bio": "coder"
+	},
+	{
+	"name": "Kevin Paul Babu",
+		"gh_username": "Kevinpaulbabu1820",
+		"place": "Ernakulam",
+		"current_pos": "Btech Final yr Student",
+		"image": null,
+		"bio": "Curious about full stack development" 
 	}
 ]
