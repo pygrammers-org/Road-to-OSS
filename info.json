@@ -248,12 +248,6 @@
 		"bio": "Self-taught Full stack Developer."
 	},
 	{
-		"name": "Husna Chungath",
-		"gh_username": "husnachungath",
-		"place": "Tirur",
-		"current_pos": "Python Django Developer",
-		"image": "husna.jpeg",
-		"bio": "Learning a new programming language can be hugely fascinating and a fun experience."
 		"name": "Muhammed Ali P",
 		"gh_username": "ALIP703",
 		"place": "Wayanad",
@@ -750,11 +744,19 @@
 		"bio": "coder"
 	},
 	{
-	"name": "Kevin Paul Babu",
+		"name": "Kevin Paul Babu",
 		"gh_username": "Kevinpaulbabu1820",
 		"place": "Ernakulam",
 		"current_pos": "Btech Final yr Student",
 		"image": null,
 		"bio": "Curious about full stack development" 
+	},
+	{
+		"name": "Husna Chungath",
+		"gh_username": "husnachungath",
+		"place": "Tirur",
+		"current_pos": "Python Django Developer",
+		"image": "husna.jpeg",
+		"bio": "Learning a new programming language can be hugely fascinating and a fun experience."
 	}
 ]
