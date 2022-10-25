@@ -798,23 +798,23 @@
 		"current_pos": "Python Django Developer",
 		"image": "husna.jpeg",
 		"bio": "Learning a new programming language can be hugely fascinating and a fun experience."
-  	}, 
-  	{
+  }, 
+  {
 		"name": "Vishnuprasad V S",
 		"gh_username": "vishnuxprasad",
 		"place": "Thrissur, Kerala, India",
 		"current_pos": "Engineering undergrad",
 		"image":null,
 		"bio": "Put in the work and be happy with what you earned."
-  	},
-  	{
+  },
+  {
 		"name": "Mansoor Majeed",
 		"gh_username": "Mans22r",
 		"place": "Ernakulam",
 		"current_pos": "Front End Developer",
 		"image": "mansoor.JPG",
 		"bio": "HUGs and Kisses v/s BUGs and Fixes"
-  	},
+  },
 	{
 		"name": "Joseph Mathai",
 		"gh_username": "josephmathai10",
@@ -822,5 +822,29 @@
 		"current_pos": "Freelance Web Developer",
 		"image": "josephmathai10.jpg",
 		"bio": "Self-Taught Web Dev & Designer looking forward to learn more"
-	},
+  }, 
+  {
+	  "name": "Vishnuprasad V S",
+	  "gh_username": "vishnuxprasad",
+	  "place": "Thrissur, Kerala, India",
+	  "current_pos": "Engineering undergrad",
+	  "image":null,
+	  "bio": "Put in the work and be happy with what you earned."
+  },
+  {
+	  "name": "Mansoor Majeed",
+	  "gh_username": "Mans22r",
+	  "place": "Ernakulam",
+	  "current_pos": "Front End Developer",
+	  "image": "mansoor.JPG",
+	  "bio": "HUGs and Kisses v/s BUGs and Fixes"
+  },
+  {
+    "name": "Nikhil Jose",
+    "gh_username": "nikiljos",
+    "place": "Kottayam || Punjab",
+    "current_pos": "Backend Developer",
+    "image": "nikiljos.jpg",
+    "bio": "Converting Coffee☕ into Code🧑‍💻"
+  }
 ]
