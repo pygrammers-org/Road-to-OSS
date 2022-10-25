@@ -840,11 +840,27 @@
 	  "bio": "HUGs and Kisses v/s BUGs and Fixes"
   },
   {
+	"name": "Mansoor Majeed",
+	"gh_username": "Mans22r",
+	"place": "Ernakulam",
+	"current_pos": "Front End Developer",
+	"image": "mansoor.JPG",
+	"bio": "HUGs and Kisses v/s BUGs and Fixes"
+  },
+  {
     "name": "Nikhil Jose",
     "gh_username": "nikiljos",
     "place": "Kottayam || Punjab",
     "current_pos": "Backend Developer",
     "image": "nikiljos.jpg",
     "bio": "Converting Coffee☕ into Code🧑‍💻"
-  }
+  },
+  {
+		"name": "Megha Anil",
+		"gh_username": "Meghaanil", 
+		"place": "Adoor",
+		"current_pos": "BTech CSE Student of AEC", 
+		"image": "null",
+		"bio": "An enthusiastic learner."
+	}
 ]
