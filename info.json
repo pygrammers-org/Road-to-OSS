@@ -814,5 +814,13 @@
 	"current_pos": "Front End Developer",
 	"image": "mansoor.JPG",
 	"bio": "HUGs and Kisses v/s BUGs and Fixes"
+  },
+  {
+      "name": "Nikhil Jose",
+      "gh_username": "nikiljos",
+      "place": "Kottayam || Punjab",
+      "current_pos": "Backend Developer",
+      "image": "nikiljos.jpg",
+      "bio": "Converting Coffee☕ into Code🧑‍💻"
   }
 ]
