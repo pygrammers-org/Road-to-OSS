@@ -870,5 +870,13 @@
 	  "current_pos": "Web Developer",
 	  "image": "jeevanjoseph.jpg",
 	  "bio": "Ready to be Activated"
+  },
+  {
+  	"name": "Midhun Mathew",
+	  "gh_username": "memidhun",
+	  "place": "Kottayam",
+	  "current_pos": "Cybersecurity Researcher",
+	  "image": null,
+	  "bio": "I am a Cybersecurity and Machine Learning Enthusiast"
   }
 ]
