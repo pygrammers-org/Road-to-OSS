@@ -806,5 +806,13 @@
 	"current_pos": "Engineering undergrad",
 	"image":null,
 	"bio": "Put in the work and be happy with what you earned."
-}
+  },
+  {
+	"name": "Mansoor Majeed",
+	"gh_username": "Mans22r",
+	"place": "Ernakulam",
+	"current_pos": "Front End Developer",
+	"image": "mansoor.JPG",
+	"bio": "HUGs and Kisses v/s BUGs and Fixes"
+  }
 ]
