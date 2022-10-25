@@ -814,5 +814,13 @@
 	"current_pos": "Front End Developer",
 	"image": "mansoor.JPG",
 	"bio": "HUGs and Kisses v/s BUGs and Fixes"
-  }
-]
+  },
+  {
+		"name": "Megha Anil",
+		"gh_username": "Meghaanil", 
+		"place": "Adoor",
+		"current_pos": "BTech CSE Student of AEC", 
+		"image": "null",
+		"bio": "An enthusiastic learner." 
+	  }
+	]
