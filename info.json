@@ -862,5 +862,13 @@
 		"current_pos": "BTech CSE Student of AEC", 
 		"image": "null",
 		"bio": "An enthusiastic learner."
-	}
+	},
+  {
+	  "name": "Jeevan Joseph",
+	  "gh_username": "Jeevan1310",
+	  "place": "Pathanamthitta",
+	  "current_pos": "Web Developer",
+	  "image": "jeevanjoseph.jpg",
+	  "bio": "Ready to be Activated"
+  }
 ]
