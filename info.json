@@ -878,5 +878,13 @@
              "current_pos": "Student",  
              "image": "bro.png", 
              "bio": "Hi, I'm Sagnik Sahoo! I'm a student with in-depth experience in UI/UX design and entrepreneurship." 
-  }
+  },
+	{
+	    "name": "Gloria Thomas",
+		"gh_username": "gloria2000",
+		"place": "Kochi",
+		"current_pos": "Python Developer",
+		"image": null,
+		"bio": "I am new but I love to learn new things and explore new technologies."
+	}
 ]
