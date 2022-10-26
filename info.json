@@ -870,5 +870,13 @@
 		"current_pos": "Python Developer",
 		"image": "milandeepak.jpeg",
 		"bio": "I am a Tech Freak, love to learn new things and explore new technologies."
-	}
+	},
+        {
+             "name": "Sagnik Sahoo", 
+             "gh_username": "heysagnik",
+             "place": "India", 
+             "current_pos": "Student",  
+             "image": "bro.png", 
+             "bio": "Hi, I'm Sagnik Sahoo! I'm a student with in-depth experience in UI/UX design and entrepreneurship." 
+  }
 ]
