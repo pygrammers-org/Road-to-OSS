@@ -862,5 +862,13 @@
 		"current_pos": "Cybersecurity Researcher",
 		"image": null,
 		"bio": "I am a Cybersecurity and Machine Learning Enthusiast"
+	},
+	{
+	    "name": "Milan Deepak",
+		"gh_username": "milandeepak",
+		"place": "Kochi",
+		"current_pos": "Python Developer",
+		"image": "milandeepak.jpeg",
+		"bio": "I am a Tech Freak, love to learn new things and explore new technologies."
 	}
 ]
