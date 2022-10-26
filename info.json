@@ -886,5 +886,14 @@
 		"current_pos": "Python Developer",
 		"image": null,
 		"bio": "I am new but I love to learn new things and explore new technologies."
-	}
+	},
+        {
+                "name": "Ali Sezişli",
+                "gh_username": "alisezisli",
+                "place": "Izmir",
+                "current_pos": "Linux administrator",
+                "image": null,
+                "bio": "Linux administrator but not a developer..."
+        }
+
 ]
