@@ -864,47 +864,47 @@
 		"bio": "I am a Cybersecurity and Machine Learning Enthusiast"
 	},
 	{
-	    "name": "Milan Deepak",
+		"name": "Milan Deepak",
 		"gh_username": "milandeepak",
 		"place": "Kochi",
 		"current_pos": "Python Developer",
 		"image": "milandeepak.jpeg",
 		"bio": "I am a Tech Freak, love to learn new things and explore new technologies."
 	},
-        {
-             "name": "Sagnik Sahoo", 
-             "gh_username": "heysagnik",
-             "place": "India", 
-             "current_pos": "Student",  
-             "image": "bro.png", 
-             "bio": "Hi, I'm Sagnik Sahoo! I'm a student with in-depth experience in UI/UX design and entrepreneurship." 
-  },
 	{
-	    "name": "Gloria Thomas",
+		"name": "Sagnik Sahoo",
+		"gh_username": "heysagnik",
+		"place": "India",
+		"current_pos": "Student",
+		"image": "bro.png",
+		"bio": "Hi, I'm Sagnik Sahoo! I'm a student with in-depth experience in UI/UX design and entrepreneurship."
+	},
+	{
+		"name": "Gloria Thomas",
 		"gh_username": "gloria2000",
 		"place": "Kochi",
 		"current_pos": "Python Developer",
 		"image": null,
 		"bio": "I am new but I love to learn new things and explore new technologies."
 	},
-        {
-                "name": "Ali Sezişli",
-                "gh_username": "alisezisli",
-                "place": "Izmir",
-                "current_pos": "Linux administrator",
-                "image": null,
-                "bio": "Linux administrator but not a developer..."
-        },
-		{
-			"name": "Jyotsna Joshy",
-			"gh_username": "Jyotsnajoshy",
-			"place": "Thrissur",
-			"current_pos": "Student",
-			"image": null,
-			"bio": "Computer science student at College of engineering Vadakara."
-		},
-    {
-	    	"name": "Aswin Asok",
+	{
+		"name": "Ali Sezişli",
+		"gh_username": "alisezisli",
+		"place": "Izmir",
+		"current_pos": "Linux administrator",
+		"image": null,
+		"bio": "Linux administrator but not a developer..."
+	},
+	{
+		"name": "Jyotsna Joshy",
+		"gh_username": "Jyotsnajoshy",
+		"place": "Thrissur",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Computer science student at College of engineering Vadakara."
+	},
+	{
+		"name": "Aswin Asok",
 		"gh_username": "AswinAsok",
 		"place": "Trivandrum",
 		"current_pos": "FrontEnd Developer & Designer",
