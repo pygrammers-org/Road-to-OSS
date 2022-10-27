@@ -894,6 +894,14 @@
                 "current_pos": "Linux administrator",
                 "image": null,
                 "bio": "Linux administrator but not a developer..."
-        }
-
+        },
+		{
+			"name": "Jyotsna Joshy",
+			"gh_username": "Jyotsnajoshy",
+			"place": "Thrissur",
+			"current_pos": "Student",
+			"image": null,
+			"bio": "Computer science student at College of engineering Vadakara."
+		}
+    
 ]
