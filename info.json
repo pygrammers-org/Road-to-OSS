@@ -910,5 +910,13 @@
 		"current_pos": "FrontEnd Developer & Designer",
 		"image": "AswinAsok.png",
 		"bio": "Just a person who likes to make stable code, symmetric design and simple content."
+	},
+	{
+		"name": "Berika Şener",
+		"gh_username": "berikasener",
+		"place": "Turkiye",
+		"current_pos": "Linux System Administrator",
+		"image": null,
+		"bio": "Trying to learn Linux and also a front-end developer."
 	}
 ]
