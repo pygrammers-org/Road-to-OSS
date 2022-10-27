@@ -902,6 +902,13 @@
 			"current_pos": "Student",
 			"image": null,
 			"bio": "Computer science student at College of engineering Vadakara."
-		}
-    
+		},
+    {
+	    	"name": "Aswin Asok",
+		"gh_username": "AswinAsok",
+		"place": "Trivandrum",
+		"current_pos": "FrontEnd Developer & Designer",
+		"image": "AswinAsok.png",
+		"bio": "Just a person who likes to make stable code, symmetric design and simple content."
+	}
 ]
