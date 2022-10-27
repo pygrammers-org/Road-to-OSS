@@ -894,6 +894,14 @@
                 "current_pos": "Linux administrator",
                 "image": null,
                 "bio": "Linux administrator but not a developer..."
-        }
+        },
+	{
+	    	"name": "Aswin Asok",
+		"gh_username": "AswinAsok",
+		"place": "Trivandrum",
+		"current_pos": "FrontEnd Developer & Designer",
+		"image": "AswinAsok.png",
+		"bio": "Just a person who likes to make stable code, symmetric design and simple content."
+	},
 
 ]
