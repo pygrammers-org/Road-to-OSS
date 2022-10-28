@@ -918,5 +918,13 @@
 		"current_pos": "Linux System Administrator",
 		"image": null,
 		"bio": "Trying to learn Linux and also a front-end developer."
+	},
+	{
+		"name": "Sreehari P",
+		"gh_username": "Sreehari0101",
+		"place": "Palakkad, Kerala, India",
+		"current_pos": "Engineering undergrad",
+		"image": null,
+		"bio": "passionate programmer interested in machine learning."
 	}
 ]
