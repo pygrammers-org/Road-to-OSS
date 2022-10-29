@@ -918,5 +918,13 @@
 		"current_pos": "Linux System Administrator",
 		"image": null,
 		"bio": "Trying to learn Linux and also a front-end developer."
+	},
+	{
+		"name": "Abhishek",
+		"gh_username": "abixxek",
+		"place": "Trivandrum",
+		"current_pos": "student",
+		"image": null,
+		"bio": "trying to be an ai engineer"
 	}
 ]
