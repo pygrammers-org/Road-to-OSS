@@ -894,6 +894,14 @@
                 "current_pos": "Linux administrator",
                 "image": null,
                 "bio": "Linux administrator but not a developer..."
+        },
+        {
+        	"name": "Shahinsha",
+                "gh_username": "Shahin-Sha",
+                "place": "Malappuram",
+                "current_pos": "Student",
+                "image": "shahinsha.jpeg",
+                "bio": "Tech Enthusiast"
         }
 
 ]
