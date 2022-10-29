@@ -918,5 +918,13 @@
 		"current_pos": "Linux System Administrator",
 		"image": null,
 		"bio": "Trying to learn Linux and also a front-end developer."
+	},
+	{
+		"name": "Aravind S",
+		"gh_username": "aravinds-arv",
+		"place": "Palakkad",
+		"current_pos": "Technophile",
+		"image": "aravinds-arv.jpg",
+		"bio": "Hi, I'm Aravind! I am a self taught programmer, graphic designer, free & open source enthusiast and forever a learner."
 	}
 ]
