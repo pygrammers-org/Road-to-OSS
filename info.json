@@ -958,5 +958,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An aspiring developer."
+	},
+	{
+		"name": "Minshad",
+		"gh_username": "minshadk",
+		"place": "India",
+		"current_pos": "jobless",
+		"image": null,
+		"bio": "exploreing new things"
 	}
 ]
