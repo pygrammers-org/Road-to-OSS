@@ -942,5 +942,13 @@
 		"current_pos": "student",
 		"image": null,
 		"bio": "trying to be an ai engineer"
+	},
+	{
+		"name": "Akash I J Britto", 
+		"gh_username": "", 
+		"place": "Trivandrum", 
+		"current_pos": "Student", 
+		"image": null, 
+		"bio": "An AI enthusiast in the making" 
 	}
 ]
