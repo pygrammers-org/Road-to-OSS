@@ -948,7 +948,7 @@
 		"gh_username": "", 
 		"place": "Trivandrum", 
 		"current_pos": "Student", 
-		"image": "Null", 
+		"image": null, 
 		"bio": "An AI enthusiast in the making" 
 	}
 ]
