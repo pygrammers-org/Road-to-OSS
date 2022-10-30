@@ -656,14 +656,6 @@
 		"bio": "Enthusiastic Techie  🧑‍💻"
 	},
 	{
-		"name": "Mohammed Safvan",
-		"gh_username": "mohammedsafvan",
-		"place": "Malappuram",
-		"current_pos": "Student",
-		"image": null,
-		"bio": "An individual with passion for coding 💻"
-	},
-	{
 		"name": "Gladson T Lalu",
 		"gh_username": "Gladson-Lalu",
 		"place": "Thiruvalla",
@@ -926,5 +918,13 @@
 		"current_pos": "Linux System Administrator",
 		"image": null,
 		"bio": "Trying to learn Linux and also a front-end developer."
+	},
+	{
+		"name": "Mohammed Safvan",
+		"gh_username": "mohammedsafvan",
+		"place": "Malappuram",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An individual with passion for coding 💻"
 	}
 ]
