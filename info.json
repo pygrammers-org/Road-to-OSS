@@ -982,5 +982,13 @@
     "current_pos": "Student",
     "image": "shahinsha.jpeg",
     "bio": "Tech Enthusiast"
+	},
+	{
+		"name": "Mohammed Safvan",
+		"gh_username": "mohammedsafvan",
+		"place": "Malappuram",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An individual with passion for coding 💻"
    }
 ]
