@@ -990,5 +990,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An individual with passion for coding 💻"
+	},
+	{
+		"name": "Aparna Nair",
+		"gh_username": "Aparna106",
+		"place": "Kochi",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An avid reader who is learning to code."
 	}
 ]
