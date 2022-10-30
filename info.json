@@ -944,12 +944,12 @@
 		"bio": "trying to be an ai engineer"
 	},
 	{
-		"name": "Akash I J Britto", 
-		"gh_username": "", 
-		"place": "Trivandrum", 
-		"current_pos": "Student", 
-		"image": null, 
-		"bio": "An AI enthusiast in the making" 
+		"name": "Akash I J Britto",
+		"gh_username": "",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An AI enthusiast in the making"
 	},
 	{
 		"name": "Megha G",
@@ -976,12 +976,12 @@
 		"bio": "Hi, I'm Aravind! I am a self taught programmer, graphic designer, free & open source enthusiast and forever a learner."
 	},
 	{
-    "name": "Shahinsha",
-    "gh_username": "Shahin-Sha",
-    "place": "Malappuram",
-    "current_pos": "Student",
-    "image": "shahinsha.jpeg",
-    "bio": "Tech Enthusiast"
+		"name": "Shahinsha",
+		"gh_username": "Shahin-Sha",
+		"place": "Malappuram",
+		"current_pos": "Student",
+		"image": "shahinsha.jpeg",
+		"bio": "Tech Enthusiast"
 	},
 	{
 		"name": "Mohammed Safvan",
@@ -990,5 +990,5 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An individual with passion for coding 💻"
-   }
+	}
 ]
