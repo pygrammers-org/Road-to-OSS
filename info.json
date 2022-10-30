@@ -920,11 +920,75 @@
 		"bio": "Trying to learn Linux and also a front-end developer."
 	},
 	{
+		"name": "Aditya",
+		"gh_username": "LOCODAK",
+		"place": "India",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Trying to learn Linux and also a front-end developer, and want to learn backend"
+	},
+	{
+		"name": "Sreehari P",
+		"gh_username": "Sreehari0101",
+		"place": "Palakkad, Kerala, India",
+		"current_pos": "Engineering undergrad",
+		"image": null,
+		"bio": "passionate programmer interested in machine learning."
+	},
+	{
+		"name": "Abhishek",
+		"gh_username": "abixxek",
+		"place": "Trivandrum",
+		"current_pos": "student",
+		"image": null,
+		"bio": "trying to be an ai engineer"
+	},
+	{
+		"name": "Akash I J Britto", 
+		"gh_username": "", 
+		"place": "Trivandrum", 
+		"current_pos": "Student", 
+		"image": null, 
+		"bio": "An AI enthusiast in the making" 
+	},
+	{
+		"name": "Megha G",
+		"gh_username": "MeghaGold",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An aspiring developer."
+	},
+	{
+		"name": "Minshad",
+		"gh_username": "minshadk",
+		"place": "India",
+		"current_pos": "jobless",
+		"image": null,
+		"bio": "exploreing new things"
+	},
+	{
+		"name": "Aravind S",
+		"gh_username": "aravinds-arv",
+		"place": "Palakkad",
+		"current_pos": "Technophile",
+		"image": "aravinds-arv.jpg",
+		"bio": "Hi, I'm Aravind! I am a self taught programmer, graphic designer, free & open source enthusiast and forever a learner."
+	},
+	{
+    "name": "Shahinsha",
+    "gh_username": "Shahin-Sha",
+    "place": "Malappuram",
+    "current_pos": "Student",
+    "image": "shahinsha.jpeg",
+    "bio": "Tech Enthusiast"
+	},
+	{
 		"name": "Mohammed Safvan",
 		"gh_username": "mohammedsafvan",
 		"place": "Malappuram",
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An individual with passion for coding 💻"
-	}
+   }
 ]
