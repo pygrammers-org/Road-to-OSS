@@ -966,5 +966,13 @@
 		"current_pos": "jobless",
 		"image": null,
 		"bio": "exploreing new things"
+	},
+	{
+		"name": "Aravind S",
+		"gh_username": "aravinds-arv",
+		"place": "Palakkad",
+		"current_pos": "Technophile",
+		"image": "aravinds-arv.jpg",
+		"bio": "Hi, I'm Aravind! I am a self taught programmer, graphic designer, free & open source enthusiast and forever a learner."
 	}
 ]
