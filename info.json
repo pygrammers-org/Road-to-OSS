@@ -920,6 +920,14 @@
 		"bio": "Trying to learn Linux and also a front-end developer."
 	},
 	{
+		"name": "Aditya",
+		"gh_username": "LOCODAK",
+		"place": "India",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Trying to learn Linux and also a front-end developer, and want to learn backend"
+	},
+	{
 		"name": "Sreehari P",
 		"gh_username": "Sreehari0101",
 		"place": "Palakkad, Kerala, India",
@@ -927,4 +935,5 @@
 		"image": null,
 		"bio": "passionate programmer interested in machine learning."
 	}
+	
 ]
