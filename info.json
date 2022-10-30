@@ -950,5 +950,13 @@
 		"current_pos": "Student", 
 		"image": null, 
 		"bio": "An AI enthusiast in the making" 
+	},
+	{
+		"name": "Megha G",
+		"gh_username": "MeghaGold",
+		"place": "Trivandrum",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An aspiring developer."
 	}
 ]
