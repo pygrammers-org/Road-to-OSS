@@ -934,6 +934,13 @@
 		"current_pos": "Engineering undergrad",
 		"image": null,
 		"bio": "passionate programmer interested in machine learning."
+	},
+	{
+		"name": "Abhishek",
+		"gh_username": "abixxek",
+		"place": "Trivandrum",
+		"current_pos": "student",
+		"image": null,
+		"bio": "trying to be an ai engineer"
 	}
-	
 ]
