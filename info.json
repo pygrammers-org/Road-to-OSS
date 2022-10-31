@@ -992,11 +992,35 @@
 		"bio": "An individual with passion for coding 💻"
 	},
 	{
+		"name": "Aparna Nair",
+		"gh_username": "Aparna106",
+		"place": "Kochi",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "An avid reader who is learning to code."
+	},
+	{
 		"name": "Abhijithc",
 		"gh_username": "Abhijithc145",
 		"place": "Kollam",
 		"current_pos": "Student",
 		"image": "abhi.jpg",
 		"bio": "Try to know new things...."
+	},
+	{
+		"name": "Luz Zapata",
+		"gh_username": "LuZapata",
+		"place": "Mendoza",
+		"current_pos": "Student",
+		"image": "luzzapata.jpeg",
+		"bio": "Hi, I'm Luz! I'm a artist, business administrator and an aspiring developer."
+	},
+	{
+		"name": "Pedro Veríssimo",
+		"gh_username": "pbv2",
+		"place": "Recife, PE",
+		"current_pos": "Data Analyst",
+		"image": null,
+		"bio": "Enthusiast of data."
 	}
 ]
