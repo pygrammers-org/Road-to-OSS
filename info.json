@@ -1014,5 +1014,13 @@
 		"current_pos": "Student",
 		"image": "luzzapata.jpeg",
 		"bio": "Hi, I'm Luz! I'm a artist, business administrator and an aspiring developer."
+	},
+	{
+		"name": "Pedro Veríssimo",
+		"gh_username": "pbv2",
+		"place": "Recife, PE",
+		"current_pos": "Data Analyst",
+		"image": null,
+		"bio": "Enthusiast of data."
 	}
 ]
