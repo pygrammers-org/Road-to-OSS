@@ -998,5 +998,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An avid reader who is learning to code."
-	}
+	},
+	{
+		"name": "Luz Zapata",
+		"gh_username": "LuZapata",
+		"place": "Mendoza",
+		"current_pos": "Student",
+		"image": "luzzapata.jpeg",
+		"bio": "Hi, I'm Luz! I'm a artist, business administrator and an aspiring developer."
+	  }
 ]
