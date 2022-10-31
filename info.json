@@ -1022,5 +1022,13 @@
 		"current_pos": "Data Analyst",
 		"image": null,
 		"bio": "Enthusiast of data."
+	},
+	{
+		"name": "ARSHAD A T",
+		"gh_username": "ArshadAchuthodika",
+		"place": "Malappuram",
+		"current_pos": "Full stack developer",
+		"image": "Arshad.jpg",
+		"bio": "Likes solving problems and building systems"
 	}
 ]
