@@ -1030,5 +1030,13 @@
 		"current_pos": "Full stack developer",
 		"image": "Arshad.jpg",
 		"bio": "Likes solving problems and building systems"
+	},
+	{
+		"name": "Muhammed Mukthar P M",
+		"gh_username": "muhammed-mukthar",
+		"place": "Ernakulam",
+		"current_pos": "Full stack developer",
+		"image": "null",
+		"bio": "Self-taught MERN stack Developer"
 	}
 ]
