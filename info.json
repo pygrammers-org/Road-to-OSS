@@ -1000,6 +1000,22 @@
 		"bio": "An avid reader who is learning to code."
 	},
 	{
+		"name": "Abhijithc",
+		"gh_username": "Abhijithc145",
+		"place": "Kollam",
+		"current_pos": "Student",
+		"image": null,
+		"bio": "Try to know new things"
+	},
+	{
+		"name": "Luz Zapata",
+		"gh_username": "LuZapata",
+		"place": "Mendoza",
+		"current_pos": "Student",
+		"image": "luzzapata.jpeg",
+		"bio": "Hi, I'm Luz! I'm a artist, business administrator and an aspiring developer."
+	},
+	{
 		"name": "Pedro Veríssimo",
 		"gh_username": "pbv2",
 		"place": "Recife, PE",
