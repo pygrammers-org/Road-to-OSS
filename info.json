@@ -998,5 +998,13 @@
 		"current_pos": "Student",
 		"image": null,
 		"bio": "An avid reader who is learning to code."
+	},
+	{
+		"name": "Pedro Veríssimo",
+		"gh_username": "pbv2",
+		"place": "Recife, PE",
+		"current_pos": "Data Analyst",
+		"image": null,
+		"bio": "Enthusiast of data."
 	}
 ]
