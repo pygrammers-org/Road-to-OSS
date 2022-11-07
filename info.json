@@ -1038,5 +1038,13 @@
 		"current_pos": "Full stack developer",
 		"image": null,
 		"bio": "Self-taught MERN stack Developer"
-	}
+	},
+	{
+                "name": "Krishnaprakash K",
+                "gh_username": "kepee98",
+                "place": "Thrissur",
+                "current_pos": "Developer",
+                "image": "krishnaprakash.jpg",
+                "bio": "Embedded developer, currently self-learning web development"
+        }
 ]
