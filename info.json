@@ -1046,5 +1046,14 @@
                 "current_pos": "Developer",
                 "image": "krishnaprakash.jpg",
                 "bio": "Embedded developer, currently self-learning web development"
+        },
+        {
+                "name": "Allen Thomas",
+                "gh_username": "allenthomas01",
+                "place": "Kottayam",
+                "current_pos": "Student",
+                "image": "Allen.jpg",
+                "bio": "Hi, I'm Allen! I'm a passionate programmer who loves solving problems"
         }
+        
 ]
