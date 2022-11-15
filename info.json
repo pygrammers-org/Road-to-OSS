@@ -1054,5 +1054,13 @@
     "current_pos": "Web and Mobile Developer",
     "image": "BasithP.jpg",
     "bio": "DO code, Make videos, Love learning"
-  }
+  },
+        {
+                "name": "Allen Thomas",
+                "gh_username": "allenthomas01",
+                "place": "Kottayam",
+                "current_pos": "Student",
+                "image": "Allen.jpg",
+                "bio": "Hi, I'm Allen! I'm a passionate programmer who loves solving problems"
+        }
 ]
