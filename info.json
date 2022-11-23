@@ -1062,5 +1062,14 @@
     "current_pos": "Student",
     "image": "Allen.jpg",
     "bio": "Hi, I'm Allen! I'm a passionate programmer who loves solving problems"
+  },
+   {
+    "name": "Famitha M A",
+    "gh_username": "Haya-fami",
+    "place": "Ernakulam",
+    "current_pos": "Student",
+    "image": "fami.png",
+    "bio": "Hey, i would like to describe myself as a content curator and an aspiring developer"
   }
+  
 ]
