@@ -1062,5 +1062,13 @@
     "current_pos": "Student",
     "image": "Allen.jpg",
     "bio": "Hi, I'm Allen! I'm a passionate programmer who loves solving problems"
+  },
+  {
+    "name": "Jenin Joseph",
+    "gh_username": "Jenin82",
+    "place": "Ernakulam",
+    "current_pos": "Student",
+    "image": "jenin.png",
+    "bio": "I'm a student and a self-taught developer improving my skills everyday."
   }
 ]
