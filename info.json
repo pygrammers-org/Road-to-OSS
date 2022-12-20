@@ -1063,4 +1063,12 @@
     "image": "Allen.jpg",
     "bio": "Hi, I'm Allen! I'm a passionate programmer who loves solving problems"
   }
+  {
+    "name": "Mohammed Zohil PK", 
+    "gh_username": "zoypk" 
+    "place": "Kozhikode", 
+    "current_pos": "B.Tech Computer Science Student",
+    "image": "Zoypk.jpg",
+    "bio": "Tech and Auto Enthusiast"
+  }
 ]
