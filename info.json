@@ -1062,5 +1062,13 @@
     "current_pos": "Student",
     "image": "Allen.jpg",
     "bio": "Hi, I'm Allen! I'm a passionate programmer who loves solving problems"
+  },
+  {
+    "name": "Dawekenshi",
+    "gh_username": "dawekenshi",
+    "place": "Spain",
+    "current_pos": "Student",
+    "image": null,
+    "bio": "Im a 15 year old always willing to learn and create projects to gain as much experience as I can."
   }
 ]
