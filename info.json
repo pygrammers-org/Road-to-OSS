@@ -1070,14 +1070,5 @@
     "current_pos": "Student",
     "image": null,
     "bio": "Im a 15 year old always willing to learn and create projects to gain as much experience as I can."
-  },
-  {
-    "name": "Anjali Rajendran",
-    "gh_username": "AnjaliRaj015",
-    "place": "Alappey",
-    "current_pos": "Student",
-    "image": "Anjali.jpg",
-    "bio":"Learning developer who is interested in exploring new technologies and apply it to solve real-world problems - machine learning enthusiast - web designer - professional mural and abstract artist." 
   }
-
 ]
