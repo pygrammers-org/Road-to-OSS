@@ -1070,5 +1070,13 @@
     "current_pos": "Student",
     "image": null,
     "bio": "Im a 15 year old always willing to learn and create projects to gain as much experience as I can."
+  },
+  {
+    "name": "Muhammed Anas",
+    "gh_username": "anasvemmully",
+    "place": "Malappuram",
+    "current_pos": "Student",
+    "image": "Muhammed Anas.jpeg",
+    "bio": "Im a 15 year old always willing to learn and create projects to gain as much experience as I can."
   }
 ]
