@@ -1070,5 +1070,13 @@
     "current_pos": "Student",
     "image": null,
     "bio": "Im a 15 year old always willing to learn and create projects to gain as much experience as I can."
+  },
+  {
+    "name": "Aldair Avalos",
+    "gh_username": "AldairUAM-Azc",
+    "place": "Mexico",
+    "current_pos": "Student",
+    "image": "Aldair.jpg",
+    "bio": "Late sophomore, backend developer"
   }
 ]
