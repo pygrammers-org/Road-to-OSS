@@ -1070,5 +1070,13 @@
     "current_pos": "Student",
     "image": null,
     "bio": "Im a 15 year old always willing to learn and create projects to gain as much experience as I can."
-  }
+  },
+  {
+    "name": "Alvin Dennis",
+    "gh_username": "alvin-dennis",
+    "place": "Kottayam",
+    "current_pos": "Student",
+    "image": null,
+    "bio": "Hi, I'm Alvin! A self-taught Web developer and a tech enthusiast."
+  },
 ]
