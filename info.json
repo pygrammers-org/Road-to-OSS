@@ -1070,5 +1070,13 @@
     "current_pos": "Student",
     "image": null,
     "bio": "Im a 15 year old always willing to learn and create projects to gain as much experience as I can."
+  },
+  {
+    "name": "Ayisha Nahida",
+    "gh_username": "nahidaayisha",
+    "place": "Kondotty",
+    "current_pos": "Student",
+    "image":"ayishanahida.jpg",
+    "bio": "I am Ayisha Nahida.I am a computer science student and an aspiring web developer."
   }
 ]
